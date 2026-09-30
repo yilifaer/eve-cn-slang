@@ -2319,6 +2319,20 @@
   category: fleet
   note: "舰队 ping 的字段名；模型曾译成「编队名称」"
 
+- en: "Fleet Details"
+  zh: "舰队详情"
+  mode: force
+  dir: en2zh
+  category: fleet
+  note: "AA 集结通知 embed 的标题（.: Fleet Details :.）；模型有时译成「队伍详情」"
+
+- en: "feyth"
+  zh: "Feythabolis(非塔波利斯)"
+  mode: force
+  dir: en2zh
+  category: space
+  note: "星域 Feythabolis 的简称；写法和官方表的星域一致，模型曾原样留下 feyth"
+
 - en: "SRP Code"
   zh: "SRP代码"
   mode: force
