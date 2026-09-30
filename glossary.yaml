@@ -1,0 +1,2560 @@
+# EVE Online 中文黑话表（欧服 Tranquility）
+# 格式和规则见 README.md。许可证：CC BY 4.0（见 LICENSE）；EVE 相关名称版权归 CCP hf.。
+
+- en: "CTA"
+  zh: "CTA"
+  mode: keep
+  dir: both
+  en_aliases: ["cta", "call to arms", "call-to-arms"]
+  zh_aliases: ["全员集结", "强制集结"]
+  category: fleet
+  note: "联盟级全员集结通知"
+
+- en: "stratop"
+  zh: "战略行动"
+  mode: force
+  dir: both
+  en_aliases: ["strat op", "strat-op", "strategic op", "strategic operation"]
+  zh_aliases: ["战略舰队", "战略集结"]
+  category: fleet
+  note: "战略级联盟行动"
+
+- en: "form up"
+  zh: "集结"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["form-up", "forming up", "fleet form-up"]
+  zh_aliases: ["起队", "组队"]
+  category: fleet
+  note: "开始组建舰队"
+
+- en: "x up"
+  zh: "打X"
+  mode: force
+  dir: both
+  en_aliases: ["x-up", "xup", "X up"]
+  zh_aliases: ["报X", "上X", "打x"]
+  category: fleet
+  note: "聊天中报X报名"
+
+- en: "stand down"
+  zh: "取消集结"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["standing down", "fleet stand-down"]
+  zh_aliases: ["解散", "收队"]
+  category: fleet
+  note: "取消行动或解散舰队"
+
+- en: "check-check"
+  zh: "清频"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["check check", "checkcheck"]
+  zh_aliases: ["静频", "语音安静"]
+  category: fleet
+  note: "要求语音立即安静"
+
+- en: "free burn"
+  zh: "自行赶路"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["freeburn", "free-burn"]
+  zh_aliases: ["自由赶路", "自行前往"]
+  category: fleet
+  note: "各自快速赶往目的地"
+
+- en: "align"
+  zh: "朝向"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["align to", "aligning", "aligned"]
+  zh_aliases: ["预对准", "对齐"]
+  category: fleet
+  note: "朝目标加速等待起跳"
+
+- en: "anchor up"
+  zh: "跟锚"
+  mode: hint
+  dir: both
+  en_aliases: ["get anchored"]
+  zh_aliases: ["跟随锚点", "挂锚"]
+  category: fleet
+  note: "跟随指定锚点驾驶"
+
+- en: "broadcast"
+  zh: "广播"
+  mode: hint
+  dir: both
+  en_aliases: ["broadcasting"]
+  zh_aliases: ["点广播"]
+  category: fleet
+  note: "使用舰队广播功能"
+
+- en: "broadcast for reps"
+  zh: "广播求修"
+  mode: hint
+  dir: both
+  en_aliases: ["broadcast reps", "broadcast for rep"]
+  zh_aliases: ["求修广播", "点修广播"]
+  category: fleet
+  note: "向后勤广播维修请求"
+
+- en: "primary"
+  zh: "第一目标"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["primary target", "primaried"]
+  zh_aliases: ["主目标", "第一集火"]
+  category: fleet
+  note: "当前第一集火目标"
+
+- en: "secondary"
+  zh: "第二目标"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["secondary target"]
+  zh_aliases: ["次目标", "第二集火"]
+  category: fleet
+  note: "下一集火目标"
+
+- en: "burn"
+  zh: "开推子冲"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["burning", "burn to"]
+  zh_aliases: ["开推子", "全速赶路"]
+  category: fleet
+  note: "开推进快速接近或赶路"
+
+- en: "burn back"
+  zh: "冲回去"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["burn back to gate", "burn-back"]
+  zh_aliases: ["烧回去", "开推子返回"]
+  category: fleet
+  note: "开推进返回原位置"
+
+- en: "hold cloak"
+  zh: "保持门隐"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["hold your cloak", "stay cloaked"]
+  zh_aliases: ["别破隐", "保持隐身"]
+  category: fleet
+  note: "过门后保持隐身"
+
+- en: "hold on gate"
+  zh: "星门待命"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["hold gate", "hold at gate", "hold on contact"]
+  zh_aliases: ["门口待命", "到门别跳"]
+  category: fleet
+  note: "到星门等待不要跳"
+
+- en: "jump on contact"
+  zh: "到门就跳"
+  mode: hint
+  dir: both
+  en_aliases: ["JOC", "joc"]
+  zh_aliases: ["到门即过", "接触即跳"]
+  category: fleet
+  note: "到达星门立即跳"
+
+- en: "gate is green"
+  zh: "可以过门"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["gate green", "green gate"]
+  category: fleet
+  note: "星门获准通过"
+
+- en: "gate is red"
+  zh: "别过门"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["gate red", "red gate"]
+  category: fleet
+  note: "星门禁止通过"
+
+- en: "warp to zero"
+  zh: "零跳"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["warp at zero", "warp zero", "warp to 0"]
+  zh_aliases: ["跳零", "跃迁零米"]
+  category: fleet
+  note: "跃迁至目标零米"
+
+- en: "bounce"
+  zh: "中转跳"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["bouncing", "bounce off"]
+  zh_aliases: ["弹一下", "中转跃迁"]
+  category: fleet
+  note: "经中转点再次跃迁"
+  confidence: low
+
+- en: "clear comms"
+  zh: "清频"
+  mode: hint
+  dir: both
+  en_aliases: ["comms clear", "clear voice", "clear the comms"]
+  zh_aliases: ["静频", "语音安静"]
+  category: fleet
+  note: "清空语音等待指令"
+
+- en: "bridge"
+  zh: "开桥"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["bridging", "take bridge", "take the bridge"]
+  zh_aliases: ["过桥", "桥接"]
+  category: fleet
+  note: "开启或使用跳跃桥"
+
+- en: "cyno"
+  zh: "诱导"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["cynosural field"]
+  zh_aliases: ["诱导力场"]
+  category: fleet
+  note: "诱导力场的玩家简称"
+
+- en: "light a cyno"
+  zh: "点诱导"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["light cyno", "cyno up", "cyno is up"]
+  zh_aliases: ["开诱导", "点亮诱导"]
+  category: fleet
+  note: "点亮诱导力场"
+
+- en: "hotdrop"
+  zh: "投子"
+  mode: hint
+  dir: both
+  en_aliases: ["hot drop", "hot-drop", "hotdropped"]
+  zh_aliases: ["投子来了"]
+  category: fleet
+  note: "旗舰或黑隐突然跳到目标脸上；常叫「投子」"
+
+- en: "blops drop"
+  zh: "隐投队"
+  mode: hint
+  dir: both
+  en_aliases: ["black ops drop", "covert drop"]
+  zh_aliases: ["隐投"]
+  category: fleet
+  note: "黑隐开桥投送的小队；常叫「隐投队」"
+
+- en: "doctrine"
+  zh: "制式"
+  mode: hint
+  dir: both
+  en_aliases: ["fleet doctrine"]
+  zh_aliases: ["制式船", "舰队配置"]
+  category: fleet
+  note: "舰队统一船型与装配"
+
+- en: "reship"
+  zh: "换船"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["reshipping", "reshipped"]
+  zh_aliases: ["重新上船", "补船"]
+  category: fleet
+  note: "换成指定船型"
+
+- en: "refit"
+  zh: "换装"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["refitting", "refitted"]
+  zh_aliases: ["改装", "现场换装"]
+  category: fleet
+  note: "在太空或建筑换装"
+
+- en: "roam"
+  zh: "漫游"
+  mode: hint
+  dir: both
+  en_aliases: ["roaming", "roaming fleet"]
+  zh_aliases: ["漫游队", "出门找架"]
+  category: fleet
+  note: "小队机动寻找交战"
+
+- en: "gate camp"
+  zh: "堵门"
+  mode: hint
+  dir: both
+  en_aliases: ["gatecamp", "gate-camp", "gate camping"]
+  zh_aliases: ["星门营地", "蹲门"]
+  category: fleet
+  note: "驻守星门截杀过客"
+
+- en: "kite"
+  zh: "风筝"
+  mode: hint
+  dir: both
+  en_aliases: ["kiting", "kited", "kitey"]
+  zh_aliases: ["放风筝", "风筝打法"]
+  category: fleet
+  note: "保持距离进行作战"
+
+- en: "brawl"
+  zh: "贴脸战"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["brawling", "brawler"]
+  zh_aliases: ["近战", "贴脸"]
+  category: fleet
+  note: "近距离缠斗打法"
+
+- en: "QRF"
+  zh: "快反队"
+  mode: force
+  dir: both
+  en_aliases: ["qrf", "quick response fleet", "quick reaction force"]
+  zh_aliases: ["快速反应舰队"]
+  category: fleet
+  note: "快速反应增援舰队"
+
+- en: "kitchen sink"
+  zh: "杂牌队"
+  mode: hint
+  dir: both
+  en_aliases: ["kitchen-sink", "kitchen sink fleet"]
+  zh_aliases: ["混编队", "无制式舰队"]
+  category: fleet
+  note: "无统一制式的舰队"
+
+- en: "standing fleet"
+  zh: "值守舰队"
+  mode: force
+  dir: en2zh
+  en_aliases: ["home standing fleet"]
+  zh_aliases: ["常备舰队", "常驻队"]
+  category: fleet
+  note: "长期开放、随时响应的值守舰队"
+
+- en: "cyno chain"
+  zh: "诱导链"
+  mode: force
+  dir: en2zh
+  en_aliases: ["cyno-chain"]
+  category: fleet
+  note: "一串诱导点接力跳跃"
+
+- en: "comms"
+  zh: "语音"
+  mode: force
+  dir: en2zh
+  en_aliases: ["coms", "voice comms"]
+  category: fleet
+  note: "语音频道"
+
+- en: "MOTD"
+  zh: "舰队置顶"
+  mode: force
+  dir: en2zh
+  en_aliases: ["fleet MOTD"]
+  category: fleet
+  note: "舰队公告 Message of the Day"
+
+- en: "no gating"
+  zh: "不要过门"
+  mode: force
+  dir: en2zh
+  en_aliases: ["no gate", "do not gate", "don't gate", "dont gate", "don’t gate", "dont gating"]
+  category: fleet
+  note: "不要走星门"
+
+- en: "gating"
+  zh: "过门"
+  mode: force
+  dir: en2zh
+  en_aliases: ["gate through"]
+  category: fleet
+  note: "走星门"
+
+- en: "supercaps"
+  zh: "超旗"
+  mode: force
+  dir: en2zh
+  en_aliases: ["supercap", "super-cap", "supercapital", "super-capital"]
+  zh_aliases: ["超级旗舰"]
+  category: ship
+  note: "超级航母与泰坦统称"
+
+- en: "supers"
+  zh: "大航"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["supercarrier"]
+  zh_aliases: ["超级航母", "超航", "大母鸡"]
+  category: ship
+  note: "通常单指超级航母"
+
+- en: "caps"
+  zh: "旗舰"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["capitals", "capital ships"]
+  zh_aliases: ["旗舰船", "小旗舰"]
+  category: ship
+  note: "泛指旗舰级舰船"
+
+- en: "subcaps"
+  zh: "常规船"
+  mode: force
+  dir: en2zh
+  en_aliases: ["subcap", "sub-cap", "subcapital"]
+  zh_aliases: ["亚旗舰", "非旗舰"]
+  category: ship
+  note: "非旗舰级舰船统称"
+
+- en: "dread"
+  zh: "无畏"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["dreadnought"]
+  zh_aliases: ["无畏舰"]
+  category: ship
+  note: "无畏舰简称"
+
+- en: "carrier"
+  zh: "航母"
+  mode: hint
+  dir: both
+  zh_aliases: ["航空母舰", "小航"]
+  category: ship
+  note: "航母类舰船简称"
+
+- en: "FAX"
+  zh: "FAX"
+  mode: keep
+  dir: both
+  en_aliases: ["fax", "force aux", "force auxiliary"]
+  zh_aliases: ["战辅", "后勤航母", "后勤航", "旗舰后勤", "战力辅助舰"]
+  category: ship
+  note: "战力辅助舰缩写"
+
+- en: "HIC"
+  zh: "重拦"
+  mode: force
+  dir: both
+  en_aliases: ["hic", "hictor", "heavy interdictor"]
+  zh_aliases: ["重型拦截舰"]
+  category: ship
+  note: "重型拦截舰俗称"
+
+- en: "dictor"
+  zh: "轻拦"
+  mode: force
+  dir: both
+  en_aliases: ["interdictor"]
+  zh_aliases: ["轻型拦截舰", "拦截舰"]
+  category: ship
+  note: "轻型拦截舰俗称"
+
+- en: "logi"
+  zh: "后勤"
+  mode: force
+  dir: en2zh
+  en_aliases: ["logistics ship"]
+  zh_aliases: ["后勤舰", "奶船", "奶妈"]
+  category: ship
+  note: "作战后勤舰简称"
+
+- en: "tackler"
+  zh: "反跳船"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["tackle ship"]
+  zh_aliases: ["抓人船", "拦截船"]
+  category: ship
+  note: "专门负责反跳控场"
+
+- en: "ceptor"
+  zh: "截击"
+  mode: force
+  dir: en2zh
+  en_aliases: ["inty", "inties", "interceptor"]
+  zh_aliases: ["截击舰"]
+  category: ship
+  note: "截击舰简称"
+
+- en: "bomber"
+  zh: "隐轰"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["stealth bomber"]
+  zh_aliases: ["隐形轰炸舰", "隐形轰炸机"]
+  category: ship
+  note: "通常指隐形轰炸舰"
+
+- en: "JF"
+  zh: "跳货"
+  mode: force
+  dir: both
+  en_aliases: ["jf", "jump freighter"]
+  zh_aliases: ["跳跃货舰", "战略货舰"]
+  category: ship
+  note: "跳跃货舰简称"
+
+- en: "Rorq"
+  zh: "长须鲸"
+  mode: force
+  dir: en2zh
+  zh_aliases: ["大鲸鱼"]
+  category: ship
+  note: "长须鲸级的英文俗称"
+
+- en: "T3C"
+  zh: "T3巡洋"
+  mode: force
+  dir: both
+  en_aliases: ["t3c", "T3 cruiser", "tech 3 cruiser"]
+  zh_aliases: ["T3巡洋舰", "战略巡洋舰"]
+  category: ship
+  note: "战略巡洋舰缩写"
+
+- en: "T3D"
+  zh: "T3驱逐"
+  mode: force
+  dir: both
+  en_aliases: ["t3d", "T3 destroyer", "tech 3 destroyer"]
+  zh_aliases: ["T3驱逐舰", "战术驱逐舰"]
+  category: ship
+  note: "战术驱逐舰缩写"
+
+- en: "BS"
+  zh: "战列"
+  mode: hint
+  dir: both
+  en_aliases: ["battleship"]
+  zh_aliases: ["战列舰"]
+  category: ship
+  note: "战列舰常用缩写"
+
+- en: "BC"
+  zh: "战巡"
+  mode: hint
+  dir: both
+  en_aliases: ["battlecruiser"]
+  zh_aliases: ["战列巡洋舰"]
+  category: ship
+  note: "战列巡洋舰常用缩写"
+
+- en: "HAC"
+  zh: "重突"
+  mode: force
+  dir: en2zh
+  en_aliases: ["hac", "heavy assault cruiser"]
+  zh_aliases: ["重型突击巡洋舰"]
+  category: ship
+  note: "重型突击巡洋舰缩写"
+
+- en: "blops"
+  zh: "黑隐"
+  mode: force
+  dir: both
+  en_aliases: ["black ops", "black-ops"]
+  zh_aliases: ["黑隐特勤舰", "黑隐队"]
+  category: ship
+  note: "黑隐舰船及相关编队"
+
+- en: "dessie"
+  zh: "驱逐"
+  mode: force
+  dir: en2zh
+  en_aliases: ["dessi", "dessy"]
+  zh_aliases: ["驱逐舰"]
+  category: ship
+  note: "驱逐舰口语简称"
+
+- en: "frig"
+  zh: "护卫"
+  mode: force
+  dir: en2zh
+  zh_aliases: ["护卫舰"]
+  category: ship
+  note: "护卫舰口语简称"
+
+- en: "DST"
+  zh: "深空运输"
+  mode: hint
+  dir: both
+  en_aliases: ["dst", "deep space transport"]
+  zh_aliases: ["深空运输舰"]
+  category: ship
+  note: "深空运输舰缩写"
+
+- en: "covops"
+  zh: "隐侦"
+  mode: force
+  dir: en2zh
+  en_aliases: ["cov-ops", "covert ops", "covert-ops"]
+  zh_aliases: ["隐形侦察", "隐侦船"]
+  category: ship
+  note: "隐形侦察舰简称"
+
+- en: "Booster"
+  zh: "加成船"
+  mode: force
+  dir: en2zh
+  en_aliases: ["fleet booster", "link booster"]
+  category: ship
+  note: "提供舰队加成的船"
+
+- en: "cover caps"
+  zh: "防御旗舰"
+  mode: force
+  dir: en2zh
+  en_aliases: ["cover capitals"]
+  category: ship
+  note: "掩护行动的旗舰"
+
+- en: "point"
+  zh: "长反"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["pointed", "pointing", "long point"]
+  zh_aliases: ["反跳", "跃迁扰断", "点住"]
+  category: module
+  note: "长距离单点反跳"
+
+- en: "scram"
+  zh: "短反"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["scrammed", "scramming", "warp scram"]
+  zh_aliases: ["扰频", "跃迁扰频", "两点反"]
+  category: module
+  note: "短距离高强度反跳"
+
+- en: "web"
+  zh: "网子"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["webs", "webbed", "webbing"]
+  zh_aliases: ["停滞缠绕", "缠绕光束"]
+  category: module
+  note: "降低目标速度的网子"
+
+- en: "neut"
+  zh: "毁电（也常指本地中立玩家）"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["neuted", "neuting", "energy neutralizer"]
+  zh_aliases: ["电容中和", "中和器"]
+  category: module
+  note: "装备：能量中和器；情报里也指中立玩家（2 neuts in local）"
+
+- en: "nos"
+  zh: "吸电"
+  mode: force
+  dir: both
+  en_aliases: ["NOS", "nosferatu", "energy vampire"]
+  zh_aliases: ["能量吸取", "吸电器"]
+  category: module
+  note: "从目标抽取电容"
+
+- en: "bubble"
+  zh: "泡泡"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["bubbled", "warp bubble"]
+  zh_aliases: ["拦截泡", "跃迁泡"]
+  category: module
+  note: "范围跃迁干扰力场"
+
+- en: "drag bubble"
+  zh: "拖拽泡"
+  mode: hint
+  dir: both
+  zh_aliases: ["拉人泡"]
+  category: module
+  note: "把跃迁落点拖进泡内"
+
+- en: "cloak"
+  zh: "隐身"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["cloaked", "cloaking"]
+  zh_aliases: ["隐形", "隐身装置"]
+  category: module
+  note: "隐形装置或隐身动作"
+
+- en: "prop mod"
+  zh: "推子"
+  mode: hint
+  dir: both
+  en_aliases: ["propmod", "propulsion mod", "propulsion module"]
+  zh_aliases: ["推进装", "推进模块"]
+  category: module
+  note: "加力和微曲的统称"
+
+- en: "MWD"
+  zh: "微曲"
+  mode: force
+  dir: en2zh
+  en_aliases: ["mwd", "microwarpdrive", "microwarp drive", "micro-warpdrive"]
+  zh_aliases: ["微型跃迁推进器", "微型曲速推进器"]
+  category: module
+  note: "微型跃迁推进器简称"
+
+- en: "AB"
+  zh: "加力"
+  mode: force
+  dir: en2zh
+  en_aliases: ["afterburner", "after burner"]
+  zh_aliases: ["加力燃烧器"]
+  category: module
+  note: "加力燃烧器简称"
+
+- en: "MJD"
+  zh: "跳刀"
+  mode: force
+  dir: both
+  en_aliases: ["mjd", "micro jump drive", "micro-jump drive"]
+  zh_aliases: ["微型跳跃引擎"]
+  category: module
+  note: "微型跳跃引擎俗称"
+
+- en: "MJFG"
+  zh: "MJFG"
+  mode: keep
+  dir: both
+  en_aliases: ["micro jump field generator", "micro-jump field generator"]
+  zh_aliases: ["微型跳跃力场发生器", "微跳场"]
+  category: module
+  note: "微型跳跃力场缩写"
+
+- en: "boosh"
+  zh: "带跳"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["booshed", "booshing", "boosh off", "boosh away"]
+  zh_aliases: ["弹射", "推跳"]
+  category: module
+  note: "指挥驱逐用MJFG把周围舰船弹开"
+  confidence: low
+
+- en: "ECM"
+  zh: "ECM"
+  mode: keep
+  dir: both
+  en_aliases: ["ecm", "electronic countermeasures"]
+  zh_aliases: ["电子反制"]
+  category: module
+  note: "电子反制常保留缩写"
+
+- en: "damps"
+  zh: "感抑"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["damp", "damped", "damping", "sensor damp"]
+  zh_aliases: ["感应抑阻", "感应抑制"]
+  category: module
+  note: "感应抑阻器或其效果"
+
+- en: "TD"
+  zh: "炮扰"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["tracking disruptor", "tracking disruption"]
+  zh_aliases: ["跟踪扰断", "炮台扰断"]
+  category: module
+  note: "炮台跟踪扰断简称"
+
+- en: "painter"
+  zh: "标记"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["paint", "painted", "target painter"]
+  zh_aliases: ["目标标记", "标记装置"]
+  category: module
+  note: "目标标记装置或效果"
+
+- en: "reps"
+  zh: "维修"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["rep", "repping", "repper"]
+  zh_aliases: ["修理"]
+  category: module
+  note: "可指本地或远程维修"
+
+- en: "RR"
+  zh: "遥修"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["rr", "remote rep", "remote repair"]
+  zh_aliases: ["摇修", "远程维修"]
+  category: module
+  note: "远程装甲或护盾维修"
+
+- en: "cap chain"
+  zh: "传电链"
+  mode: force
+  dir: both
+  en_aliases: ["capchain", "cap-chain", "capacitor chain"]
+  zh_aliases: ["电容链"]
+  category: module
+  note: "后勤间互相传电"
+
+- en: "ASB"
+  zh: "注盾"
+  mode: force
+  dir: both
+  en_aliases: ["asb", "ancillary shield booster"]
+  zh_aliases: ["辅助盾修", "辅助护盾回充"]
+  category: module
+  note: "辅助护盾回充器俗称"
+
+- en: "AAR"
+  zh: "注甲"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["aar", "ancillary armor repairer"]
+  zh_aliases: ["辅助甲修", "辅助装甲维修"]
+  category: module
+  note: "模块语境指辅助甲修"
+
+- en: "DCU"
+  zh: "损控"
+  mode: force
+  dir: en2zh
+  en_aliases: ["dcu", "damage control unit"]
+  zh_aliases: ["损伤控制"]
+  category: module
+  note: "损伤控制装备缩写"
+
+- en: "sebo"
+  zh: "感增"
+  mode: force
+  dir: en2zh
+  en_aliases: ["sensor booster"]
+  zh_aliases: ["感应增强", "感应增强器"]
+  category: module
+  note: "感应增强器英文简称"
+
+- en: "overheat"
+  zh: "超载"
+  mode: hint
+  dir: both
+  en_aliases: ["overheated", "overheating", "heat"]
+  zh_aliases: ["过热", "模块超载"]
+  category: module
+  note: "超载模块增强效果"
+
+- en: "yellowbox"
+  zh: "黄框"
+  mode: force
+  dir: en2zh
+  en_aliases: ["yellow box", "yellow-box", "yellowboxed", "yellow boxed"]
+  category: module
+  note: "被锁定但尚未受攻击"
+
+- en: "redbox"
+  zh: "红框"
+  mode: force
+  dir: en2zh
+  en_aliases: ["red box", "red-box", "redboxed", "red boxed"]
+  category: module
+  note: "已被对方主动攻击"
+
+- en: "DPS"
+  zh: "DPS"
+  mode: keep
+  dir: both
+  en_aliases: ["dps", "damage per second"]
+  zh_aliases: ["秒伤", "输出位"]
+  category: module
+  note: "秒伤或输出角色缩写"
+
+- en: "d-scan"
+  zh: "D扫"
+  mode: force
+  dir: both
+  en_aliases: ["dscan", "directional scan", "directional scanner"]
+  zh_aliases: ["定向扫描", "方向扫描"]
+  category: module
+  note: "定向扫描的玩家简称"
+
+- en: "combat probes"
+  zh: "战斗针"
+  mode: hint
+  dir: both
+  en_aliases: ["combat probe", "combat scanner probes"]
+  zh_aliases: ["作战针", "战斗探针"]
+  category: module
+  note: "可扫描舰船的探针"
+
+- en: "EWAR"
+  zh: "电子战"
+  mode: force
+  dir: both
+  en_aliases: ["e-war", "electronic warfare"]
+  category: module
+  note: "电子战的英文缩写"
+
+- en: "implants"
+  zh: "脑插"
+  mode: hint
+  dir: zh2en
+  zh_aliases: ["脑插掉率"]
+  category: module
+  note: "植入体的俗称"
+
+- en: "cap booster"
+  zh: "电容注电器"
+  mode: force
+  dir: en2zh
+  en_aliases: ["capacitor booster"]
+  category: module
+  note: "电容注电器（装备）；比 Booster → 加成船 长，优先匹配，避免「cap boosters」被译成加成船"
+
+- en: "fort"
+  zh: "铁壁"
+  mode: hint
+  dir: en2zh
+  zh_aliases: ["中堡"]
+  category: structure
+  note: "铁壁的英文简称"
+
+- en: "astra"
+  zh: "空堡"
+  mode: force
+  dir: en2zh
+  zh_aliases: ["小堡"]
+  category: structure
+  note: "空堡的英文简称"
+
+- en: "ansi"
+  zh: "跳桥"
+  mode: force
+  dir: en2zh
+  en_aliases: ["ansiblex", "ansiblex gate"]
+  zh_aliases: ["安塞波", "安塞波跳桥"]
+  category: structure
+  note: "安塞波跳跃桥接的简称"
+
+- en: "iHub"
+  zh: "iHub"
+  mode: keep
+  dir: both
+  en_aliases: ["I-Hub", "infrastructure hub"]
+  zh_aliases: ["基础设施中心"]
+  category: structure
+  note: "旧设施，现由主权中心取代"
+
+- en: "TCU"
+  zh: "TCU"
+  mode: keep
+  dir: both
+  en_aliases: ["tcu", "territorial claim unit"]
+  zh_aliases: ["主权宣布设施"]
+  category: structure
+  note: "旧主权设施，现已移除"
+
+- en: "ESS"
+  zh: "ESS"
+  mode: keep
+  dir: both
+  en_aliases: ["ess", "encounter surveillance system"]
+  category: structure
+  note: "赏金储备设施简称"
+
+- en: "POCO"
+  zh: "POCO"
+  mode: keep
+  dir: both
+  zh_aliases: ["玩家海关", "行星海关"]
+  category: structure
+  note: "玩家海关办公室简称"
+
+- en: "Sov Hub"
+  zh: "主权中心"
+  mode: force
+  dir: en2zh
+  en_aliases: ["sovhub", "sovereignty hub"]
+  category: structure
+  note: "现行主权中心简称"
+
+- en: "skyhook"
+  zh: "天钩"
+  mode: hint
+  dir: en2zh
+  zh_aliases: ["轨道天钩"]
+  category: structure
+  note: "轨道天钩的简称"
+
+- en: "RF"
+  zh: "RF"
+  mode: keep
+  dir: both
+  en_aliases: ["rf"]
+  category: structure
+  note: "建筑增强状态缩写"
+
+- en: "reffed"
+  zh: "打进增强"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["refed", "ref'd"]
+  zh_aliases: ["进增强", "打进增强"]
+  category: structure
+  note: "建筑已进入增强"
+
+- en: "timer"
+  zh: "计时战"
+  mode: hint
+  dir: en2zh
+  zh_aliases: ["计时", "防守时间"]
+  category: structure
+  note: "建筑或主权预定战斗"
+
+- en: "reinforcement timer"
+  zh: "增强计时"
+  mode: hint
+  dir: both
+  en_aliases: ["reinforce timer", "RF timer"]
+  zh_aliases: ["增强时间"]
+  category: structure
+  note: "建筑增强后的计时"
+
+- en: "armor timer"
+  zh: "装甲计时"
+  mode: force
+  dir: both
+  en_aliases: ["armour timer"]
+  category: structure
+  note: "建筑装甲阶段计时"
+
+- en: "hull timer"
+  zh: "结构计时"
+  mode: force
+  dir: both
+  zh_aliases: ["结构增强", "船体计时"]
+  category: structure
+  note: "建筑最终阶段计时"
+
+- en: "vulnerability window"
+  zh: "易伤窗口"
+  mode: hint
+  dir: both
+  en_aliases: ["vuln window", "vulnerability period"]
+  zh_aliases: ["可攻击时段", "易伤时间"]
+  category: structure
+  note: "主权设施可攻击时段"
+
+- en: "ADM"
+  zh: "ADM"
+  mode: keep
+  dir: both
+  en_aliases: ["adm", "activity defense multiplier"]
+  zh_aliases: ["活动防御倍数"]
+  category: structure
+  note: "活动防御倍数简称"
+
+- en: "entosis"
+  zh: "绕点"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["entosising", "entosing"]
+  zh_aliases: ["侵噬", "侵噬链接", "照射"]
+  category: structure
+  note: "主权节点争夺动作"
+
+- en: "command node"
+  zh: "主权节点"
+  mode: hint
+  dir: en2zh
+  zh_aliases: ["节点"]
+  category: structure
+  note: "主权争夺生成的节点"
+
+- en: "POS"
+  zh: "POS"
+  mode: keep
+  dir: both
+  en_aliases: ["pos", "player-owned starbase", "player owned starbase"]
+  zh_aliases: ["母星基地"]
+  category: structure
+  note: "旧式母星基地简称"
+
+- en: "asset safety"
+  zh: "资产安全"
+  mode: hint
+  dir: both
+  zh_aliases: ["安全资产"]
+  category: structure
+  note: "建筑物资转移机制"
+
+- en: "tether"
+  zh: "系留"
+  mode: hint
+  dir: both
+  en_aliases: ["tethered", "tethering"]
+  category: structure
+  note: "建筑提供的保护状态"
+
+- en: "unanchor"
+  zh: "解锚"
+  mode: hint
+  dir: both
+  en_aliases: ["unanchoring", "unanchored"]
+  zh_aliases: ["解除锚定"]
+  category: structure
+  note: "拆除已部署建筑"
+
+- en: "WH"
+  zh: "虫洞"
+  mode: force
+  dir: en2zh
+  en_aliases: ["wh", "Wh", "wormhole"]
+  category: wormhole
+  note: "虫洞的常用缩写"
+
+- en: "static"
+  zh: "永联"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["static hole"]
+  zh_aliases: ["永联洞", "永连", "永连洞", "固定洞", "静态洞"]
+  category: wormhole
+  note: "坍塌后同类重生的洞"
+
+- en: "K162"
+  zh: "K162"
+  mode: keep
+  dir: both
+  category: wormhole
+  note: "虫洞反向出口编号"
+
+- en: "rolling"
+  zh: "塌洞"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["roll", "rolled", "hole rolling", "roll the hole"]
+  zh_aliases: ["人工塌洞", "爆洞", "塌洞作业"]
+  category: wormhole
+  note: "用舰船质量压塌虫洞"
+
+- en: "rageroll"
+  zh: "连续塌洞"
+  mode: force
+  dir: both
+  en_aliases: ["rage roll", "rage rolling", "ragerolling"]
+  category: wormhole
+  note: "反复塌永联寻找目标"
+
+- en: "EOL"
+  zh: "EOL"
+  mode: keep
+  dir: both
+  en_aliases: ["eol", "end of life"]
+  zh_aliases: ["寿命末期"]
+  category: wormhole
+  note: "虫洞寿命不足四小时"
+
+- en: "crit"
+  zh: "VOC"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["mass crit", "critical mass"]
+  zh_aliases: ["临界洞", "极洞", "质量临界"]
+  category: wormhole
+  note: "剩余质量低于一成"
+  confidence: low
+
+- en: "fresh hole"
+  zh: "新洞"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["fresh WH", "fresh wormhole"]
+  zh_aliases: ["新生洞"]
+  category: wormhole
+  note: "尚未明显耗损的洞"
+
+- en: "wandering hole"
+  zh: "漫游洞"
+  mode: hint
+  dir: both
+  en_aliases: ["wandering connection", "roaming hole"]
+  zh_aliases: ["游荡洞", "流浪洞"]
+  category: wormhole
+  note: "非永联的随机虫洞"
+
+- en: "frig hole"
+  zh: "小船洞"
+  mode: force
+  dir: both
+  en_aliases: ["frigate hole", "small-ship hole"]
+  zh_aliases: ["护卫洞"]
+  category: wormhole
+  note: "单船质量上限五百万千克"
+
+- en: "polarized"
+  zh: "极化"
+  mode: hint
+  dir: both
+  en_aliases: ["polarised", "polarization", "polarisation"]
+  zh_aliases: ["极化限制", "极化计时"]
+  category: wormhole
+  note: "五分钟同向过洞限制"
+
+- en: "hole control"
+  zh: "控洞"
+  mode: hint
+  dir: en2zh
+  zh_aliases: ["洞口控制", "压洞"]
+  category: wormhole
+  note: "控制虫洞连接和通行"
+
+- en: "home hole"
+  zh: "家洞"
+  mode: hint
+  dir: both
+  en_aliases: ["home WH"]
+  zh_aliases: ["母洞", "本洞"]
+  category: wormhole
+  note: "虫洞居民的主基地"
+
+- en: "rolled out"
+  zh: "塌在洞外"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["rolled myself out", "rolled yourself out", "rolled ourselves out"]
+  category: wormhole
+  note: "塌洞后把自己关在洞外"
+
+- en: "shattered"
+  zh: "破碎洞"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["shattered hole", "shattered system"]
+  zh_aliases: ["破碎星系"]
+  category: wormhole
+  note: "无法锚定建筑的虫洞"
+
+- en: "drifter"
+  zh: "流浪者"
+  mode: hint
+  dir: en2zh
+  zh_aliases: ["流浪者怪"]
+  category: wormhole
+  note: "虫洞高强度特殊NPC"
+
+- en: "chain"
+  zh: "洞链"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["WH chain", "wormhole chain"]
+  zh_aliases: ["虫洞链"]
+  category: wormhole
+  note: "多个虫洞组成的路线"
+
+- en: "C1"
+  zh: "C1"
+  mode: keep
+  dir: both
+  en_aliases: ["c1"]
+  zh_aliases: ["一级洞"]
+  category: wormhole
+  note: "一级虫洞空间简称"
+
+- en: "C2"
+  zh: "C2"
+  mode: keep
+  dir: both
+  en_aliases: ["c2"]
+  zh_aliases: ["二级洞"]
+  category: wormhole
+  note: "二级虫洞空间简称"
+
+- en: "C3"
+  zh: "C3"
+  mode: keep
+  dir: both
+  en_aliases: ["c3"]
+  zh_aliases: ["三级洞"]
+  category: wormhole
+  note: "三级虫洞空间简称"
+
+- en: "C4"
+  zh: "C4"
+  mode: keep
+  dir: both
+  en_aliases: ["c4"]
+  zh_aliases: ["四级洞"]
+  category: wormhole
+  note: "四级虫洞空间简称"
+
+- en: "C5"
+  zh: "C5"
+  mode: keep
+  dir: both
+  en_aliases: ["c5"]
+  zh_aliases: ["五级洞"]
+  category: wormhole
+  note: "五级虫洞空间简称"
+
+- en: "C6"
+  zh: "C6"
+  mode: keep
+  dir: both
+  en_aliases: ["c6"]
+  zh_aliases: ["六级洞"]
+  category: wormhole
+  note: "六级虫洞空间简称"
+
+- en: "ISK"
+  zh: "ISK"
+  mode: keep
+  dir: both
+  en_aliases: ["isk"]
+  category: industry
+  note: "游戏内货币简称"
+
+- en: "PLEX"
+  zh: "PLEX"
+  mode: keep
+  dir: both
+  zh_aliases: ["伊甸币"]
+  category: industry
+  note: "玩家常直接保留缩写"
+
+- en: "BPO"
+  zh: "BPO"
+  mode: keep
+  dir: both
+  en_aliases: ["bpo"]
+  zh_aliases: ["蓝图原本"]
+  category: industry
+  note: "可无限使用的蓝图原本"
+
+- en: "BPC"
+  zh: "BPC"
+  mode: keep
+  dir: both
+  en_aliases: ["bpc"]
+  zh_aliases: ["拷贝图", "蓝图拷贝"]
+  category: industry
+  note: "有运行次数限制的蓝图拷贝"
+
+- en: "ME"
+  zh: "ME"
+  mode: hint
+  dir: both
+  en_aliases: ["material efficiency"]
+  zh_aliases: ["材料效率", "材料研究"]
+  category: industry
+  note: "蓝图材料效率缩写"
+
+- en: "TE"
+  zh: "TE"
+  mode: keep
+  dir: both
+  en_aliases: ["time efficiency"]
+  zh_aliases: ["时间效率", "时间研究"]
+  category: industry
+  note: "蓝图时间效率缩写"
+
+- en: "PI"
+  zh: "PI"
+  mode: keep
+  dir: both
+  en_aliases: ["planetary industry"]
+  zh_aliases: ["行星工业", "行星开发"]
+  category: industry
+  note: "行星工业的玩家简称"
+
+- en: "P0"
+  zh: "P0"
+  mode: keep
+  dir: both
+  en_aliases: ["p0", "P-0"]
+  zh_aliases: ["原始行星资源"]
+  category: industry
+  note: "行星工业原始资源层级"
+
+- en: "P1"
+  zh: "P1"
+  mode: keep
+  dir: both
+  en_aliases: ["p1", "P-1"]
+  zh_aliases: ["一级行星产物"]
+  category: industry
+  note: "一级行星产物简称"
+
+- en: "P2"
+  zh: "P2"
+  mode: keep
+  dir: both
+  en_aliases: ["p2", "P-2"]
+  zh_aliases: ["二级行星产物"]
+  category: industry
+  note: "二级行星产物简称"
+
+- en: "P3"
+  zh: "P3"
+  mode: keep
+  dir: both
+  en_aliases: ["p3", "P-3"]
+  zh_aliases: ["三级行星产物"]
+  category: industry
+  note: "三级行星产物简称"
+
+- en: "P4"
+  zh: "P4"
+  mode: keep
+  dir: both
+  en_aliases: ["p4", "P-4"]
+  zh_aliases: ["四级行星产物"]
+  category: industry
+  note: "四级行星产物简称"
+
+- en: "indy"
+  zh: "工业"
+  mode: hint
+  dir: en2zh
+  category: industry
+  note: "industry或工业舰的缩写"
+
+- en: "moon goo"
+  zh: "月矿材料"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["moon-goo"]
+  zh_aliases: ["月矿产物", "月材料"]
+  category: industry
+  note: "T2生产用月矿材料"
+
+- en: "reactions"
+  zh: "反应生产"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["reaction", "reacting"]
+  zh_aliases: ["反应"]
+  category: industry
+  note: "工业反应流程"
+
+- en: "contract"
+  zh: "合同"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["contracted"]
+  category: industry
+  note: "玩家间合同交易"
+
+- en: "courier contract"
+  zh: "运输合同"
+  mode: hint
+  dir: both
+  en_aliases: ["courier"]
+  zh_aliases: ["快递合同", "快递"]
+  category: industry
+  note: "押金式货运合同"
+
+- en: "collateral"
+  zh: "押金"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["collat"]
+  zh_aliases: ["保证金"]
+  category: industry
+  note: "运输合同所需押金"
+
+- en: "buy order"
+  zh: "买单"
+  mode: hint
+  dir: en2zh
+  zh_aliases: ["收单", "收购单"]
+  category: industry
+  note: "市场收购挂单"
+
+- en: "sell order"
+  zh: "卖单"
+  mode: hint
+  dir: en2zh
+  zh_aliases: ["出单", "出售单"]
+  category: industry
+  note: "市场出售挂单"
+
+- en: "buyback"
+  zh: "回收"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["buy-back", "buyback service"]
+  zh_aliases: ["回收服务", "收垃圾"]
+  category: industry
+  note: "军团批量回收服务"
+
+- en: "hauling"
+  zh: "运输"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["haul", "hauler", "hauling service"]
+  zh_aliases: ["物流", "拉货", "运输号"]
+  category: industry
+  note: "玩家物流运输活动"
+
+- en: "market seeding"
+  zh: "铺货"
+  mode: hint
+  dir: both
+  en_aliases: ["seed the market", "market seed"]
+  zh_aliases: ["市场铺货"]
+  category: industry
+  note: "向驻地市场铺货"
+
+- en: "reprocessing"
+  zh: "化矿"
+  mode: hint
+  dir: both
+  en_aliases: ["reprocess", "refining", "refine"]
+  zh_aliases: ["精炼", "炼矿"]
+  category: industry
+  note: "玩家常说化矿"
+
+- en: "compression"
+  zh: "压缩"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["compressing", "compress"]
+  zh_aliases: ["压矿", "压气"]
+  category: industry
+  note: "矿气压缩，需看语境"
+
+- en: "R4"
+  zh: "R4"
+  mode: keep
+  dir: both
+  en_aliases: ["r4", "R4 moon"]
+  zh_aliases: ["R4月矿", "四级月矿"]
+  category: industry
+  note: "R4月矿档位"
+
+- en: "R8"
+  zh: "R8"
+  mode: keep
+  dir: both
+  en_aliases: ["r8", "R8 moon"]
+  zh_aliases: ["R8月矿", "八级月矿"]
+  category: industry
+  note: "R8月矿档位"
+
+- en: "R16"
+  zh: "R16"
+  mode: keep
+  dir: both
+  en_aliases: ["r16", "R16 moon"]
+  zh_aliases: ["R16月矿", "十六级月矿"]
+  category: industry
+  note: "R16月矿档位"
+
+- en: "R32"
+  zh: "R32"
+  mode: keep
+  dir: both
+  en_aliases: ["r32", "R32 moon"]
+  zh_aliases: ["R32月矿", "三十二级月矿"]
+  category: industry
+  note: "R32月矿档位"
+
+- en: "R64"
+  zh: "R64"
+  mode: keep
+  dir: both
+  en_aliases: ["r64", "R64 moon"]
+  zh_aliases: ["R64月矿", "六十四级月矿"]
+  category: industry
+  note: "R64月矿档位"
+
+- en: "LO"
+  zh: "臭氧"
+  mode: force
+  dir: en2zh
+  en_aliases: ["liquid ozone"]
+  category: industry
+  note: "液态臭氧，旗舰跳跃燃料；只匹配大写 LO"
+
+- en: "moon"
+  zh: "月矿"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["moons come out", "moon pop"]
+  category: industry
+  note: "聊天里多指月矿出矿，只作参考"
+
+- en: "highsec"
+  zh: "高安"
+  mode: force
+  dir: en2zh
+  en_aliases: ["high-sec", "high sec", "hisec", "HS", "hs"]
+  zh_aliases: ["高安全区"]
+  category: space
+  note: "高安全等级空间"
+
+- en: "lowsec"
+  zh: "低安"
+  mode: force
+  dir: en2zh
+  en_aliases: ["low-sec", "low sec", "losec", "LS", "ls"]
+  zh_aliases: ["低安全区"]
+  category: space
+  note: "低安全等级空间"
+
+- en: "nullsec"
+  zh: "00"
+  mode: force
+  dir: en2zh
+  en_aliases: ["null-sec", "null sec", "NS", "zero-zero", "0.0 space", "0.0 sec"]
+  category: space
+  note: "零安全等级空间"
+
+- en: "null"
+  zh: "00"
+  mode: hint
+  dir: both
+  en_aliases: ["null space"]
+  zh_aliases: ["零安", "零零", "0.0"]
+  category: space
+  note: "零安的口语简称"
+
+- en: "J-space"
+  zh: "虫洞空间"
+  mode: force
+  dir: both
+  en_aliases: ["J space", "jspace", "W-space", "wspace"]
+  zh_aliases: ["J空间", "W空间", "未知空间"]
+  category: space
+  note: "虫洞星系空间统称"
+
+- en: "K-space"
+  zh: "已知空间"
+  mode: force
+  dir: both
+  en_aliases: ["K space", "kspace"]
+  zh_aliases: ["K空间", "已知宇宙"]
+  category: space
+  note: "常规星门空间统称"
+
+- en: "NPC null"
+  zh: "NPC00"
+  mode: force
+  dir: both
+  en_aliases: ["NPC nullsec", "NPC space"]
+  zh_aliases: ["NPC 00", "NPC零安", "NPC区"]
+  category: space
+  note: "NPC持有的零安地区"
+
+- en: "sov null"
+  zh: "主权00"
+  mode: force
+  dir: both
+  en_aliases: ["sov nullsec", "sovereign null"]
+  zh_aliases: ["主权零安", "主权区"]
+  category: space
+  note: "玩家可占领的零安"
+
+- en: "truesec"
+  zh: "实际安等"
+  mode: force
+  dir: both
+  en_aliases: ["true sec", "true-sec"]
+  zh_aliases: ["真实安等", "真安等"]
+  category: space
+  note: "星系隐藏安全数值"
+
+- en: "Poch"
+  zh: "波赫文"
+  mode: force
+  dir: en2zh
+  category: space
+  note: "波赫文的英文简称"
+
+- en: "Dronelands"
+  zh: "无人机区"
+  mode: force
+  dir: en2zh
+  en_aliases: ["Drone Lands", "drone regions"]
+  zh_aliases: ["无人区", "无人机零安"]
+  category: space
+  note: "无人机诸星域的统称"
+
+- en: "rat"
+  zh: "NPC怪"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["rats"]
+  zh_aliases: ["海盗怪"]
+  category: pve
+  note: "泛指可刷的敌对NPC"
+
+- en: "ratting"
+  zh: "刷怪"
+  mode: hint
+  dir: both
+  en_aliases: ["ratter", "ratters"]
+  category: pve
+  note: "击杀NPC赚取赏金"
+
+- en: "krab"
+  zh: "刷子"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["krabber", "krabbing"]
+  zh_aliases: ["刷钱玩家", "螃蟹"]
+  category: pve
+  note: "带贬义的刷钱说法"
+
+- en: "anom"
+  zh: "异常"
+  mode: force
+  dir: en2zh
+  zh_aliases: ["异常点"]
+  category: pve
+  note: "宇宙异常的简称"
+
+- en: "site"
+  zh: "地点"
+  mode: hint
+  dir: en2zh
+  zh_aliases: ["战斗点", "数据点", "遗迹点", "气云点"]
+  category: pve
+  note: "泛指各类PVE地点"
+
+- en: "escalation"
+  zh: "远征"
+  mode: hint
+  dir: both
+  en_aliases: ["expedition"]
+  zh_aliases: ["死亡远征"]
+  category: pve
+  note: "异常触发的后续远征"
+
+- en: "DED"
+  zh: "DED"
+  mode: keep
+  dir: both
+  category: pve
+  note: "死亡空间评级简称"
+
+- en: "DED plex"
+  zh: "死亡空间"
+  mode: force
+  dir: en2zh
+  en_aliases: ["DED complex", "DED site"]
+  category: pve
+  note: "DED评级战斗地点"
+
+- en: "incursion"
+  zh: "入侵"
+  mode: hint
+  dir: en2zh
+  zh_aliases: ["萨沙入侵"]
+  category: pve
+  note: "萨沙舰队公共活动"
+
+- en: "abyss"
+  zh: "深渊"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["the Abyss", "abyssal"]
+  zh_aliases: ["深渊空间"]
+  category: pve
+  note: "深渊死亡空间活动"
+
+- en: "L4s"
+  zh: "四级任务"
+  mode: force
+  dir: en2zh
+  en_aliases: ["L4", "level 4 mission"]
+  zh_aliases: ["四级"]
+  category: pve
+  note: "四级代理人任务"
+
+- en: "aggro"
+  zh: "仇恨"
+  mode: hint
+  dir: both
+  en_aliases: ["aggroed", "aggroing"]
+  zh_aliases: ["拉仇恨"]
+  category: pve
+  note: "NPC当前攻击目标"
+
+- en: "trigger"
+  zh: "触发怪"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["trigger rat", "wave trigger"]
+  category: pve
+  note: "击杀后触发下一波"
+
+- en: "ticks"
+  zh: "赏金结算"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["tick", "bounty tick"]
+  zh_aliases: ["跳钱", "二十分钟结算"]
+  category: pve
+  note: "周期性发放的赏金"
+
+- en: "blue loot"
+  zh: "蓝货"
+  mode: hint
+  dir: both
+  zh_aliases: ["冬眠者蓝货", "蓝色战利品"]
+  category: pve
+  note: "虫洞NPC收购品"
+
+- en: "diamond rats"
+  zh: "钻石怪"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["diamond rat", "diamond NPCs"]
+  category: pve
+  note: "带钻石标记的智能NPC"
+
+- en: "o7"
+  zh: "o7"
+  mode: keep
+  dir: both
+  en_aliases: ["O7", "7o"]
+  category: chat
+  note: "文字敬礼"
+
+- en: "gf"
+  zh: "gf"
+  mode: keep
+  dir: both
+  en_aliases: ["GF", "good fight"]
+  category: chat
+  note: "战后致意"
+
+- en: "gg"
+  zh: "gg"
+  mode: keep
+  dir: both
+  en_aliases: ["GG", "good game"]
+  category: chat
+  note: "对局结束致意"
+
+- en: "AFK"
+  zh: "AFK"
+  mode: keep
+  dir: both
+  en_aliases: ["afk", "away from keyboard"]
+  zh_aliases: ["暂离", "离开键盘"]
+  category: chat
+  note: "暂时离开"
+
+- en: "BRB"
+  zh: "马上回来"
+  mode: force
+  dir: en2zh
+  en_aliases: ["brb", "be right back"]
+  category: chat
+  note: "马上回来缩写"
+
+- en: "TY"
+  zh: "谢谢"
+  mode: force
+  dir: en2zh
+  en_aliases: ["ty", "THX", "thx"]
+  category: chat
+  note: "感谢缩写"
+
+- en: "NP"
+  zh: "不客气"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["np", "no problem"]
+  zh_aliases: ["没事"]
+  category: chat
+  note: "无事或不用谢"
+
+- en: "OTW"
+  zh: "在路上"
+  mode: force
+  dir: en2zh
+  en_aliases: ["otw"]
+  category: chat
+  note: "正在赶来"
+
+- en: "LF"
+  zh: "寻找"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["lf", "looking for"]
+  zh_aliases: ["求组"]
+  category: chat
+  note: "寻找人或物的缩写"
+
+- en: "WTB"
+  zh: "求购"
+  mode: force
+  dir: en2zh
+  en_aliases: ["wtb"]
+  zh_aliases: ["收购"]
+  category: chat
+  note: "求购缩写"
+
+- en: "WTS"
+  zh: "出售"
+  mode: force
+  dir: en2zh
+  en_aliases: ["wts"]
+  zh_aliases: ["卖出"]
+  category: chat
+  note: "出售缩写"
+
+- en: "WTT"
+  zh: "交换"
+  mode: force
+  dir: en2zh
+  en_aliases: ["wtt"]
+  zh_aliases: ["求换"]
+  category: chat
+  note: "交换缩写"
+
+- en: "SRP"
+  zh: "SRP"
+  mode: keep
+  dir: both
+  en_aliases: ["srp", "ship replacement program"]
+  zh_aliases: ["补损", "战损补助"]
+  category: chat
+  note: "舰船补损计划缩写"
+
+- en: "zkill"
+  zh: "zkill"
+  mode: keep
+  dir: both
+  en_aliases: ["zKillboard", "zKB"]
+  category: chat
+  note: "第三方击杀榜简称"
+
+- en: "KM"
+  zh: "KM"
+  mode: keep
+  dir: both
+  en_aliases: ["killmail", "kill mail"]
+  zh_aliases: ["击杀邮件", "击杀记录", "km"]
+  category: chat
+  note: "击杀邮件缩写"
+
+- en: "lossmail"
+  zh: "损失KM"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["loss mail"]
+  zh_aliases: ["死亡邮件", "战损邮件"]
+  category: chat
+  note: "自己损失的击杀记录"
+
+- en: "alt"
+  zh: "小号"
+  mode: hint
+  dir: both
+  en_aliases: ["alts", "alternate character"]
+  zh_aliases: ["副号", "马甲"]
+  category: chat
+  note: "非主用角色"
+
+- en: "main"
+  zh: "主号"
+  mode: hint
+  dir: both
+  en_aliases: ["main character"]
+  zh_aliases: ["大号", "主角色"]
+  category: chat
+  note: "主要使用角色"
+
+- en: "cyno alt"
+  zh: "诱导号"
+  mode: hint
+  dir: both
+  en_aliases: ["cyno toon", "cyno character"]
+  zh_aliases: ["诱导小号", "点灯号"]
+  category: chat
+  note: "专门点诱导的小号"
+
+- en: "awox"
+  zh: "间谍击杀"
+  mode: hint
+  dir: both
+  en_aliases: ["awoxing", "awoxed"]
+  zh_aliases: ["友军开火"]
+  category: chat
+  note: "击杀同军团或同联盟的自己人"
+
+- en: "FC"
+  zh: "FC"
+  mode: keep
+  dir: both
+  en_aliases: ["fc", "fleet commander"]
+  zh_aliases: ["舰队指挥"]
+  category: chat
+  note: "舰队指挥缩写"
+
+- en: "XO"
+  zh: "副指挥"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["xo", "executive officer"]
+  zh_aliases: ["副官"]
+  category: chat
+  note: "副指挥或副官"
+
+- en: "CEO"
+  zh: "CEO"
+  mode: keep
+  dir: both
+  en_aliases: ["ceo"]
+  zh_aliases: ["军团负责人"]
+  category: chat
+  note: "军团负责人缩写"
+
+- en: "director"
+  zh: "总监"
+  mode: hint
+  dir: both
+  zh_aliases: ["主管"]
+  category: chat
+  note: "军团管理职位"
+
+- en: "newbro"
+  zh: "萌新"
+  mode: force
+  dir: en2zh
+  zh_aliases: ["新人", "新手"]
+  category: chat
+  note: "友好称呼新人"
+
+- en: "multiboxing"
+  zh: "多开"
+  mode: force
+  dir: en2zh
+  en_aliases: ["multi-boxing", "multibox", "multi box"]
+  zh_aliases: ["多号同开"]
+  category: chat
+  note: "同时操作多个账号"
+
+- en: "DCed"
+  zh: "掉线"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["DC'd", "disconnect", "disconnected"]
+  zh_aliases: ["断线"]
+  category: chat
+  note: "掉线；单独DC多指损控，不收"
+
+- en: "PAP"
+  zh: "PAP"
+  mode: keep
+  dir: both
+  en_aliases: ["pap", "participation link"]
+  zh_aliases: ["出勤", "出勤记录"]
+  category: chat
+  note: "联盟舰队出勤记录"
+
+- en: "ping"
+  zh: "集结通知"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["pinged"]
+  zh_aliases: ["PING", "舰队通知", "集结消息"]
+  category: chat
+  note: "此处指外部集结通知"
+
+- en: "NBSI"
+  zh: "NBSI"
+  mode: keep
+  dir: both
+  en_aliases: ["not blue shoot it"]
+  zh_aliases: ["非蓝即打"]
+  category: chat
+  note: "非友军即可攻击规则"
+
+- en: "NRDS"
+  zh: "NRDS"
+  mode: keep
+  dir: both
+  en_aliases: ["not red don't shoot", "not red do not shoot"]
+  zh_aliases: ["非红不打"]
+  category: chat
+  note: "非敌对不主动攻击规则"
+
+- en: "TQ"
+  zh: "欧服"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["tq", "Tranquility"]
+  zh_aliases: ["宁静服", "世界服"]
+  category: chat
+  note: "全球服的玩家俗称"
+
+- en: "Serenity"
+  zh: "国服"
+  mode: hint
+  dir: both
+  en_aliases: ["CN server"]
+  zh_aliases: ["晨曦服"]
+  category: chat
+  note: "中国服务器的玩家俗称"
+
+- en: "TiDi"
+  zh: "TiDi"
+  mode: keep
+  dir: both
+  en_aliases: ["time dilation"]
+  zh_aliases: ["时间膨胀", "时间减速"]
+  category: chat
+  note: "大型战斗服务器减速"
+
+- en: "EUTZ"
+  zh: "EUTZ"
+  mode: keep
+  dir: both
+  en_aliases: ["EU TZ"]
+  zh_aliases: ["欧洲时区", "欧时区"]
+  category: chat
+  note: "欧洲活跃时区缩写"
+
+- en: "USTZ"
+  zh: "USTZ"
+  mode: keep
+  dir: both
+  en_aliases: ["US TZ"]
+  zh_aliases: ["美洲时区", "美时区"]
+  category: chat
+  note: "美洲活跃时区缩写"
+
+- en: "AUTZ"
+  zh: "AUTZ"
+  mode: keep
+  dir: both
+  en_aliases: ["AU TZ"]
+  zh_aliases: ["澳洲时区", "澳时区"]
+  category: chat
+  note: "澳洲活跃时区缩写"
+
+- en: "CNTZ"
+  zh: "CNTZ"
+  mode: keep
+  dir: both
+  en_aliases: ["CN TZ"]
+  zh_aliases: ["中国时区", "中时区"]
+  category: chat
+  note: "中文玩家活跃时区"
+
+- en: "DT"
+  zh: "DT"
+  mode: keep
+  dir: both
+  en_aliases: ["dt", "downtime", "daily downtime"]
+  zh_aliases: ["日维", "每日维护"]
+  category: chat
+  note: "每日停服维护简称"
+
+- en: "standing reset"
+  zh: "声望重置"
+  mode: force
+  dir: en2zh
+  en_aliases: ["standings reset"]
+  category: chat
+  note: "重置声望设置"
+
+- en: "standings"
+  zh: "声望"
+  mode: force
+  dir: en2zh
+  category: chat
+  note: "声望设置；单数 standing 太常见，不收"
+
+- en: "the keep"
+  zh: "星城"
+  mode: force
+  dir: en2zh
+  category: fleet
+  note: "删除原来的裸 \"keep\" hint（keep 是常用动词，本批 2 处被误译成星城）"
+
+- en: "- Moon"
+  zh: "- 卫星"
+  mode: force
+  dir: en2zh
+  category: fleet
+  note: "天体名「行星 - Moon N」在中文客户端里是「- 卫星 N」（SDE 里 Metenox Moon Drill ="
+
+- en: "logistics"
+  zh: "后勤"
+  mode: hint
+  dir: en2zh
+  category: fleet
+  note: "用黑话表 hint 挡掉 SDE 组别 Logistics 的 force「后勤舰」（去重时同一写法只留先加入的黑话表条"
+
+- en: "Eagle's Claw"
+  zh: "Eagle's Claw"
+  mode: keep
+  dir: en2zh
+  en_aliases: ["Eagles Claw", "Eagle’s Claw"]
+  category: fleet
+  note: "联盟制式名，不翻译"
+
+- en: "low power"
+  zh: "低能量"
+  mode: force
+  dir: en2zh
+  en_aliases: ["low-power"]
+  category: fleet
+  note: "Upwell 建筑状态 Low Power（没有在线服务装备）"
+
+- en: "Structure under attack"
+  zh: "建筑遭到攻击"
+  mode: force
+  dir: en2zh
+  category: fleet
+  note: "AA 建筑通知的标题（SDE 的 Structure 类别就是「建筑」）"
+
+- en: "cap save"
+  zh: "旗舰救援"
+  mode: force
+  dir: en2zh
+  en_aliases: ["capsave", "cap-save", "cap saving"]
+  category: fleet
+  note: "救被抓的旗舰"
+
+- en: "cap tackled"
+  zh: "旗舰被抓"
+  mode: force
+  dir: en2zh
+  en_aliases: ["cap is tackled", "cap got tackled", "caps tackled"]
+  category: fleet
+  note: "旗舰被反跳住了"
+
+- en: "non-BS"
+  zh: "非战列"
+  mode: force
+  dir: en2zh
+  en_aliases: ["none BS", "non BS", "nonBS", "non-battleship", "non battleship"]
+  category: fleet
+  note: "「非战列舰的人」"
+
+- en: "blobs in region"
+  zh: "星域内有敌方大舰队"
+  mode: force
+  dir: en2zh
+  en_aliases: ["blobs in the region", "blob in region", "blob in the region", "blobs in our region"]
+  category: fleet
+  note: "blob 指大规模敌舰队"
+
+- en: "blob"
+  zh: "敌方大舰队"
+  mode: hint
+  dir: en2zh
+  category: fleet
+  note: "blob 是普通英文单词，只用 hint"
+
+- en: "blops hunter"
+  zh: "黑隐猎杀队"
+  mode: force
+  dir: en2zh
+  en_aliases: ["black ops hunter", "black-ops hunter"]
+  category: fleet
+  note: "比 black-ops 长，会先匹配；自动带复数 s"
+
+- en: "ESS reserve"
+  zh: "ESS储备赏金池"
+  mode: force
+  dir: en2zh
+  en_aliases: ["ESS reserve bank", "reserve bank"]
+  category: fleet
+  note: "ESS 分主赏金池（Main Bank）和储备赏金池（Reserve Bank）"
+
+- en: "shiny toys"
+  zh: "贵船"
+  mode: force
+  dir: en2zh
+  en_aliases: ["shinny toys", "expensive toys", "shiny ships"]
+  category: fleet
+  note: "指昂贵的舰船，中文玩家常说「贵船」"
+
+- en: "pre ping"
+  zh: "集结预告"
+  mode: force
+  dir: en2zh
+  en_aliases: ["pre-ping", "preping"]
+  category: fleet
+  note: "AA 集结通知模板里的提前预告"
+
+- en: "Fleet is up under"
+  zh: "舰队已开，FC："
+  mode: force
+  dir: en2zh
+  category: fleet
+  note: "AA 集结通知的固定模板句，模型看不到这句，只看到占位符和后面的名字，不会再把名字当地点或频道"
+
+- en: "SRP Code"
+  zh: "SRP代码"
+  mode: force
+  dir: en2zh
+  category: fleet
+  note: "AA 集结通知模板字段"
+
+- en: "defense ship"
+  zh: "护航船"
+  mode: force
+  dir: en2zh
+  en_aliases: ["defence ship", "cover ship"]
+  category: fleet
+  note: "护矿、护航的战斗船"
+
+- en: "tackle"
+  zh: "反跳"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["tackled", "tackling"]
+  category: fleet
+  note: "tackle 是普通英文单词，所以用 hint"
+
+- en: "faction warfare"
+  zh: "势力战争"
+  mode: force
+  dir: en2zh
+  en_aliases: ["FW", "fw", "factional warfare"]
+  category: fleet
+  note: "Faction Warfare 的中文叫法是「势力战争」"
+
+- en: "wh system"
+  zh: "虫洞星系"
+  mode: force
+  dir: en2zh
+  en_aliases: ["wormhole system"]
+  category: fleet
+  note: "比 WH 长，会先匹配；大小写不敏感，WH system 也会匹配"
+
+- en: "alt alliance"
+  zh: "小号联盟"
+  mode: force
+  dir: en2zh
+  category: fleet
+  note: "只收短语，alt 条目保持不变"
+
+- en: "coalition"
+  zh: "联盟群"
+  mode: hint
+  dir: en2zh
+  category: fleet
+  note: "多个联盟组成的集团，例如帝国联盟群"
+
+- en: "jump bridge"
+  zh: "跳桥"
+  mode: force
+  dir: en2zh
+  category: fleet
+  note: "玩家口语是「跳桥」，和 ansi → 跳桥 一致"
+
+- en: "Period Basis"
+  zh: "Period Basis(贝斯)"
+  mode: force
+  dir: en2zh
+  category: fleet
+  note: "两个词的短语，force 安全"
+
+- en: "Sansha"
+  zh: "萨沙"
+  mode: force
+  dir: zh2en
+  category: chat
+  note: "萨沙帝国势力简称；2 字且 Sasha 也是常见人名音译，只做 hint；萨沙控制塔、萨沙铭牌等官方长名会优先匹配"
+
+- en: "Angel 10/10"
+  zh: "天使10"
+  mode: force
+  dir: zh2en
+  zh_aliases: ["天使10/10"]
+  category: chat
+  note: "天使 10/10 远征/死亡空间，群里常省略 /10"
+
+- en: "Sansha 10/10"
+  zh: "萨沙10"
+  mode: force
+  dir: zh2en
+  category: chat
+  note: "萨沙 10/10；实测命中 hist_qq2 #41，没有误中"
+
+- en: "game VPN"
+  zh: "加速器"
+  mode: hint
+  dir: zh2en
+  zh_aliases: ["加速线路"]
+  category: chat
+  note: "网游加速器（连外服用），不是大脑加速器"
+
+- en: "capital escalation"
+  zh: "旗舰远征"
+  mode: force
+  dir: zh2en
+  category: chat
+  note: "旗舰 BOSS 远征；4 字专有词，不会误中普通句子，比「远征」长，优先匹配"
+
+- en: "big fight"
+  zh: "会战"
+  mode: hint
+  dir: zh2en
+  category: chat
+  note: "大规模舰队会战；2 字普通词，只做 hint"
+
+- en: "corp"
+  zh: "军团"
+  mode: hint
+  dir: zh2en
+  category: chat
+  note: "EVE 军团=corporation；2 字普通词，不能 force"
+
+- en: "bot"
+  zh: "机器人"
+  mode: force
+  dir: zh2en
+  category: chat
+  note: "群里的「机器人」都是指 bot；3 字，就算说的是真机器人，译成 bot 也不算错"
+
+- en: "Sigil"
+  zh: "魔符"
+  mode: force
+  dir: zh2en
+  category: chat
+  note: "官方名是魔符级，玩家省略「级」；魔符 在普通中文里很少见，可以 force"
+
+- en: "Megathron Navy Issue"
+  zh: "海万王"
+  mode: force
+  dir: zh2en
+  category: chat
+  note: "万王宝座级海军型的玩家叫法（网易百科写作「海万」）"
+
+- en: "bro"
+  zh: "鸽鸽"
+  mode: hint
+  dir: zh2en
+  category: chat
+  note: "网络用语，=哥哥，不是鸽子"
+
+- en: "Exequror Navy Issue"
+  zh: "海送葬"
+  mode: force
+  dir: zh2en
+  category: chat
+  note: "送葬者级海军型的玩家叫法（海X = X Navy Issue）"
+
+- en: "Anathema"
+  zh: "咒逐"
+  mode: force
+  dir: zh2en
+  category: chat
+  note: "咒逐级（艾玛隐形侦察舰）省略「级」的说法；SDE 只有「咒逐级」，玩家说「咒逐」时没有匹配"
+
+- en: "Crimson Harvest"
+  zh: "血色收割"
+  mode: force
+  dir: both
+  category: chat
+  note: "血袭者年度活动"
+
+- en: "bait"
+  zh: "钓鱼"
+  mode: hint
+  dir: zh2en
+  category: chat
+  note: "EVE 里「钓鱼」= 放诱饵船引人来打（如「开工业钓鱼」）"
+
+- en: "key rat"
+  zh: "key怪"
+  mode: force
+  dir: zh2en
+  zh_aliases: ["Key怪", "KEY怪"]
+  category: chat
+  note: "掉加速门钥匙的怪"
+
+- en: "EVE Fireside"
+  zh: "炉边"
+  mode: hint
+  dir: zh2en
+  zh_aliases: ["炉边谈话"]
+  category: chat
+  note: "CCP 在 Fanfest/EVE Vegas 上的 EVE Fireside 路线图发布"
+
+- en: "V me 50"
+  zh: "v50"
+  mode: hint
+  dir: zh2en
+  zh_aliases: ["V50", "V我50", "v我50"]
+  category: chat
+  note: "网络梗：给我 50 块"
+
+- en: "go out and have some fun"
+  zh: "浪一波"
+  mode: hint
+  dir: zh2en
+  category: chat
+  note: "口语「出去玩一趟」；不收「去浪」，它会命中「过去浪费」"
+
+- en: "Structure low power"
+  zh: "建筑进入低能量"
+  mode: force
+  dir: en2zh
+  category: structure
+  note: "AA 建筑通知的标题"
+
+- en: "Structure full power"
+  zh: "建筑进入全能量"
+  mode: force
+  dir: en2zh
+  category: structure
+  note: "AA 建筑通知的标题"
+
+- en: "Structure lost shield"
+  zh: "建筑护盾被打穿"
+  mode: force
+  dir: en2zh
+  category: structure
+  note: "AA 建筑通知的标题"
+
+- en: "Structure lost armor"
+  zh: "建筑装甲被打穿"
+  mode: force
+  dir: en2zh
+  category: structure
+  note: "AA 建筑通知的标题"
+
+- en: "Structure destroyed"
+  zh: "建筑已被摧毁"
+  mode: force
+  dir: en2zh
+  category: structure
+  note: "AA 建筑通知的标题"
+
+- en: "Structure anchoring"
+  zh: "建筑正在锚定"
+  mode: force
+  dir: en2zh
+  category: structure
+  note: "AA 建筑通知的标题"
+
+- en: "Structure unanchoring"
+  zh: "建筑正在解锚"
+  mode: force
+  dir: en2zh
+  category: structure
+  note: "AA 建筑通知的标题"
+
