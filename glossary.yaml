@@ -2238,9 +2238,9 @@
   zh: "旗舰被抓"
   mode: force
   dir: en2zh
-  en_aliases: ["cap is tackled", "cap got tackled", "caps tackled"]
+  en_aliases: ["cap is tackled", "cap got tackled", "caps tackled", "cap tackle", "caps tackle", "cap tackel", "caps tackel", "cap tackelt", "captackled", "capital tackled"]
   category: fleet
-  note: "旗舰被反跳住了"
+  note: "旗舰被反跳住了。ping 里常写成 CAP TACKLE、CAP TACKEL，意思一样"
 
 - en: "non-BS"
   zh: "非战列"
@@ -2352,9 +2352,152 @@
   zh: "反跳"
   mode: hint
   dir: en2zh
-  en_aliases: ["tackled", "tackling"]
+  en_aliases: ["tackling"]
   category: fleet
   note: "tackle 是普通英文单词，所以用 hint"
+
+- en: "tackled"
+  zh: "被抓"
+  mode: force
+  dir: en2zh
+  en_aliases: ["got tackled", "is tackled", "tackel", "tackelt"]
+  category: fleet
+  note: "船被反跳住、跑不掉了，和 cap tackled → 旗舰被抓 一致；模型曾译成「被反跳」。tackel 是 ping 里常见的拼错"
+
+- en: "get your toys safe"
+  zh: "大东西收一收"
+  mode: force
+  dir: en2zh
+  en_aliases: ["get your stuff safe", "get your things safe", "get your shiny toys safe", "get your shinys safe", "get your shinies safe", "get your caps safe", "get you toys safe", "get ur stuff safe", "get your stuff save", "get your toys save", "get your things save"]
+  category: fleet
+  note: "防守频道最常见的提醒，中文玩家原话就是「大东西收一收」；模型曾把 save 的拼错译成「保存你的东西」"
+
+- en: "get safe"
+  zh: "注意安全"
+  mode: force
+  dir: en2zh
+  en_aliases: ["get safe now"]
+  category: fleet
+  note: "模型曾把「get safe 25+ fleet around」译成「获取25艘以上安全舰队」"
+
+- en: "dock up"
+  zh: "进站"
+  mode: force
+  dir: en2zh
+  en_aliases: ["dock it up", "dock in station", "dock your ship", "dock you ship"]
+  category: fleet
+  note: "模型曾译成「停泊上岸」"
+
+- en: "dock now"
+  zh: "马上进站"
+  mode: force
+  dir: en2zh
+  en_aliases: ["dock up now"]
+  category: fleet
+
+- en: "dock"
+  zh: "进站"
+  mode: hint
+  dir: en2zh
+  category: fleet
+  note: "普通英文单词，只作参考；模型曾译成「停到码头」"
+
+- en: "undock"
+  zh: "出站"
+  mode: force
+  dir: en2zh
+  en_aliases: ["undocked", "undocking"]
+  category: fleet
+  note: "离开空间站；模型曾把 undocked 译成「未进站」，意思正好反了"
+
+- en: "camped"
+  zh: "被堵"
+  mode: force
+  dir: en2zh
+  en_aliases: ["is camped", "are camped", "got camped"]
+  category: fleet
+  note: "星门或跳桥被人堵了，和 gate camp → 堵门 一致；模型曾译成「正在驻守」"
+
+- en: "dropper"
+  zh: "投子"
+  mode: force
+  dir: en2zh
+  en_aliases: ["droppers", "hot dropper", "hot droppers", "hotdropper", "hotdroppers", "dropers"]
+  category: fleet
+  note: "隐投的人，和 hotdrop → 投子 一致"
+
+- en: "dropper leader"
+  zh: "车头"
+  mode: force
+  dir: en2zh
+  category: fleet
+  note: "带队隐投的人。有一条双语 ping：中文写「WT进车头」，英文写「WT-2J9 dropper leader」；模型曾译成「投子领导」"
+
+- en: "hole"
+  zh: "虫洞"
+  mode: hint
+  dir: en2zh
+  category: wormhole
+  note: "EVE 聊天里的 hole 基本都是虫洞；模型曾译成「坑洞」。普通英文单词，只作参考"
+
+- en: "flash form"
+  zh: "紧急集结"
+  mode: force
+  dir: en2zh
+  en_aliases: ["flash form-up", "flash forming", "flash-form"]
+  category: fleet
+  note: "临时马上集结；模型曾译成「闪电阵型」"
+
+- en: "red red red"
+  zh: "有红！有红！有红！"
+  mode: force
+  dir: en2zh
+  category: fleet
+  note: "本地出现敌人的警报；模型曾直译成「红色 红色 红色」"
+
+- en: "fleet is down"
+  zh: "舰队已解散"
+  mode: force
+  dir: en2zh
+  en_aliases: ["fleets is down", "fleet's down", "fleet down"]
+  category: fleet
+  note: "模型曾译成「舰队下线了」"
+
+- en: "max tank"
+  zh: "坦度拉满"
+  mode: force
+  dir: en2zh
+  category: fleet
+  note: "装配尽量堆抗性和血量；模型曾译成「最大坦克」"
+
+- en: "be careful"
+  zh: "小心"
+  mode: force
+  dir: en2zh
+  en_aliases: ["becerfull", "be cerfull", "be carefull", "becareful"]
+  category: chat
+  note: "主要是为了收常见的拼错（Becerfull），模型认不出来会原样留下"
+
+- en: "warp to"
+  zh: "跃迁到"
+  mode: force
+  dir: en2zh
+  category: fleet
+  note: "模型曾把 warp to 300km 译成「跳转至300km」；warp to zero 更长，会先匹配"
+
+- en: "spike"
+  zh: "本地人数暴涨"
+  mode: hint
+  dir: en2zh
+  category: fleet
+  note: "+40 spike in DIBH-Q：本地突然多了 40 人。普通英文单词，只作参考"
+
+- en: "system"
+  zh: "星系"
+  mode: hint
+  dir: en2zh
+  category: space
+  note: "EVE 里的 system 是星系；模型曾在「System: U-HYZN」里译成「系统」。普通英文单词，只作参考"
 
 - en: "faction warfare"
   zh: "势力战争"
