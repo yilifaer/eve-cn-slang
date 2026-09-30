@@ -2304,6 +2304,21 @@
   category: fleet
   note: "AA 集结通知的固定模板句，模型看不到这句，只看到占位符和后面的名字，不会再把名字当地点或频道"
 
+- en: "bridge is up"
+  zh: "桥开了"
+  mode: force
+  dir: en2zh
+  en_aliases: ["bridge up", "bridge's up", "bridge is open"]
+  category: fleet
+  note: "跳桥或泰坦桥已经开好，可以过了；模型曾译成「开桥已经升起」"
+
+- en: "fleet name"
+  zh: "舰队名称"
+  mode: force
+  dir: en2zh
+  category: fleet
+  note: "舰队 ping 的字段名；模型曾译成「编队名称」"
+
 - en: "SRP Code"
   zh: "SRP代码"
   mode: force
