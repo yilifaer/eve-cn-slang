@@ -2499,6 +2499,13 @@
   category: space
   note: "EVE 里的 system 是星系；模型曾在「System: U-HYZN」里译成「系统」。普通英文单词，只作参考"
 
+- en: "region"
+  zh: "星域"
+  mode: hint
+  dir: en2zh
+  category: space
+  note: "EVE 里的 region 是星域；模型曾把 droppers in the region 译成「投子在该区域」。普通英文单词，只作参考"
+
 - en: "faction warfare"
   zh: "势力战争"
   mode: force
