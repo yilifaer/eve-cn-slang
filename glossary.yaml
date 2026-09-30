@@ -2449,11 +2449,11 @@
   note: "临时马上集结；模型曾译成「闪电阵型」"
 
 - en: "red red red"
-  zh: "有红！有红！有红！"
+  zh: "红灯 红灯 红灯"
   mode: force
   dir: en2zh
   category: fleet
-  note: "本地出现敌人的警报；模型曾直译成「红色 红色 红色」"
+  note: "紧急状态的警报（例如大量敌人来了，旗舰马上进站）；模型曾直译成「红色 红色 红色」"
 
 - en: "fleet is down"
   zh: "舰队已解散"
