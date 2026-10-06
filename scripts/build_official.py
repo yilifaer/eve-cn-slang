@@ -3,8 +3,10 @@
 筛选规则和 koishi-plugin-dcqq-bridge 的 scripts/build-eve-glossary.mjs 一致（改规则时两边一起改）：
 只收中英文名都有、而且两者不一样的；物品只收市场上有的舰船、装备、弹药等，不收涂装、蓝图、技能、服饰；
 星系、星座、星域不收虫洞等特殊空间和代号名字。
+舰船和建筑物品另外带类别标记 cat（ship / structure），插件用来给船名加去掉「级」的写法、识别建筑通知；
+其他条目没有 cat 字段。
 
-中英文名称和仓库里的完全一样时不改任何文件（CCP 出了新版本、但新东西还没有中文名时就是这样）。
+中英文名称和类别标记都和仓库里的完全一样时不改任何文件（CCP 出了新版本、但新东西还没有中文名时就是这样）。
 有变化时同时更新 README 里的条数和版本号。
 
 用法：
@@ -26,6 +28,8 @@ KIND_ZH = {"category": "大类", "group": "分组", "type": "物品", "region": 
 TYPE_CATEGORIES = {4, 6, 7, 8, 17, 18, 20, 22, 23, 25, 32, 65, 66, 87}
 # 不收的类别：SKIN、蓝图、服饰、技能、特别版；「个性化」按名字找
 EXCLUDED_CATEGORIES = {91, 9, 30, 16, 63}
+# 物品条目带的类别标记：舰船、建筑（只给插件运行时要用的类别加）
+TYPE_CAT_MARKERS = {6: "ship", 65: "structure"}
 CODE_NAME = re.compile(r"[A-Z0-9]{1,5}-[A-Z0-9]{1,5}")  # 代号星系（以及同样形式的星域、星座名）
 WH_REGION_MIN, WH_CONSTELLATION_MIN = 11000000, 21000000  # 虫洞等特殊空间
 SUMMARY_LIMIT = 200  # 合并请求说明里每张表最多列多少条（GitHub 限制说明长度）
@@ -64,12 +68,12 @@ def name(o, lang):
 
 
 def build(zip_path):
-    entries = set()  # 用集合顺便去掉完全相同的条目
+    entries = {}  # (kind, en, zh) → cat；顺便去掉名称完全相同的条目（保留先出现的）
 
-    def add(kind, o):
+    def add(kind, o, cat=""):
         en, zh = name(o, "en"), name(o, "zh")
         if en and zh and en != zh:
-            entries.add((kind, en, zh))
+            entries.setdefault((kind, en, zh), cat)
 
     def is_code(o):
         return CODE_NAME.fullmatch(name(o, "en"))
@@ -89,7 +93,7 @@ def build(zip_path):
         for t in rows(zf, "types.jsonl"):
             cat = group_category.get(t.get("groupID"))
             if t.get("published") is True and t.get("marketGroupID") is not None and cat in TYPE_CATEGORIES and cat not in excluded:
-                add("type", t)
+                add("type", t, TYPE_CAT_MARKERS.get(cat, ""))
         for r in rows(zf, "mapRegions.jsonl"):
             if r["_key"] < WH_REGION_MIN and not is_code(r):
                 add("region", r)
@@ -99,7 +103,7 @@ def build(zip_path):
         for s in rows(zf, "mapSolarSystems.jsonl"):
             if (s.get("regionID") or 0) < WH_REGION_MIN and not is_code(s):
                 add("system", s)
-    return build_no, sorted(entries, key=lambda e: (KINDS.index(e[0]), e[1].lower(), e[1], e[2]))
+    return build_no, sorted(((*k, cat) for k, cat in entries.items()), key=lambda e: (KINDS.index(e[0]), e[1].lower(), e[1], e[2]))
 
 
 def write(build_no, entries):
@@ -109,18 +113,18 @@ def write(build_no, entries):
         "generatedAt": datetime.now(timezone.utc).isoformat(timespec="milliseconds").replace("+00:00", "Z"),
         "license": "EVE Developer License Agreement (non-commercial). NOT covered by CC BY 4.0. See official/NOTICE.md",
         "count": len(entries),
-        "entries": [{"kind": k, "en": en, "zh": zh} for k, en, zh in entries],
+        "entries": [{"kind": k, "en": en, "zh": zh, **({"cat": cat} if cat else {})} for k, en, zh, cat in entries],
     }
     (OUT / "eve-official.json").write_text(json.dumps(out, ensure_ascii=False, indent=0), encoding="utf-8")
     with open(OUT / "eve-official.csv", "w", encoding="utf-8-sig", newline="") as f:
         w = csv.writer(f, lineterminator="\n")
-        w.writerow(["kind", "en", "zh"])
+        w.writerow(["kind", "en", "zh", "cat"])
         w.writerows(entries)
 
 
 def update_readme(build_no, entries):
     p = ROOT / "README.md"
-    s, c = p.read_text(encoding="utf-8"), Counter(k for k, _, _ in entries)
+    s, c = p.read_text(encoding="utf-8"), Counter(e[0] for e in entries)
     n = lambda x: f"{x:,}"
     subs = [
         (r"\*\*[\d,]+ 条\*\* \| 从 CCP 静态数据生成（build \d+）", f"**{n(len(entries))} 条** | 从 CCP 静态数据生成（build {build_no}）"),
@@ -136,11 +140,12 @@ def update_readme(build_no, entries):
 
 
 def changes(old, new):
-    """按（类型, 英文名）对比：两边都有但中文不同算「中文名变化」，其余是新增或删除"""
+    """按（类型, 英文名）对比：两边都有但中文不同算「中文名变化」，其余是新增或删除；
+    另外数一下名称没变、但类别标记（cat）变了的条目"""
     o, n = defaultdict(set), defaultdict(set)
-    for k, en, zh in old:
+    for k, en, zh, _ in old:
         o[(k, en)].add(zh)
-    for k, en, zh in new:
+    for k, en, zh, _ in new:
         n[(k, en)].add(zh)
     added, removed, changed = [], [], []
     for key in sorted(o.keys() | n.keys(), key=lambda x: (KINDS.index(x[0]), x[1].lower(), x[1])):
@@ -153,11 +158,14 @@ def changes(old, new):
             added.append((*key, b))
         else:
             removed.append((*key, a))
-    return added, removed, changed
+    old_cat = {e[:3]: e[3] for e in old}
+    cat_changed = sum(1 for e in new if e[:3] in old_cat and old_cat[e[:3]] != e[3])
+    return added, removed, changed, cat_changed
 
 
-def summary(old_build, build_no, added, removed, changed):
-    lines = [f"CCP 静态数据从 build {old_build} 更新到 build {build_no}：新增 {len(added)} 条，删除 {len(removed)} 条，中文名变化 {len(changed)} 条。", ""]
+def summary(old_build, build_no, added, removed, changed, cat_changed):
+    head = f"CCP 静态数据从 build {old_build} 更新到 build {build_no}" if old_build != build_no else f"CCP 静态数据还是 build {build_no}"
+    lines = [f"{head}：新增 {len(added)} 条，删除 {len(removed)} 条，中文名变化 {len(changed)} 条，类别标记变化 {cat_changed} 条。", ""]
     cell = lambda x: x.replace("|", "\\|")
 
     def table(title, head, items):
@@ -172,6 +180,8 @@ def summary(old_build, build_no, added, removed, changed):
     table("新增", ["类型", "英文", "中文"], added)
     table("删除", ["类型", "英文", "中文"], removed)
     table("中文名变化", ["类型", "英文", "原来的中文", "现在的中文"], changed)
+    if cat_changed:
+        lines.extend([f"### 类别标记变化（{cat_changed}）", "", f"有 {cat_changed} 条物品名称没变，类别标记（cat：ship 舰船 / structure 建筑）变了。", ""])
     lines.append("由每周自动检查（.github/workflows/update-official.yml）生成。看过没问题就点「Merge pull request」。")
     return "\n".join(lines) + "\n"
 
@@ -183,29 +193,25 @@ def main():
     args = ap.parse_args()
 
     cur = json.loads((OUT / "eve-official.json").read_text(encoding="utf-8"))
-    old = [(e["kind"], e["en"], e["zh"]) for e in cur["entries"]]
+    old = [(e["kind"], e["en"], e["zh"], e.get("cat", "")) for e in cur["entries"]]
     if args.zip:
         build_no, entries = build(args.zip)
-    else:
-        latest = latest_build()
-        if latest == cur["buildNumber"]:
-            print(f"仓库里已经是 CCP 最新的 build {latest}，不用更新")
-            return
+    else:  # 版本号没变也重新生成对比一次：类别标记的规则改了时也要更新
         with tempfile.TemporaryDirectory() as tmp:
             zip_path = Path(tmp) / "sde.zip"
-            download(latest, zip_path)
+            download(latest_build(), zip_path)
             build_no, entries = build(zip_path)
 
-    added, removed, changed = changes(old, entries)
-    if not (added or removed or changed):
-        print(f"CCP 的 build {build_no} 和仓库里的 build {cur['buildNumber']} 中英文名称完全一样，不用更新")
+    added, removed, changed, cat_changed = changes(old, entries)
+    if not (added or removed or changed or cat_changed):
+        print(f"CCP 的 build {build_no} 和仓库里的 build {cur['buildNumber']} 中英文名称和类别标记完全一样，不用更新")
         return
     write(build_no, entries)
     update_readme(build_no, entries)
-    print(f"已更新到 build {build_no}：新增 {len(added)}，删除 {len(removed)}，中文名变化 {len(changed)}；"
-          f"共 {len(entries)} 条", dict(Counter(k for k, _, _ in entries)))
+    print(f"已更新到 build {build_no}：新增 {len(added)}，删除 {len(removed)}，中文名变化 {len(changed)}，类别标记变化 {cat_changed}；"
+          f"共 {len(entries)} 条", dict(Counter(e[0] for e in entries)), dict(Counter(e[3] for e in entries if e[3])))
     if args.summary:
-        Path(args.summary).write_text(summary(cur["buildNumber"], build_no, added, removed, changed), encoding="utf-8")
+        Path(args.summary).write_text(summary(cur["buildNumber"], build_no, added, removed, changed, cat_changed), encoding="utf-8")
 
 
 if __name__ == "__main__":
