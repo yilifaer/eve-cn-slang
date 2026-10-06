@@ -67,7 +67,7 @@ data/eve-cn-slang/glossary.yaml;;data/dcqq-bridge/local-slang.yaml
 - 不收录玩家、军团、联盟的名字，也不收录政治相关内容；
 - 提交前运行一次检查：`pip install pyyaml && python scripts/check.py`。有错误时 GitHub 上的自动检查会失败；警告只是提醒，按需处理。
 
-更新官方名称表：`python scripts/build_official.py`（从 koishi-plugin-dcqq-bridge 下载最新生成的数据）。
+更新官方名称表：`python scripts/build_official.py`（直接从 CCP 下载最新的静态数据，名称没有变化时不改文件）。GitHub 上每周三也会自动检查一次，有变化会自动开一个合并请求。
 
 ## 许可证
 
