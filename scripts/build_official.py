@@ -164,8 +164,8 @@ def changes(old, new):
 
 
 def summary(old_build, build_no, added, removed, changed, cat_changed):
-    lines = [f"CCP 静态数据从 build {old_build} 更新到 build {build_no}：新增 {len(added)} 条，删除 {len(removed)} 条，"
-             f"中文名变化 {len(changed)} 条，类别标记变化 {cat_changed} 条。", ""]
+    head = f"CCP 静态数据从 build {old_build} 更新到 build {build_no}" if old_build != build_no else f"CCP 静态数据还是 build {build_no}"
+    lines = [f"{head}：新增 {len(added)} 条，删除 {len(removed)} 条，中文名变化 {len(changed)} 条，类别标记变化 {cat_changed} 条。", ""]
     cell = lambda x: x.replace("|", "\\|")
 
     def table(title, head, items):
@@ -196,14 +196,10 @@ def main():
     old = [(e["kind"], e["en"], e["zh"], e.get("cat", "")) for e in cur["entries"]]
     if args.zip:
         build_no, entries = build(args.zip)
-    else:
-        latest = latest_build()
-        if latest == cur["buildNumber"]:
-            print(f"仓库里已经是 CCP 最新的 build {latest}，不用更新")
-            return
+    else:  # 版本号没变也重新生成对比一次：类别标记的规则改了时也要更新
         with tempfile.TemporaryDirectory() as tmp:
             zip_path = Path(tmp) / "sde.zip"
-            download(latest, zip_path)
+            download(latest_build(), zip_path)
             build_no, entries = build(zip_path)
 
     added, removed, changed, cat_changed = changes(old, entries)

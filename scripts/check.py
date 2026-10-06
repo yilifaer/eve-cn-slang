@@ -31,9 +31,9 @@ def common_words():
 
 
 def check_official():
-    """返回官方表里的错误；文件不存在时跳过"""
+    """返回官方表里的错误"""
     if not OFFICIAL.exists():
-        return []
+        return ["官方表：找不到 official/eve-official.json（插件按这个网址读取，路径不能变）"]
     data, errors = json.loads(OFFICIAL.read_text(encoding="utf-8")), []
     entries = data.get("entries") if isinstance(data, dict) else None
     if not isinstance(entries, list):
@@ -45,13 +45,13 @@ def check_official():
             errors.append(f"{tag}：不是对象"); continue
         extra = set(e) - {"kind", "en", "zh", "cat"}
         if extra: errors.append(f"{tag}：不认识的字段 {sorted(extra)}")
-        if e.get("kind") not in OFFICIAL_KINDS: errors.append(f"{tag}：kind「{e.get('kind')}」不对")
+        if not isinstance(e.get("kind"), str) or e["kind"] not in OFFICIAL_KINDS: errors.append(f"{tag}：kind「{e.get('kind')}」不对")
         for k in ("en", "zh"):
             if not isinstance(e.get(k), str) or not e[k].strip(): errors.append(f"{tag}：缺少 {k}")
         if "cat" in e:
-            if e["cat"] not in OFFICIAL_CATS: errors.append(f"{tag}：cat 只能是 ship / structure")
+            if not isinstance(e["cat"], str) or e["cat"] not in OFFICIAL_CATS: errors.append(f"{tag}：cat 只能是 ship / structure")
             if e.get("kind") != "type": errors.append(f"{tag}：cat 只能出现在 kind: type 的条目上")
-    cats = Counter(e["cat"] for e in entries if isinstance(e, dict) and "cat" in e)
+    cats = Counter(e["cat"] for e in entries if isinstance(e, dict) and isinstance(e.get("cat"), str))
     print(f"官方表共 {len(entries)} 条（舰船 {cats['ship']}，建筑 {cats['structure']}）：{len(errors)} 个错误")
     return errors
 

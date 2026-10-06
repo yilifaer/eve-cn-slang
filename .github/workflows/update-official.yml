@@ -20,6 +20,11 @@ jobs:
         run: |
           python scripts/build_official.py --summary "$RUNNER_TEMP/changes.md"
           if [ -n "$(git status --porcelain)" ]; then echo "changed=true" >> "$GITHUB_OUTPUT"; fi
+      # 自动开的合并请求不会触发 check.yml，所以先在这里检查一遍，不通过就不开
+      - if: steps.build.outputs.changed == 'true'
+        run: |
+          pip install pyyaml
+          python scripts/check.py glossary.yaml
       - if: steps.build.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v8
         with:
