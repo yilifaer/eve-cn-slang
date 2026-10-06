@@ -1,10 +1,12 @@
 """检查 glossary.yaml：格式错误会让检查失败；可能误伤普通句子的写法给出警告。
+同时检查官方表 official/eve-official.json 的格式（类别标记 cat 只能是 ship / structure，只能出现在物品条目上）。
 
 用法：python scripts/check.py [glossary.yaml]
 需要：pip install pyyaml
 """
-import re, sys, urllib.request
-from collections import defaultdict
+import json, re, sys, urllib.request
+from collections import Counter, defaultdict
+from pathlib import Path
 import yaml
 
 FILE = sys.argv[1] if len(sys.argv) > 1 else "glossary.yaml"
@@ -14,6 +16,9 @@ CATS = {"fleet", "ship", "module", "structure", "wormhole", "industry", "space",
 KEYS = {"en", "zh", "mode", "dir", "en_aliases", "zh_aliases", "category", "note", "confidence"}
 WORDS_URL = "https://raw.githubusercontent.com/yilifaer/koishi-plugin-dcqq-bridge/main/data/common-words.txt"
 CJK = re.compile(r"[\u4e00-\u9fff]")
+OFFICIAL = Path(__file__).resolve().parent.parent / "official" / "eve-official.json"
+OFFICIAL_KINDS = {"category", "group", "type", "region", "constellation", "system"}
+OFFICIAL_CATS = {"ship", "structure"}
 
 
 def common_words():
@@ -23,6 +28,32 @@ def common_words():
     except Exception as e:  # 离线时只跳过常用词检查
         print(f"（没能下载常用词表，跳过常用词检查：{e}）")
         return set()
+
+
+def check_official():
+    """返回官方表里的错误；文件不存在时跳过"""
+    if not OFFICIAL.exists():
+        return []
+    data, errors = json.loads(OFFICIAL.read_text(encoding="utf-8")), []
+    entries = data.get("entries") if isinstance(data, dict) else None
+    if not isinstance(entries, list):
+        return ["官方表：缺少 entries 列表"]
+    if data.get("count") != len(entries): errors.append(f"官方表：count 是 {data.get('count')}，实际有 {len(entries)} 条")
+    for i, e in enumerate(entries, 1):
+        tag = f"官方表第 {i} 条（{e.get('en') if isinstance(e, dict) else e!r}）"
+        if not isinstance(e, dict):
+            errors.append(f"{tag}：不是对象"); continue
+        extra = set(e) - {"kind", "en", "zh", "cat"}
+        if extra: errors.append(f"{tag}：不认识的字段 {sorted(extra)}")
+        if e.get("kind") not in OFFICIAL_KINDS: errors.append(f"{tag}：kind「{e.get('kind')}」不对")
+        for k in ("en", "zh"):
+            if not isinstance(e.get(k), str) or not e[k].strip(): errors.append(f"{tag}：缺少 {k}")
+        if "cat" in e:
+            if e["cat"] not in OFFICIAL_CATS: errors.append(f"{tag}：cat 只能是 ship / structure")
+            if e.get("kind") != "type": errors.append(f"{tag}：cat 只能出现在 kind: type 的条目上")
+    cats = Counter(e["cat"] for e in entries if isinstance(e, dict) and "cat" in e)
+    print(f"官方表共 {len(entries)} 条（舰船 {cats['ship']}，建筑 {cats['structure']}）：{len(errors)} 个错误")
+    return errors
 
 
 def main():
@@ -67,7 +98,9 @@ def main():
     for w in warns: print("警告：" + w)
     for x in errors: print("错误：" + x)
     print(f"共 {len(data)} 条：{len(errors)} 个错误，{len(warns)} 个警告")
-    sys.exit(1 if errors else 0)
+    official_errors = check_official()
+    for x in official_errors: print("错误：" + x)
+    sys.exit(1 if errors or official_errors else 0)
 
 
 if __name__ == "__main__":

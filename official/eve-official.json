@@ -1,7 +1,7 @@
 {
-"source": "CCP hf. EVE Online Static Data Export (Tranquility), build 3552227",
-"buildNumber": 3552227,
-"generatedAt": "2026-09-29T12:07:10.130Z",
+"source": "CCP hf. EVE Online Static Data Export (Tranquility), build 3579973",
+"buildNumber": 3579973,
+"generatedAt": "2026-10-06T12:09:11.069Z",
 "license": "EVE Developer License Agreement (non-commercial). NOT covered by CC BY 4.0. See official/NOTICE.md",
 "count": 12396,
 "entries": [
@@ -4178,7 +4178,8 @@
 {
 "kind": "type",
 "en": "'Draccous' Fortizar",
-"zh": "\"德拉库斯\"铁壁"
+"zh": "\"德拉库斯\"铁壁",
+"cat": "structure"
 },
 {
 "kind": "type",
@@ -4328,7 +4329,8 @@
 {
 "kind": "type",
 "en": "'Horizon' Fortizar",
-"zh": "\"地平线\"铁壁"
+"zh": "\"地平线\"铁壁",
+"cat": "structure"
 },
 {
 "kind": "type",
@@ -4513,7 +4515,8 @@
 {
 "kind": "type",
 "en": "'Marginis' Fortizar",
-"zh": "\"马金尼斯\"铁壁"
+"zh": "\"马金尼斯\"铁壁",
+"cat": "structure"
 },
 {
 "kind": "type",
@@ -4553,7 +4556,8 @@
 {
 "kind": "type",
 "en": "'Moreau' Fortizar",
-"zh": "\"莫罗\"铁壁"
+"zh": "\"莫罗\"铁壁",
+"cat": "structure"
 },
 {
 "kind": "type",
@@ -4673,7 +4677,8 @@
 {
 "kind": "type",
 "en": "'Prometheus' Fortizar",
-"zh": "\"普罗米修斯\"铁壁"
+"zh": "\"普罗米修斯\"铁壁",
+"cat": "structure"
 },
 {
 "kind": "type",
@@ -5978,12 +5983,14 @@
 {
 "kind": "type",
 "en": "Abaddon",
-"zh": "地狱天使级"
+"zh": "地狱天使级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Absolution",
-"zh": "救赎级"
+"zh": "救赎级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -6058,7 +6065,8 @@
 {
 "kind": "type",
 "en": "Adrestia",
-"zh": "复仇女神级"
+"zh": "复仇女神级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -6108,7 +6116,8 @@
 {
 "kind": "type",
 "en": "Aeon",
-"zh": "万古级"
+"zh": "万古级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -6373,12 +6382,14 @@
 {
 "kind": "type",
 "en": "Algos",
-"zh": "阿尔格斯级"
+"zh": "阿尔格斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Algos Navy Issue",
-"zh": "阿尔格斯级海军型"
+"zh": "阿尔格斯级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -6388,7 +6399,8 @@
 {
 "kind": "type",
 "en": "Alligator",
-"zh": "短吻鳄级"
+"zh": "短吻鳄级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -6473,7 +6485,8 @@
 {
 "kind": "type",
 "en": "Amarr Shuttle",
-"zh": "艾玛穿梭机"
+"zh": "艾玛穿梭机",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -6878,7 +6891,8 @@
 {
 "kind": "type",
 "en": "Anathema",
-"zh": "咒逐级"
+"zh": "咒逐级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -7038,7 +7052,8 @@
 {
 "kind": "type",
 "en": "Anhinga",
-"zh": "蛇鹈号"
+"zh": "蛇鹈号",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -7113,12 +7128,14 @@
 {
 "kind": "type",
 "en": "Anshar",
-"zh": "安莎尔级"
+"zh": "安莎尔级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Ansiblex Jump Bridge",
-"zh": "安塞波跳跃桥接"
+"zh": "安塞波跳跃桥接",
+"cat": "structure"
 },
 {
 "kind": "type",
@@ -7193,27 +7210,32 @@
 {
 "kind": "type",
 "en": "Apocalypse",
-"zh": "灾难级"
+"zh": "灾难级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Apocalypse Imperial Issue",
-"zh": "灾难级帝国型"
+"zh": "灾难级帝国型",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Apocalypse Navy Issue",
-"zh": "灾难级海军型"
+"zh": "灾难级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Apostle",
-"zh": "使徒级"
+"zh": "使徒级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Apotheosis",
-"zh": "神圣穿梭机"
+"zh": "神圣穿梭机",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -7223,7 +7245,8 @@
 {
 "kind": "type",
 "en": "Arazu",
-"zh": "埃拉兹级"
+"zh": "埃拉兹级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -7248,7 +7271,8 @@
 {
 "kind": "type",
 "en": "Arbitrator",
-"zh": "主宰级"
+"zh": "主宰级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -7413,17 +7437,20 @@
 {
 "kind": "type",
 "en": "Archon",
-"zh": "执政官级"
+"zh": "执政官级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Ares",
-"zh": "阿瑞斯级"
+"zh": "阿瑞斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Ark",
-"zh": "方舟级"
+"zh": "方舟级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -7448,17 +7475,20 @@
 {
 "kind": "type",
 "en": "Armageddon",
-"zh": "末日沙场级"
+"zh": "末日沙场级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Armageddon Imperial Issue",
-"zh": "末日沙场级帝国型"
+"zh": "末日沙场级帝国型",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Armageddon Navy Issue",
-"zh": "末日沙场级海军型"
+"zh": "末日沙场级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -7538,7 +7568,8 @@
 {
 "kind": "type",
 "en": "Ashimmu",
-"zh": "阿什姆级"
+"zh": "阿什姆级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -7583,17 +7614,20 @@
 {
 "kind": "type",
 "en": "Astarte",
-"zh": "阿施塔特级"
+"zh": "阿施塔特级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Astero",
-"zh": "阿斯特罗级"
+"zh": "阿斯特罗级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Astrahus",
-"zh": "空堡"
+"zh": "空堡",
+"cat": "structure"
 },
 {
 "kind": "type",
@@ -7623,7 +7657,8 @@
 {
 "kind": "type",
 "en": "Athanor",
-"zh": "阿塔诺"
+"zh": "阿塔诺",
+"cat": "structure"
 },
 {
 "kind": "type",
@@ -7638,17 +7673,20 @@
 {
 "kind": "type",
 "en": "Atron",
-"zh": "阿特龙级"
+"zh": "阿特龙级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Augoror",
-"zh": "奥格诺级"
+"zh": "奥格诺级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Augoror Navy Issue",
-"zh": "奥格诺级海军型"
+"zh": "奥格诺级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -7713,12 +7751,14 @@
 {
 "kind": "type",
 "en": "Avalanche",
-"zh": "雪崩级"
+"zh": "雪崩级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Avatar",
-"zh": "神使级"
+"zh": "神使级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -7728,12 +7768,14 @@
 {
 "kind": "type",
 "en": "Azariel",
-"zh": "阿扎里尔级"
+"zh": "阿扎里尔级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Azbel",
-"zh": "阿兹贝尔"
+"zh": "阿兹贝尔",
+"cat": "structure"
 },
 {
 "kind": "type",
@@ -7763,12 +7805,14 @@
 {
 "kind": "type",
 "en": "Babaroga",
-"zh": "巴巴罗加号"
+"zh": "巴巴罗加号",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Badger",
-"zh": "獾级"
+"zh": "獾级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -7798,12 +7842,14 @@
 {
 "kind": "type",
 "en": "Bane",
-"zh": "破坏者"
+"zh": "破坏者",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Bantam",
-"zh": "矮脚鸡级"
+"zh": "矮脚鸡级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -7828,7 +7874,8 @@
 {
 "kind": "type",
 "en": "Barghest",
-"zh": "巴盖斯级"
+"zh": "巴盖斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -7883,7 +7930,8 @@
 {
 "kind": "type",
 "en": "Basilisk",
-"zh": "皇冠蜥级"
+"zh": "皇冠蜥级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -8213,7 +8261,8 @@
 {
 "kind": "type",
 "en": "Bellicose",
-"zh": "挑战级"
+"zh": "挑战级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -8238,12 +8287,14 @@
 {
 "kind": "type",
 "en": "Bestla",
-"zh": "贝斯特拉"
+"zh": "贝斯特拉",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Bestower",
-"zh": "恩赐者级"
+"zh": "恩赐者级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -8263,12 +8314,14 @@
 {
 "kind": "type",
 "en": "Bhaalgorn",
-"zh": "巴戈龙级"
+"zh": "巴戈龙级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Bifrost",
-"zh": "天梯级"
+"zh": "天梯级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -8373,7 +8426,8 @@
 {
 "kind": "type",
 "en": "Blackbird",
-"zh": "黑鸟级"
+"zh": "黑鸟级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -8753,7 +8807,8 @@
 {
 "kind": "type",
 "en": "Boobook",
-"zh": "鹰鸮级"
+"zh": "鹰鸮级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -8803,7 +8858,8 @@
 {
 "kind": "type",
 "en": "Bowhead",
-"zh": "弓头鲸级"
+"zh": "弓头鲸级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -8813,7 +8869,8 @@
 {
 "kind": "type",
 "en": "Breacher",
-"zh": "分裂者级"
+"zh": "分裂者级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -8843,7 +8900,8 @@
 {
 "kind": "type",
 "en": "Broadsword",
-"zh": "阔刀级"
+"zh": "阔刀级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -9028,12 +9086,14 @@
 {
 "kind": "type",
 "en": "Brutix",
-"zh": "布鲁提克斯级"
+"zh": "布鲁提克斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Brutix Navy Issue",
-"zh": "布鲁提克斯级海军型"
+"zh": "布鲁提克斯级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -9193,7 +9253,8 @@
 {
 "kind": "type",
 "en": "Burst",
-"zh": "爆发级"
+"zh": "爆发级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -9208,12 +9269,14 @@
 {
 "kind": "type",
 "en": "Bustard",
-"zh": "大鸨级"
+"zh": "大鸨级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Buzzard",
-"zh": "秃鹰级"
+"zh": "秃鹰级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -9248,7 +9311,8 @@
 {
 "kind": "type",
 "en": "Caedes",
-"zh": "凯帝斯级"
+"zh": "凯帝斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -9263,7 +9327,8 @@
 {
 "kind": "type",
 "en": "Caiman",
-"zh": "凯门鳄级"
+"zh": "凯门鳄级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -9498,7 +9563,8 @@
 {
 "kind": "type",
 "en": "Caldari Navy Hookbill",
-"zh": "加达里海军霍克比尔级"
+"zh": "加达里海军霍克比尔级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -9953,7 +10019,8 @@
 {
 "kind": "type",
 "en": "Caldari Shuttle",
-"zh": "加达里穿梭机"
+"zh": "加达里穿梭机",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -9988,7 +10055,8 @@
 {
 "kind": "type",
 "en": "Cambion",
-"zh": "魔裔级"
+"zh": "魔裔级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -11598,12 +11666,14 @@
 {
 "kind": "type",
 "en": "Caracal",
-"zh": "狞獾级"
+"zh": "狞獾级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Caracal Navy Issue",
-"zh": "狞獾级海军型"
+"zh": "狞獾级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -11708,12 +11778,14 @@
 {
 "kind": "type",
 "en": "Catalyst",
-"zh": "促进级"
+"zh": "促进级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Catalyst Navy Issue",
-"zh": "促进级海军型"
+"zh": "促进级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -11723,7 +11795,8 @@
 {
 "kind": "type",
 "en": "Celestis",
-"zh": "星空级"
+"zh": "星空级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -11738,7 +11811,8 @@
 {
 "kind": "type",
 "en": "Cenotaph",
-"zh": "纪念碑级"
+"zh": "纪念碑级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -12093,7 +12167,8 @@
 {
 "kind": "type",
 "en": "Cerberus",
-"zh": "希尔博拉斯级"
+"zh": "希尔博拉斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -12103,7 +12178,8 @@
 {
 "kind": "type",
 "en": "Chameleon",
-"zh": "变色龙级"
+"zh": "变色龙级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -12133,7 +12209,8 @@
 {
 "kind": "type",
 "en": "Charon",
-"zh": "渡神级"
+"zh": "渡神级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -12143,7 +12220,8 @@
 {
 "kind": "type",
 "en": "Cheetah",
-"zh": "猎豹级"
+"zh": "猎豹级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -12288,7 +12366,8 @@
 {
 "kind": "type",
 "en": "Chemosh",
-"zh": "基抹级"
+"zh": "基抹级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -12298,12 +12377,14 @@
 {
 "kind": "type",
 "en": "Chimera",
-"zh": "奇美拉级"
+"zh": "奇美拉级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Chremoas",
-"zh": "克雷默斯级"
+"zh": "克雷默斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -12423,12 +12504,14 @@
 {
 "kind": "type",
 "en": "Claw",
-"zh": "利爪级"
+"zh": "利爪级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Claymore",
-"zh": "月刃级"
+"zh": "月刃级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -12508,17 +12591,20 @@
 {
 "kind": "type",
 "en": "Cobra",
-"zh": "眼镜蛇级"
+"zh": "眼镜蛇级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Coercer",
-"zh": "强制者级"
+"zh": "强制者级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Coercer Navy Issue",
-"zh": "强制者级海军型"
+"zh": "强制者级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -13863,7 +13949,8 @@
 {
 "kind": "type",
 "en": "Condor",
-"zh": "秃鹫级"
+"zh": "秃鹫级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -13878,7 +13965,8 @@
 {
 "kind": "type",
 "en": "Confessor",
-"zh": "忏悔者级"
+"zh": "忏悔者级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -14008,12 +14096,14 @@
 {
 "kind": "type",
 "en": "Corax",
-"zh": "渡鸦级"
+"zh": "渡鸦级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Corax Navy Issue",
-"zh": "渡鸦级海军型"
+"zh": "渡鸦级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -14593,12 +14683,14 @@
 {
 "kind": "type",
 "en": "Cormorant",
-"zh": "海燕级"
+"zh": "海燕级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Cormorant Navy Issue",
-"zh": "海燕级海军型"
+"zh": "海燕级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -15023,7 +15115,8 @@
 {
 "kind": "type",
 "en": "Council Diplomatic Shuttle",
-"zh": "议会外交穿梭机"
+"zh": "议会外交穿梭机",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -15068,7 +15161,8 @@
 {
 "kind": "type",
 "en": "Covetor",
-"zh": "妄想级"
+"zh": "妄想级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -15078,7 +15172,8 @@
 {
 "kind": "type",
 "en": "Crane",
-"zh": "天鹤级"
+"zh": "天鹤级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -15143,7 +15238,8 @@
 {
 "kind": "type",
 "en": "Crow",
-"zh": "黑鸦级"
+"zh": "黑鸦级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -15153,12 +15249,14 @@
 {
 "kind": "type",
 "en": "Crucifier",
-"zh": "磨难级"
+"zh": "磨难级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Crucifier Navy Issue",
-"zh": "磨难级海军型"
+"zh": "磨难级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -15178,12 +15276,14 @@
 {
 "kind": "type",
 "en": "Cruor",
-"zh": "凝血级"
+"zh": "凝血级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Crusader",
-"zh": "十字军级"
+"zh": "十字军级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -15308,7 +15408,8 @@
 {
 "kind": "type",
 "en": "Curse",
-"zh": "诅咒级"
+"zh": "诅咒级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -15318,7 +15419,8 @@
 {
 "kind": "type",
 "en": "Cybele",
-"zh": "西布勒级"
+"zh": "西布勒级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -15348,12 +15450,14 @@
 {
 "kind": "type",
 "en": "Cyclone",
-"zh": "飓风级"
+"zh": "飓风级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Cyclone Fleet Issue",
-"zh": "飓风级舰队型"
+"zh": "飓风级舰队型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -15368,7 +15472,8 @@
 {
 "kind": "type",
 "en": "Cynabal",
-"zh": "塞纳波级"
+"zh": "塞纳波级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -15393,7 +15498,8 @@
 {
 "kind": "type",
 "en": "Dagon",
-"zh": "大衮级"
+"zh": "大衮级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -15423,17 +15529,20 @@
 {
 "kind": "type",
 "en": "Damavik",
-"zh": "达玛维克级"
+"zh": "达玛维克级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Damnation",
-"zh": "永灭级"
+"zh": "永灭级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Daredevil",
-"zh": "夜魔侠级"
+"zh": "夜魔侠级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -16193,7 +16302,8 @@
 {
 "kind": "type",
 "en": "Deacon",
-"zh": "执事级"
+"zh": "执事级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -16638,12 +16748,14 @@
 {
 "kind": "type",
 "en": "Deimos",
-"zh": "戴默斯级"
+"zh": "戴默斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Deluge",
-"zh": "洪水级"
+"zh": "洪水级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -16683,7 +16795,8 @@
 {
 "kind": "type",
 "en": "Devoter",
-"zh": "奉献级"
+"zh": "奉献级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -17403,12 +17516,14 @@
 {
 "kind": "type",
 "en": "Dominix",
-"zh": "多米尼克斯级"
+"zh": "多米尼克斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Dominix Navy Issue",
-"zh": "多米尼克斯级海军型"
+"zh": "多米尼克斯级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -17563,32 +17678,38 @@
 {
 "kind": "type",
 "en": "Dragoon",
-"zh": "龙骑兵级"
+"zh": "龙骑兵级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Dragoon Navy Issue",
-"zh": "龙骑兵级海军型"
+"zh": "龙骑兵级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Drake",
-"zh": "幼龙级"
+"zh": "幼龙级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Drake Navy Issue",
-"zh": "幼龙级海军型"
+"zh": "幼龙级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Dramiel",
-"zh": "德拉米尔级"
+"zh": "德拉米尔级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Draugur",
-"zh": "德拉古级"
+"zh": "德拉古级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -18253,7 +18374,8 @@
 {
 "kind": "type",
 "en": "Drekavac",
-"zh": "德雷卡瓦级"
+"zh": "德雷卡瓦级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -18708,7 +18830,8 @@
 {
 "kind": "type",
 "en": "Eagle",
-"zh": "银鹰级"
+"zh": "银鹰级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -18718,12 +18841,14 @@
 {
 "kind": "type",
 "en": "Echelon",
-"zh": "梯队级"
+"zh": "梯队级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Echo",
-"zh": "回声级"
+"zh": "回声级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -19433,7 +19558,8 @@
 {
 "kind": "type",
 "en": "Endurance",
-"zh": "永恒者级"
+"zh": "永恒者级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -19503,7 +19629,8 @@
 {
 "kind": "type",
 "en": "Enforcer",
-"zh": "执法者级"
+"zh": "执法者级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -19578,12 +19705,14 @@
 {
 "kind": "type",
 "en": "Enyo",
-"zh": "恩尤级"
+"zh": "恩尤级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Eos",
-"zh": "曙光女神级"
+"zh": "曙光女神级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -19593,7 +19722,8 @@
 {
 "kind": "type",
 "en": "Epithal",
-"zh": "埃比斯级"
+"zh": "埃比斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -19618,12 +19748,14 @@
 {
 "kind": "type",
 "en": "Erebus",
-"zh": "俄洛巴斯级"
+"zh": "俄洛巴斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Eris",
-"zh": "厄里斯级"
+"zh": "厄里斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -19783,7 +19915,8 @@
 {
 "kind": "type",
 "en": "Etana",
-"zh": "伊塔那级"
+"zh": "伊塔那级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -19838,17 +19971,20 @@
 {
 "kind": "type",
 "en": "Executioner",
-"zh": "刽子手级"
+"zh": "刽子手级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Exequror",
-"zh": "送葬者级"
+"zh": "送葬者级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Exequror Navy Issue",
-"zh": "送葬者级海军型"
+"zh": "送葬者级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -20298,7 +20434,8 @@
 {
 "kind": "type",
 "en": "Falcon",
-"zh": "战隼级"
+"zh": "战隼级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -20513,7 +20650,8 @@
 {
 "kind": "type",
 "en": "Federation Navy Comet",
-"zh": "联邦海军彗星级"
+"zh": "联邦海军彗星级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -20968,7 +21106,8 @@
 {
 "kind": "type",
 "en": "Fenrir",
-"zh": "芬利厄级"
+"zh": "芬利厄级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -20993,12 +21132,14 @@
 {
 "kind": "type",
 "en": "Ferox",
-"zh": "猛鲑级"
+"zh": "猛鲑级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Ferox Navy Issue",
-"zh": "猛鲑级海军型"
+"zh": "猛鲑级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -21023,7 +21164,8 @@
 {
 "kind": "type",
 "en": "Fiend",
-"zh": "恶魔级"
+"zh": "恶魔级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -21108,7 +21250,8 @@
 {
 "kind": "type",
 "en": "Flycatcher",
-"zh": "飞燕级"
+"zh": "飞燕级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -21203,7 +21346,8 @@
 {
 "kind": "type",
 "en": "Fortizar",
-"zh": "铁壁"
+"zh": "铁壁",
+"cat": "structure"
 },
 {
 "kind": "type",
@@ -21238,7 +21382,8 @@
 {
 "kind": "type",
 "en": "Freki",
-"zh": "暴狼级"
+"zh": "暴狼级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -21348,7 +21493,8 @@
 {
 "kind": "type",
 "en": "Gaia",
-"zh": "盖亚级"
+"zh": "盖亚级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -21433,7 +21579,8 @@
 {
 "kind": "type",
 "en": "Gallente Shuttle",
-"zh": "盖伦特穿梭机"
+"zh": "盖伦特穿梭机",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -21528,7 +21675,8 @@
 {
 "kind": "type",
 "en": "Garmur",
-"zh": "加姆级"
+"zh": "加姆级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -21653,12 +21801,14 @@
 {
 "kind": "type",
 "en": "Geri",
-"zh": "格里级"
+"zh": "格里级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Gila",
-"zh": "毒蜥级"
+"zh": "毒蜥级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -23028,7 +23178,8 @@
 {
 "kind": "type",
 "en": "Gnosis",
-"zh": "灵感级"
+"zh": "灵感级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -23038,17 +23189,20 @@
 {
 "kind": "type",
 "en": "Gold Magnate",
-"zh": "黄金富豪级"
+"zh": "黄金富豪级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Golem",
-"zh": "魔像级"
+"zh": "魔像级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Goru's Shuttle",
-"zh": "高鲁的穿梭机"
+"zh": "高鲁的穿梭机",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -23593,17 +23747,20 @@
 {
 "kind": "type",
 "en": "Griffin",
-"zh": "狮鹫级"
+"zh": "狮鹫级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Griffin Navy Issue",
-"zh": "狮鹫级海军型"
+"zh": "狮鹫级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Guardian",
-"zh": "守卫级"
+"zh": "守卫级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -23768,7 +23925,8 @@
 {
 "kind": "type",
 "en": "Guardian-Vexor",
-"zh": "狂怒守卫者级"
+"zh": "狂怒守卫者级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -24203,7 +24361,8 @@
 {
 "kind": "type",
 "en": "Guristas Shuttle",
-"zh": "古斯塔斯穿梭机"
+"zh": "古斯塔斯穿梭机",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -24493,17 +24652,20 @@
 {
 "kind": "type",
 "en": "Harbinger",
-"zh": "先驱者级"
+"zh": "先驱者级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Harbinger Navy Issue",
-"zh": "先驱者级海军型"
+"zh": "先驱者级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Harpy",
-"zh": "女妖级"
+"zh": "女妖级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -24513,7 +24675,8 @@
 {
 "kind": "type",
 "en": "Hawk",
-"zh": "战鹰级"
+"zh": "战鹰级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -24873,7 +25036,8 @@
 {
 "kind": "type",
 "en": "Hecate",
-"zh": "赫卡特级"
+"zh": "赫卡特级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -24898,12 +25062,14 @@
 {
 "kind": "type",
 "en": "Hel",
-"zh": "冥府级"
+"zh": "冥府级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Helios",
-"zh": "太阳神级"
+"zh": "太阳神级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -24918,7 +25084,8 @@
 {
 "kind": "type",
 "en": "Hematos",
-"zh": "未来人类级"
+"zh": "未来人类级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -24943,7 +25110,8 @@
 {
 "kind": "type",
 "en": "Heretic",
-"zh": "异端级"
+"zh": "异端级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -24953,12 +25121,14 @@
 {
 "kind": "type",
 "en": "Heron",
-"zh": "苍鹭级"
+"zh": "苍鹭级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Heron Navy Issue",
-"zh": "苍鹭级海军型"
+"zh": "苍鹭级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -25508,7 +25678,8 @@
 {
 "kind": "type",
 "en": "Hoarder",
-"zh": "囤积者级"
+"zh": "囤积者级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -25573,32 +25744,38 @@
 {
 "kind": "type",
 "en": "Hound",
-"zh": "猎犬级"
+"zh": "猎犬级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Hubris",
-"zh": "狂徒"
+"zh": "狂徒",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Huginn",
-"zh": "休津级"
+"zh": "休津级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Hulk",
-"zh": "霍克级"
+"zh": "霍克级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Hurricane",
-"zh": "暴风级"
+"zh": "暴风级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Hurricane Fleet Issue",
-"zh": "暴风级舰队型"
+"zh": "暴风级舰队型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -25618,7 +25795,8 @@
 {
 "kind": "type",
 "en": "Hydra",
-"zh": "九头蛇级"
+"zh": "九头蛇级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -25648,7 +25826,8 @@
 {
 "kind": "type",
 "en": "Hyena",
-"zh": "土狼级"
+"zh": "土狼级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -25683,7 +25862,8 @@
 {
 "kind": "type",
 "en": "Hyperion",
-"zh": "亥伯龙神级"
+"zh": "亥伯龙神级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -25713,7 +25893,8 @@
 {
 "kind": "type",
 "en": "Ibis",
-"zh": "伊毕斯号"
+"zh": "伊毕斯号",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -25763,7 +25944,8 @@
 {
 "kind": "type",
 "en": "Ikitursa",
-"zh": "伊基图萨级"
+"zh": "伊基图萨级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -25773,32 +25955,38 @@
 {
 "kind": "type",
 "en": "Imicus",
-"zh": "伊米卡斯级"
+"zh": "伊米卡斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Imicus Navy Issue",
-"zh": "伊米卡斯级海军型"
+"zh": "伊米卡斯级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Immolator",
-"zh": "献祭者级"
+"zh": "献祭者级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Imp",
-"zh": "小鬼级"
+"zh": "小鬼级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Impairor",
-"zh": "帝国号"
+"zh": "帝国号",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Impel",
-"zh": "激进级"
+"zh": "激进级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -26318,7 +26506,8 @@
 {
 "kind": "type",
 "en": "Imperial Navy Slicer",
-"zh": "帝国海军切割机级"
+"zh": "帝国海军切割机级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -26503,7 +26692,8 @@
 {
 "kind": "type",
 "en": "Incursus",
-"zh": "因卡萨斯级"
+"zh": "因卡萨斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -27343,7 +27533,8 @@
 {
 "kind": "type",
 "en": "Inquisitor",
-"zh": "检察官级"
+"zh": "检察官级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -27383,7 +27574,8 @@
 {
 "kind": "type",
 "en": "InterBus Shuttle",
-"zh": "星际捷运穿梭机"
+"zh": "星际捷运穿梭机",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -27508,12 +27700,14 @@
 {
 "kind": "type",
 "en": "Ishkur",
-"zh": "伊什库尔级"
+"zh": "伊什库尔级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Ishtar",
-"zh": "伊什塔级"
+"zh": "伊什塔级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -27548,7 +27742,8 @@
 {
 "kind": "type",
 "en": "Iteron Mark V",
-"zh": "伊特龙级MKV"
+"zh": "伊特龙级MKV",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -27563,12 +27758,14 @@
 {
 "kind": "type",
 "en": "Jackdaw",
-"zh": "寒鸦级"
+"zh": "寒鸦级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Jaguar",
-"zh": "美洲虎级"
+"zh": "美洲虎级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -27808,7 +28005,8 @@
 {
 "kind": "type",
 "en": "Karura",
-"zh": "迦楼罗"
+"zh": "迦楼罗",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -27823,7 +28021,8 @@
 {
 "kind": "type",
 "en": "Keepstar",
-"zh": "星城"
+"zh": "星城",
+"cat": "structure"
 },
 {
 "kind": "type",
@@ -27833,7 +28032,8 @@
 {
 "kind": "type",
 "en": "Keres",
-"zh": "克勒斯级"
+"zh": "克勒斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -27858,7 +28058,8 @@
 {
 "kind": "type",
 "en": "Kestrel",
-"zh": "茶隼级"
+"zh": "茶隼级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -28073,7 +28274,8 @@
 {
 "kind": "type",
 "en": "Khizriel",
-"zh": "希兹里尔级"
+"zh": "希兹里尔级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -28088,7 +28290,8 @@
 {
 "kind": "type",
 "en": "Kikimora",
-"zh": "奇奇莫拉级"
+"zh": "奇奇莫拉级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -28143,17 +28346,20 @@
 {
 "kind": "type",
 "en": "Kirin",
-"zh": "麒麟级"
+"zh": "麒麟级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Kitsune",
-"zh": "狐妖级"
+"zh": "狐妖级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Komodo",
-"zh": "科莫多级"
+"zh": "科莫多级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -28168,7 +28374,8 @@
 {
 "kind": "type",
 "en": "Kronos",
-"zh": "克洛诺斯级"
+"zh": "克洛诺斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -28178,7 +28385,8 @@
 {
 "kind": "type",
 "en": "Kryos",
-"zh": "克琉斯级"
+"zh": "克琉斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -28208,7 +28416,8 @@
 {
 "kind": "type",
 "en": "Lachesis",
-"zh": "拉克希斯级"
+"zh": "拉克希斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -28233,7 +28442,8 @@
 {
 "kind": "type",
 "en": "Laelaps",
-"zh": "猎獒级"
+"zh": "猎獒级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -29498,7 +29708,8 @@
 {
 "kind": "type",
 "en": "Legion",
-"zh": "圣卒级"
+"zh": "圣卒级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -29648,17 +29859,20 @@
 {
 "kind": "type",
 "en": "Leopard",
-"zh": "美洲豹级"
+"zh": "美洲豹级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Leshak",
-"zh": "勒沙克级"
+"zh": "勒沙克级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Leviathan",
-"zh": "勒维亚坦级"
+"zh": "勒维亚坦级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -29673,7 +29887,8 @@
 {
 "kind": "type",
 "en": "Lif",
-"zh": "利夫级"
+"zh": "利夫级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -29948,7 +30163,8 @@
 {
 "kind": "type",
 "en": "Loggerhead",
-"zh": "赤龟级"
+"zh": "赤龟级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -29958,7 +30174,8 @@
 {
 "kind": "type",
 "en": "Loki",
-"zh": "洛基级"
+"zh": "洛基级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -30693,27 +30910,32 @@
 {
 "kind": "type",
 "en": "Machariel",
-"zh": "马克瑞级"
+"zh": "马克瑞级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Mackinaw",
-"zh": "麦基诺级"
+"zh": "麦基诺级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Maelstrom",
-"zh": "死亡漩涡级"
+"zh": "死亡漩涡级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Magnate",
-"zh": "富豪级"
+"zh": "富豪级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Magnate Navy Issue",
-"zh": "富豪级海军型"
+"zh": "富豪级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -30753,7 +30975,8 @@
 {
 "kind": "type",
 "en": "Magus",
-"zh": "占星级"
+"zh": "占星级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -30798,7 +31021,8 @@
 {
 "kind": "type",
 "en": "Malediction",
-"zh": "咒灭级"
+"zh": "咒灭级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -30808,12 +31032,14 @@
 {
 "kind": "type",
 "en": "Malice",
-"zh": "恶意级"
+"zh": "恶意级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Maller",
-"zh": "暴君级"
+"zh": "暴君级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -30828,17 +31054,20 @@
 {
 "kind": "type",
 "en": "Mamba",
-"zh": "曼巴级"
+"zh": "曼巴级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Mammoth",
-"zh": "猛犸级"
+"zh": "猛犸级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Manticore",
-"zh": "蝎尾怪级"
+"zh": "蝎尾怪级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -30898,7 +31127,8 @@
 {
 "kind": "type",
 "en": "Marshal",
-"zh": "元帅级"
+"zh": "元帅级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -30908,7 +31138,8 @@
 {
 "kind": "type",
 "en": "Mastodon",
-"zh": "巨象级"
+"zh": "巨象级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -30918,12 +31149,14 @@
 {
 "kind": "type",
 "en": "Maulus",
-"zh": "毛鲁斯级"
+"zh": "毛鲁斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Maulus Navy Issue",
-"zh": "毛鲁斯级海军型"
+"zh": "毛鲁斯级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -32283,22 +32516,26 @@
 {
 "kind": "type",
 "en": "Megathron",
-"zh": "万王宝座级"
+"zh": "万王宝座级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Megathron Federate Issue",
-"zh": "万王宝座级联邦型"
+"zh": "万王宝座级联邦型",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Megathron Navy Issue",
-"zh": "万王宝座级海军型"
+"zh": "万王宝座级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Mekubal",
-"zh": "梅库巴尔级"
+"zh": "梅库巴尔级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -32388,7 +32625,8 @@
 {
 "kind": "type",
 "en": "Merlin",
-"zh": "小鹰级"
+"zh": "小鹰级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -32448,7 +32686,8 @@
 {
 "kind": "type",
 "en": "Metamorphosis",
-"zh": "变形级"
+"zh": "变形级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -32458,7 +32697,8 @@
 {
 "kind": "type",
 "en": "Metenox Moon Drill",
-"zh": "梅特诺克斯卫星钻探"
+"zh": "梅特诺克斯卫星钻探",
+"cat": "structure"
 },
 {
 "kind": "type",
@@ -32473,22 +32713,26 @@
 {
 "kind": "type",
 "en": "Miasmos",
-"zh": "米亚莫斯级"
+"zh": "米亚莫斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Miasmos Amastris Edition",
-"zh": "米亚莫斯级阿玛斯翠丝版"
+"zh": "米亚莫斯级阿玛斯翠丝版",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Miasmos Quafe Ultra Edition",
-"zh": "米亚莫斯级酷菲特强版"
+"zh": "米亚莫斯级酷菲特强版",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Miasmos Quafe Ultramarine Edition",
-"zh": "米亚莫斯级酷菲深蓝版"
+"zh": "米亚莫斯级酷菲深蓝版",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -33163,7 +33407,8 @@
 {
 "kind": "type",
 "en": "Mimir",
-"zh": "弥米尔级"
+"zh": "弥米尔级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -33313,7 +33558,8 @@
 {
 "kind": "type",
 "en": "Minmatar Shuttle",
-"zh": "米玛塔尔穿梭机"
+"zh": "米玛塔尔穿梭机",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -33333,7 +33579,8 @@
 {
 "kind": "type",
 "en": "Minokawa",
-"zh": "龙鸟级"
+"zh": "龙鸟级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -33638,7 +33885,8 @@
 {
 "kind": "type",
 "en": "Moa",
-"zh": "巨鸟级"
+"zh": "巨鸟级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -33838,7 +34086,8 @@
 {
 "kind": "type",
 "en": "Molok",
-"zh": "摩洛克级"
+"zh": "摩洛克级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -33848,7 +34097,8 @@
 {
 "kind": "type",
 "en": "Monitor",
-"zh": "监视者级"
+"zh": "监视者级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -33858,7 +34108,8 @@
 {
 "kind": "type",
 "en": "Moracha",
-"zh": "莫拉查级"
+"zh": "莫拉查级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -33893,7 +34144,8 @@
 {
 "kind": "type",
 "en": "Moreau YC128 Campaign Bus",
-"zh": "YC128年莫罗竞选巴士"
+"zh": "YC128年莫罗竞选巴士",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -33903,12 +34155,14 @@
 {
 "kind": "type",
 "en": "Moros",
-"zh": "莫洛级"
+"zh": "莫洛级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Moros Navy Issue",
-"zh": "莫洛级海军型"
+"zh": "莫洛级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -33988,7 +34242,8 @@
 {
 "kind": "type",
 "en": "Muninn",
-"zh": "缪宁级"
+"zh": "缪宁级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -33998,12 +34253,14 @@
 {
 "kind": "type",
 "en": "Myrmidon",
-"zh": "弥洱米顿级"
+"zh": "弥洱米顿级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Myrmidon Navy Issue",
-"zh": "弥洱米顿级海军型"
+"zh": "弥洱米顿级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -34038,17 +34295,20 @@
 {
 "kind": "type",
 "en": "Naga",
-"zh": "娜迦级"
+"zh": "娜迦级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Naglfar",
-"zh": "纳迦法级"
+"zh": "纳迦法级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Naglfar Fleet Issue",
-"zh": "纳迦法级舰队型"
+"zh": "纳迦法级舰队型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -34143,7 +34403,8 @@
 {
 "kind": "type",
 "en": "Navitas",
-"zh": "纳维达斯级"
+"zh": "纳维达斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -34213,7 +34474,8 @@
 {
 "kind": "type",
 "en": "Nemesis",
-"zh": "纳美西斯级"
+"zh": "纳美西斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -34243,12 +34505,14 @@
 {
 "kind": "type",
 "en": "Nereus",
-"zh": "涅鲁斯级"
+"zh": "涅鲁斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Nergal",
-"zh": "涅伽尔级"
+"zh": "涅伽尔级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -34263,7 +34527,8 @@
 {
 "kind": "type",
 "en": "Nestor",
-"zh": "涅斯托级"
+"zh": "涅斯托级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -34338,17 +34603,20 @@
 {
 "kind": "type",
 "en": "Nidhoggur",
-"zh": "尼铎格尔级"
+"zh": "尼铎格尔级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Nighthawk",
-"zh": "夜鹰级"
+"zh": "夜鹰级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Nightmare",
-"zh": "噩梦级"
+"zh": "噩梦级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -34378,7 +34646,8 @@
 {
 "kind": "type",
 "en": "Ninazu",
-"zh": "尼纳苏级"
+"zh": "尼纳苏级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -34393,7 +34662,8 @@
 {
 "kind": "type",
 "en": "Noctis",
-"zh": "黑夜级"
+"zh": "黑夜级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -34443,7 +34713,8 @@
 {
 "kind": "type",
 "en": "Nomad",
-"zh": "游牧者级"
+"zh": "游牧者级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -34653,12 +34924,14 @@
 {
 "kind": "type",
 "en": "Nyx",
-"zh": "夜神级"
+"zh": "夜神级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Obelisk",
-"zh": "方尖塔级"
+"zh": "方尖塔级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -34673,7 +34946,8 @@
 {
 "kind": "type",
 "en": "Occator",
-"zh": "奥卡托级"
+"zh": "奥卡托级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -34713,7 +34987,8 @@
 {
 "kind": "type",
 "en": "Odysseus",
-"zh": "奥德修斯级"
+"zh": "奥德修斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -34773,12 +35048,14 @@
 {
 "kind": "type",
 "en": "Omen",
-"zh": "启示级"
+"zh": "启示级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Omen Navy Issue",
-"zh": "启示级海军型"
+"zh": "启示级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -34803,12 +35080,14 @@
 {
 "kind": "type",
 "en": "Oneiros",
-"zh": "奥内罗斯级"
+"zh": "奥内罗斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Onyx",
-"zh": "奥尼克斯级"
+"zh": "奥尼克斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -34848,17 +35127,20 @@
 {
 "kind": "type",
 "en": "Opux Luxury Yacht",
-"zh": "奥普克斯级豪华游轮"
+"zh": "奥普克斯级豪华游轮",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Oracle",
-"zh": "预言级"
+"zh": "预言级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Orca",
-"zh": "逆戟鲸级"
+"zh": "逆戟鲸级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -34918,7 +35200,8 @@
 {
 "kind": "type",
 "en": "Orthrus",
-"zh": "奥苏斯级"
+"zh": "奥苏斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -34928,12 +35211,14 @@
 {
 "kind": "type",
 "en": "Osprey",
-"zh": "鱼鹰级"
+"zh": "鱼鹰级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Osprey Navy Issue",
-"zh": "鱼鹰级海军型"
+"zh": "鱼鹰级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -34943,7 +35228,8 @@
 {
 "kind": "type",
 "en": "Outrider",
-"zh": "先驱级"
+"zh": "先驱级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -34993,12 +35279,14 @@
 {
 "kind": "type",
 "en": "Pacifier",
-"zh": "安抚者"
+"zh": "安抚者",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Paladin",
-"zh": "帕拉丁级"
+"zh": "帕拉丁级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -35043,7 +35331,8 @@
 {
 "kind": "type",
 "en": "Panther",
-"zh": "黑豹级"
+"zh": "黑豹级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -35128,7 +35417,8 @@
 {
 "kind": "type",
 "en": "Perseverance",
-"zh": "坚毅者级"
+"zh": "坚毅者级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -35143,12 +35433,14 @@
 {
 "kind": "type",
 "en": "Phantasm",
-"zh": "幽灵级"
+"zh": "幽灵级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Pharolux Cyno Beacon",
-"zh": "明灯诱导信标"
+"zh": "明灯诱导信标",
+"cat": "structure"
 },
 {
 "kind": "type",
@@ -35193,17 +35485,20 @@
 {
 "kind": "type",
 "en": "Phobos",
-"zh": "伏波斯级"
+"zh": "伏波斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Phoenix",
-"zh": "凤凰级"
+"zh": "凤凰级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Phoenix Navy Issue",
-"zh": "凤凰级海军型"
+"zh": "凤凰级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -35228,17 +35523,20 @@
 {
 "kind": "type",
 "en": "Pilgrim",
-"zh": "朝圣级"
+"zh": "朝圣级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Pioneer",
-"zh": "开拓者级"
+"zh": "开拓者级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Pioneer Consortium Issue",
-"zh": "开拓者级财团型"
+"zh": "开拓者级财团型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -35688,12 +35986,14 @@
 {
 "kind": "type",
 "en": "Pontifex",
-"zh": "教皇级"
+"zh": "教皇级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Porpoise",
-"zh": "海豚级"
+"zh": "海豚级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -35828,7 +36128,8 @@
 {
 "kind": "type",
 "en": "Praxis",
-"zh": "实践级"
+"zh": "实践级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -35878,7 +36179,8 @@
 {
 "kind": "type",
 "en": "Primae",
-"zh": "元始级"
+"zh": "元始级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -35903,17 +36205,20 @@
 {
 "kind": "type",
 "en": "Probe",
-"zh": "探索级"
+"zh": "探索级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Probe Fleet Issue",
-"zh": "探索级舰队型"
+"zh": "探索级舰队型",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Procurer",
-"zh": "猎获级"
+"zh": "猎获级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -35948,22 +36253,26 @@
 {
 "kind": "type",
 "en": "Prophecy",
-"zh": "先知级"
+"zh": "先知级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Prophecy Navy Issue",
-"zh": "先知级海军型"
+"zh": "先知级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Prorator",
-"zh": "分裂级"
+"zh": "分裂级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Prospect",
-"zh": "掘金者级"
+"zh": "掘金者级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -35978,7 +36287,8 @@
 {
 "kind": "type",
 "en": "Proteus",
-"zh": "海神级"
+"zh": "海神级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -36148,12 +36458,14 @@
 {
 "kind": "type",
 "en": "Providence",
-"zh": "普罗维登斯级"
+"zh": "普罗维登斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Prowler",
-"zh": "徘徊者级"
+"zh": "徘徊者级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -36183,7 +36495,8 @@
 {
 "kind": "type",
 "en": "Punisher",
-"zh": "惩罚者级"
+"zh": "惩罚者级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -36348,7 +36661,8 @@
 {
 "kind": "type",
 "en": "Purifier",
-"zh": "净化级"
+"zh": "净化级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -36388,7 +36702,8 @@
 {
 "kind": "type",
 "en": "Python",
-"zh": "巨蟒级"
+"zh": "巨蟒级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -36623,7 +36938,8 @@
 {
 "kind": "type",
 "en": "Rabisu",
-"zh": "拉比苏级"
+"zh": "拉比苏级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -36733,17 +37049,20 @@
 {
 "kind": "type",
 "en": "Ragnarok",
-"zh": "拉格纳洛克级"
+"zh": "拉格纳洛克级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Raiju",
-"zh": "雷兽级"
+"zh": "雷兽级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Raitaru",
-"zh": "莱塔卢"
+"zh": "莱塔卢",
+"cat": "structure"
 },
 {
 "kind": "type",
@@ -36843,12 +37162,14 @@
 {
 "kind": "type",
 "en": "Rapier",
-"zh": "长剑级"
+"zh": "长剑级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Raptor",
-"zh": "猛禽级"
+"zh": "猛禽级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -36893,22 +37214,26 @@
 {
 "kind": "type",
 "en": "Rattlesnake",
-"zh": "响尾蛇级"
+"zh": "响尾蛇级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Raven",
-"zh": "乌鸦级"
+"zh": "乌鸦级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Raven Navy Issue",
-"zh": "乌鸦级海军型"
+"zh": "乌鸦级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Raven State Issue",
-"zh": "乌鸦级政府型"
+"zh": "乌鸦级政府型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -37078,7 +37403,8 @@
 {
 "kind": "type",
 "en": "Reaper",
-"zh": "死神号"
+"zh": "死神号",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -37118,7 +37444,8 @@
 {
 "kind": "type",
 "en": "Redeemer",
-"zh": "救世级"
+"zh": "救世级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -37583,7 +37910,8 @@
 {
 "kind": "type",
 "en": "Republic Fleet Firetail",
-"zh": "共和舰队火尾鸡级"
+"zh": "共和舰队火尾鸡级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -38083,22 +38411,26 @@
 {
 "kind": "type",
 "en": "Retribution",
-"zh": "审判者级"
+"zh": "审判者级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Retriever",
-"zh": "回旋者级"
+"zh": "回旋者级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Revelation",
-"zh": "神示级"
+"zh": "神示级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Revelation Navy Issue",
-"zh": "神示级海军型"
+"zh": "神示级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -38108,17 +38440,20 @@
 {
 "kind": "type",
 "en": "Revenant",
-"zh": "归魂者级"
+"zh": "归魂者级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Rhea",
-"zh": "奥鸟级"
+"zh": "奥鸟级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Rifter",
-"zh": "裂谷级"
+"zh": "裂谷级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -38138,7 +38473,8 @@
 {
 "kind": "type",
 "en": "Roden YC128 Campaign Bus",
-"zh": "YC128年莱登竞选巴士"
+"zh": "YC128年莱登竞选巴士",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -38148,7 +38484,8 @@
 {
 "kind": "type",
 "en": "Rodiva",
-"zh": "洛迪瓦级"
+"zh": "洛迪瓦级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -38173,7 +38510,8 @@
 {
 "kind": "type",
 "en": "Rokh",
-"zh": "鹏鲲级"
+"zh": "鹏鲲级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -38183,12 +38521,14 @@
 {
 "kind": "type",
 "en": "Rook",
-"zh": "白嘴鸦级"
+"zh": "白嘴鸦级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Rorqual",
-"zh": "长须鲸级"
+"zh": "长须鲸级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -38198,7 +38538,8 @@
 {
 "kind": "type",
 "en": "Rupture",
-"zh": "断崖级"
+"zh": "断崖级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -38243,12 +38584,14 @@
 {
 "kind": "type",
 "en": "Sabre",
-"zh": "剑齿虎级"
+"zh": "剑齿虎级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Sacrilege",
-"zh": "渎圣级"
+"zh": "渎圣级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -38273,7 +38616,8 @@
 {
 "kind": "type",
 "en": "Salvation",
-"zh": "救赎级"
+"zh": "救赎级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -38553,7 +38897,8 @@
 {
 "kind": "type",
 "en": "Sarathiel",
-"zh": "萨拉希尔"
+"zh": "萨拉希尔",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -38578,7 +38923,8 @@
 {
 "kind": "type",
 "en": "Scalpel",
-"zh": "手术刀级"
+"zh": "手术刀级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -38668,7 +39014,8 @@
 {
 "kind": "type",
 "en": "Scimitar",
-"zh": "曲剑级"
+"zh": "曲剑级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -38758,12 +39105,14 @@
 {
 "kind": "type",
 "en": "Scorpion",
-"zh": "毒蝎级"
+"zh": "毒蝎级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Scorpion Navy Issue",
-"zh": "毒蝎级海军型"
+"zh": "毒蝎级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -38923,12 +39272,14 @@
 {
 "kind": "type",
 "en": "Scythe",
-"zh": "镰刀级"
+"zh": "镰刀级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Scythe Fleet Issue",
-"zh": "镰刀级舰队型"
+"zh": "镰刀级舰队型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -39168,7 +39519,8 @@
 {
 "kind": "type",
 "en": "Sentinel",
-"zh": "哨兵级"
+"zh": "哨兵级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -40118,7 +40470,8 @@
 {
 "kind": "type",
 "en": "Shapash",
-"zh": "沙帕什级"
+"zh": "沙帕什级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -40308,7 +40661,8 @@
 {
 "kind": "type",
 "en": "Sidewinder",
-"zh": "侧进蛇级"
+"zh": "侧进蛇级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -40323,7 +40677,8 @@
 {
 "kind": "type",
 "en": "Sigil",
-"zh": "魔符级"
+"zh": "魔符级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -40408,7 +40763,8 @@
 {
 "kind": "type",
 "en": "Silver Magnate",
-"zh": "白银富豪级"
+"zh": "白银富豪级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -40453,12 +40809,14 @@
 {
 "kind": "type",
 "en": "Simurgh",
-"zh": "西莫夫级"
+"zh": "西莫夫级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Sin",
-"zh": "罪恶级"
+"zh": "罪恶级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -40523,7 +40881,8 @@
 {
 "kind": "type",
 "en": "Skiff",
-"zh": "轻舟级"
+"zh": "轻舟级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -40543,12 +40902,14 @@
 {
 "kind": "type",
 "en": "Skua",
-"zh": "贼鸥号"
+"zh": "贼鸥号",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Skybreaker",
-"zh": "破天级"
+"zh": "破天级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -40568,7 +40929,8 @@
 {
 "kind": "type",
 "en": "Slasher",
-"zh": "伐木者级"
+"zh": "伐木者级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -40678,7 +41040,8 @@
 {
 "kind": "type",
 "en": "Sleipnir",
-"zh": "斯雷普尼级"
+"zh": "斯雷普尼级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -42058,7 +42421,8 @@
 {
 "kind": "type",
 "en": "Sotiyo",
-"zh": "索迪约"
+"zh": "索迪约",
+"cat": "structure"
 },
 {
 "kind": "type",
@@ -42153,17 +42517,20 @@
 {
 "kind": "type",
 "en": "Squall",
-"zh": "狂风级"
+"zh": "狂风级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Stabber",
-"zh": "刺客级"
+"zh": "刺客级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Stabber Fleet Issue",
-"zh": "刺客级舰队型"
+"zh": "刺客级舰队型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -43843,17 +44210,20 @@
 {
 "kind": "type",
 "en": "Stiletto",
-"zh": "短剑级"
+"zh": "短剑级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Stork",
-"zh": "鹳鸟级"
+"zh": "鹳鸟级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Stormbringer",
-"zh": "唤风级"
+"zh": "唤风级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -43948,7 +44318,8 @@
 {
 "kind": "type",
 "en": "Stratios",
-"zh": "斯特修斯级"
+"zh": "斯特修斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -44128,7 +44499,8 @@
 {
 "kind": "type",
 "en": "Succubus",
-"zh": "魔女级"
+"zh": "魔女级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -44138,7 +44510,8 @@
 {
 "kind": "type",
 "en": "Sunesis",
-"zh": "旭日级"
+"zh": "旭日级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -44218,7 +44591,8 @@
 {
 "kind": "type",
 "en": "Svipul",
-"zh": "斯威普级"
+"zh": "斯威普级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -44423,7 +44797,8 @@
 {
 "kind": "type",
 "en": "Taipan",
-"zh": "毒蛇级"
+"zh": "毒蛇级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -44728,17 +45103,20 @@
 {
 "kind": "type",
 "en": "Talos",
-"zh": "塔洛斯级"
+"zh": "塔洛斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Talwar",
-"zh": "弯刀级"
+"zh": "弯刀级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Talwar Fleet Issue",
-"zh": "弯刀级舰队型"
+"zh": "弯刀级舰队型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -44748,7 +45126,8 @@
 {
 "kind": "type",
 "en": "Taranis",
-"zh": "塔纳尼斯级"
+"zh": "塔纳尼斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -44778,7 +45157,8 @@
 {
 "kind": "type",
 "en": "Tatara",
-"zh": "塔塔拉"
+"zh": "塔塔拉",
+"cat": "structure"
 },
 {
 "kind": "type",
@@ -44788,7 +45168,8 @@
 {
 "kind": "type",
 "en": "Tayra",
-"zh": "狐鼬级"
+"zh": "狐鼬级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -44828,17 +45209,20 @@
 {
 "kind": "type",
 "en": "Tempest",
-"zh": "狂暴级"
+"zh": "狂暴级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Tempest Fleet Issue",
-"zh": "狂暴级舰队型"
+"zh": "狂暴级舰队型",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Tempest Tribal Issue",
-"zh": "狂暴级部族型"
+"zh": "狂暴级部族型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -44858,12 +45242,14 @@
 {
 "kind": "type",
 "en": "Tenebrex Cyno Jammer",
-"zh": "暗影诱导干扰塔"
+"zh": "暗影诱导干扰塔",
+"cat": "structure"
 },
 {
 "kind": "type",
 "en": "Tengu",
-"zh": "金鹏级"
+"zh": "金鹏级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -44928,7 +45314,8 @@
 {
 "kind": "type",
 "en": "Tenzin YC128 Campaign Bus",
-"zh": "YC128年丹增竞选巴士"
+"zh": "YC128年丹增竞选巴士",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -44993,12 +45380,14 @@
 {
 "kind": "type",
 "en": "Thalia",
-"zh": "塔利亚级"
+"zh": "塔利亚级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Thanatos",
-"zh": "绝念级"
+"zh": "绝念级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -45068,7 +45457,8 @@
 {
 "kind": "type",
 "en": "Tholos",
-"zh": "穹顶级"
+"zh": "穹顶级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -45178,7 +45568,8 @@
 {
 "kind": "type",
 "en": "Thorax",
-"zh": "托勒克斯级"
+"zh": "托勒克斯级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -45203,12 +45594,14 @@
 {
 "kind": "type",
 "en": "Thrasher",
-"zh": "长尾鲛级"
+"zh": "长尾鲛级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Thrasher Fleet Issue",
-"zh": "长尾鲛级舰队型"
+"zh": "长尾鲛级舰队型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -45283,12 +45676,14 @@
 {
 "kind": "type",
 "en": "Thunderchild",
-"zh": "雷裔级"
+"zh": "雷裔级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Tiamat",
-"zh": "提亚玛特级"
+"zh": "提亚玛特级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -45473,12 +45868,14 @@
 {
 "kind": "type",
 "en": "Tormentor",
-"zh": "巨神兵级"
+"zh": "巨神兵级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Tornado",
-"zh": "龙卷风级"
+"zh": "龙卷风级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -45498,7 +45895,8 @@
 {
 "kind": "type",
 "en": "Torrent",
-"zh": "湍流级"
+"zh": "湍流级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -45818,7 +46216,8 @@
 {
 "kind": "type",
 "en": "Tristan",
-"zh": "特里斯坦级"
+"zh": "特里斯坦级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -46713,12 +47112,14 @@
 {
 "kind": "type",
 "en": "Typhoon",
-"zh": "台风级"
+"zh": "台风级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Typhoon Fleet Issue",
-"zh": "台风级舰队型"
+"zh": "台风级舰队型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -47643,7 +48044,8 @@
 {
 "kind": "type",
 "en": "Upwell Palatine Keepstar",
-"zh": "昇威豪华星城"
+"zh": "昇威豪华星城",
+"cat": "structure"
 },
 {
 "kind": "type",
@@ -47693,7 +48095,8 @@
 {
 "kind": "type",
 "en": "Utu",
-"zh": "乌图级"
+"zh": "乌图级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -47703,7 +48106,8 @@
 {
 "kind": "type",
 "en": "Vagabond",
-"zh": "流浪级"
+"zh": "流浪级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -47728,7 +48132,8 @@
 {
 "kind": "type",
 "en": "Valravn",
-"zh": "血鸦"
+"zh": "血鸦",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -47748,17 +48153,20 @@
 {
 "kind": "type",
 "en": "Vangel",
-"zh": "传道者级"
+"zh": "传道者级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Vanquisher",
-"zh": "征服者级"
+"zh": "征服者级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Vargur",
-"zh": "恶狼级"
+"zh": "恶狼级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -47793,17 +48201,20 @@
 {
 "kind": "type",
 "en": "Vedmak",
-"zh": "维德马克级"
+"zh": "维德马克级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Vehement",
-"zh": "猛烈级"
+"zh": "猛烈级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Velator",
-"zh": "维拉托尔号"
+"zh": "维拉托尔号",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -47853,22 +48264,26 @@
 {
 "kind": "type",
 "en": "Vendetta",
-"zh": "仇恨级"
+"zh": "仇恨级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Vengeance",
-"zh": "复仇级"
+"zh": "复仇级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Venture",
-"zh": "冲锋者级"
+"zh": "冲锋者级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Venture Consortium Issue",
-"zh": "冲锋者级财团型"
+"zh": "冲锋者级财团型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -48013,12 +48428,14 @@
 {
 "kind": "type",
 "en": "Vexor",
-"zh": "狂怒者级"
+"zh": "狂怒者级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Vexor Navy Issue",
-"zh": "狂怒者级海军型"
+"zh": "狂怒者级海军型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -48028,17 +48445,20 @@
 {
 "kind": "type",
 "en": "Viator",
-"zh": "旅行者级"
+"zh": "旅行者级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Victor",
-"zh": "胜利者级"
+"zh": "胜利者级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Victorieux Luxury Yacht",
-"zh": "凯旋奢华游艇"
+"zh": "凯旋奢华游艇",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -48063,12 +48483,14 @@
 {
 "kind": "type",
 "en": "Vigil",
-"zh": "守夜者级"
+"zh": "守夜者级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Vigil Fleet Issue",
-"zh": "守夜者级舰队型"
+"zh": "守夜者级舰队型",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -48078,7 +48500,8 @@
 {
 "kind": "type",
 "en": "Vigilant",
-"zh": "警惕级"
+"zh": "警惕级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -48088,12 +48511,14 @@
 {
 "kind": "type",
 "en": "Vindicator",
-"zh": "复仇者级"
+"zh": "复仇者级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Violator",
-"zh": "违逆者级"
+"zh": "违逆者级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -48103,7 +48528,8 @@
 {
 "kind": "type",
 "en": "Virtuoso",
-"zh": "收藏家级"
+"zh": "收藏家级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -48288,7 +48714,8 @@
 {
 "kind": "type",
 "en": "Vulture",
-"zh": "兀鹫级"
+"zh": "兀鹫级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -48463,7 +48890,8 @@
 {
 "kind": "type",
 "en": "Whiptail",
-"zh": "长尾蜥级"
+"zh": "长尾蜥级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -48493,7 +48921,8 @@
 {
 "kind": "type",
 "en": "Widow",
-"zh": "寡妇级"
+"zh": "寡妇级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -48503,22 +48932,26 @@
 {
 "kind": "type",
 "en": "Wolf",
-"zh": "猎狼级"
+"zh": "猎狼级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Worm",
-"zh": "潜龙级"
+"zh": "潜龙级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Wreathe",
-"zh": "环绕级"
+"zh": "环绕级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Wyvern",
-"zh": "飞龙级"
+"zh": "飞龙级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -48883,7 +49316,8 @@
 {
 "kind": "type",
 "en": "Ymir",
-"zh": "伊米尔级"
+"zh": "伊米尔级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -50048,12 +50482,14 @@
 {
 "kind": "type",
 "en": "Zarmazd",
-"zh": "扎玛德级"
+"zh": "扎玛德级",
+"cat": "ship"
 },
 {
 "kind": "type",
 "en": "Zealot",
-"zh": "狂热级"
+"zh": "狂热级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -50073,7 +50509,8 @@
 {
 "kind": "type",
 "en": "Zephyr",
-"zh": "微风级"
+"zh": "微风级",
+"cat": "ship"
 },
 {
 "kind": "type",
@@ -50103,7 +50540,8 @@
 {
 "kind": "type",
 "en": "Zirnitra",
-"zh": "泽尼塔级"
+"zh": "泽尼塔级",
+"cat": "ship"
 },
 {
 "kind": "type",
