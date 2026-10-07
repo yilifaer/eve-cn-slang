@@ -1,0 +1,2 @@
+# 插件数据按字节核对 sha256，所有平台都用 LF 换行
+official/data/*.json text eol=lf

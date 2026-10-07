@@ -1,4 +1,6 @@
-# 每周检查一次 CCP 静态数据，官方中英名称有变化就开一个合并请求。
+# 每周检查一次 CCP 静态数据：
+# - 插件数据（official/data/）有变化并且检查通过，就直接提交到 main（插件读的是 main，不用点合并）；
+# - 官方中英名称有变化就开一个合并请求（dcqq-bridge 依赖名称表，留着人工看一眼）。
 # 也可以在 GitHub 网页的 Actions 页面手动运行（Run workflow）。
 name: update-official
 on:
@@ -8,6 +10,10 @@ on:
 permissions:
   contents: write
   pull-requests: write
+# 手动运行和定时运行撞在一起时排队，不同时推送
+concurrency:
+  group: update-official
+  cancel-in-progress: false
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -16,16 +22,42 @@ jobs:
       - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
+      # pypinyin 固定版本：拼音库更新会改插件数据里的拼音列；要和 build_data.py 里的 PYPINYIN_VERSION 一致，升级时两边一起改
+      - run: pip install pyyaml pypinyin==0.55.0
+      # SDE 只下载一次：build_data.py 下载后把压缩包留下，build_official.py 直接用
       - id: build
         run: |
-          python scripts/build_official.py --summary "$RUNNER_TEMP/changes.md"
-          if [ -n "$(git status --porcelain)" ]; then echo "changed=true" >> "$GITHUB_OUTPUT"; fi
-      # 自动开的合并请求不会触发 check.yml，所以先在这里检查一遍，不通过就不开
-      - if: steps.build.outputs.changed == 'true'
+          python scripts/build_data.py --save-zip "$RUNNER_TEMP/sde.zip" --summary "$RUNNER_TEMP/changes-data.md"
+          python scripts/build_official.py "$RUNNER_TEMP/sde.zip" --summary "$RUNNER_TEMP/changes-official.md"
+          if [ -n "$(git status --porcelain -- official/data)" ]; then echo "data=true" >> "$GITHUB_OUTPUT"; fi
+          if [ -n "$(git status --porcelain -- official/eve-official.json official/eve-official.csv README.md)" ]; then echo "official=true" >> "$GITHUB_OUTPUT"; fi
+      # 自动提交和自动开的合并请求都不会触发 check.yml，所以先在这里检查一遍，不通过就都不做
+      - if: steps.build.outputs.data == 'true' || steps.build.outputs.official == 'true'
         run: |
-          pip install pyyaml
           python scripts/check.py glossary.yaml
-      - if: steps.build.outputs.changed == 'true'
+          python scripts/build_data.py --check
+      # 插件数据直接提交到 main。要在开合并请求之前：合并请求的分支从这个新提交开始，不会再带上插件数据。
+      # 运行期间 main 有了新提交时先变基到最新的 main（名称表和 README 的改动暂存起来，留给后面的合并请求），再检查一遍才推送
+      - if: steps.build.outputs.data == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          build=$(python -c 'import json; print(json.load(open("official/data/manifest.json"))["buildNumber"])')
+          git add official/data
+          git commit -m "更新插件数据（build $build）"
+          git pull --rebase --autostash origin main
+          python scripts/build_data.py --check
+          git push origin HEAD:main
+          cat "$RUNNER_TEMP/changes-data.md" >> "$GITHUB_STEP_SUMMARY"
+      # 合并请求的说明是名称表的变化；插件数据也变了时附在后面（已经提交到 main，不在合并请求里）
+      - if: steps.build.outputs.official == 'true'
+        run: |
+          cp "$RUNNER_TEMP/changes-official.md" "$RUNNER_TEMP/changes.md"
+          if [ -f "$RUNNER_TEMP/changes-data.md" ]; then
+            printf '\n---\n\n' >> "$RUNNER_TEMP/changes.md"
+            cat "$RUNNER_TEMP/changes-data.md" >> "$RUNNER_TEMP/changes.md"
+          fi
+      - if: steps.build.outputs.official == 'true'
         uses: peter-evans/create-pull-request@v8
         with:
           branch: auto/update-official
@@ -33,5 +65,6 @@ jobs:
           title: 更新官方中英名称表
           body-path: ${{ runner.temp }}/changes.md
           add-paths: |
-            official/
+            official/eve-official.json
+            official/eve-official.csv
             README.md

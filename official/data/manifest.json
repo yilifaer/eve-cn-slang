@@ -1,0 +1,12 @@
+{
+"schema": 1,
+"dataRevision": 1,
+"buildNumber": 3579973,
+"sdeReleaseDate": "2026-10-06T11:08:26Z",
+"generatedAt": "2026-10-07T08:09:40.607Z",
+"files": {
+"types.json": {"sha256":"86a6de7acf8339e47419a6be5b88a5d6ad7575ae0f9c095aad54a90fafb469d9","bytes":4382199,"rows":27309},
+"industry.json": {"sha256":"f8577d4bd74edc3c1102964e9c9483bf76cdc23fb677628eb8ab8b425d0fa4a1","bytes":486440,"rows":5194},
+"universe.json": {"sha256":"d8141e385a1e99ba18dfd69f46f221279efa051f397d32fe40b1d2ac7f87d464","bytes":754353,"rows":8490}
+}
+}

@@ -12,3 +12,4 @@ jobs:
           python-version: "3.12"
       - run: pip install pyyaml
       - run: python scripts/check.py glossary.yaml
+      - run: python scripts/build_data.py --check  # 插件数据 official/data/（只用标准库）
