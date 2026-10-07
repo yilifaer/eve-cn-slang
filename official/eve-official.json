@@ -1,9 +1,9 @@
 {
-"source": "CCP hf. EVE Online Static Data Export (Tranquility), build 3579973",
-"buildNumber": 3579973,
-"generatedAt": "2026-10-06T12:09:11.069Z",
+"source": "CCP hf. EVE Online Static Data Export (Tranquility), build 3586130",
+"buildNumber": 3586130,
+"generatedAt": "2026-10-07T18:57:31.523Z",
 "license": "EVE Developer License Agreement (non-commercial). NOT covered by CC BY 4.0. See official/NOTICE.md",
-"count": 12396,
+"count": 12474,
 "entries": [
 {
 "kind": "category",
@@ -6376,6 +6376,12 @@
 },
 {
 "kind": "type",
+"en": "Akoman",
+"zh": "阿科曼级",
+"cat": "ship"
+},
+{
+"kind": "type",
 "en": "Alfven Enduring Remote Tracking Computer",
 "zh": "艾弗雯持久型远距索敌计算机"
 },
@@ -7926,6 +7932,11 @@
 "kind": "type",
 "en": "Baryon Exotic Plasma XL",
 "zh": "重子异种等离子弹 XL"
+},
+{
+"kind": "type",
+"en": "Basic 'Radiance' Cerebral Accelerator",
+"zh": "基础型“光辉”大脑加速器"
 },
 {
 "kind": "type",
@@ -12365,6 +12376,66 @@
 },
 {
 "kind": "type",
+"en": "Chemal Tech Exploration Booster I",
+"zh": "切玛科技探索增效剂1"
+},
+{
+"kind": "type",
+"en": "Chemal Tech Exploration Booster II",
+"zh": "切玛科技探索增效剂2"
+},
+{
+"kind": "type",
+"en": "Chemal Tech Exploration Booster III",
+"zh": "切玛科技探索增效剂3"
+},
+{
+"kind": "type",
+"en": "Chemal Tech Mining Booster I",
+"zh": "切玛科技采矿增效剂1"
+},
+{
+"kind": "type",
+"en": "Chemal Tech Mining Booster II",
+"zh": "切玛科技采矿增效剂2"
+},
+{
+"kind": "type",
+"en": "Chemal Tech Mining Booster III",
+"zh": "切玛科技采矿增效剂3"
+},
+{
+"kind": "type",
+"en": "Chemal Tech Repair Booster I",
+"zh": "切玛科技修复增效剂1"
+},
+{
+"kind": "type",
+"en": "Chemal Tech Repair Booster II",
+"zh": "切玛科技修复增效剂2"
+},
+{
+"kind": "type",
+"en": "Chemal Tech Repair Booster III",
+"zh": "切玛科技修复增效剂3"
+},
+{
+"kind": "type",
+"en": "Chemal Tech Turret Booster I",
+"zh": "切玛科技炮台增效剂1"
+},
+{
+"kind": "type",
+"en": "Chemal Tech Turret Booster II",
+"zh": "切玛科技炮台增效剂2"
+},
+{
+"kind": "type",
+"en": "Chemal Tech Turret Booster III",
+"zh": "切玛科技炮台增效剂3"
+},
+{
+"kind": "type",
 "en": "Chemosh",
 "zh": "基抹级",
 "cat": "ship"
@@ -15202,6 +15273,11 @@
 },
 {
 "kind": "type",
+"en": "Crimson Gauntlet Shortcut Keypass",
+"zh": "血色试炼捷径钥匙卡"
+},
+{
+"kind": "type",
 "en": "Crimson Helix Firework (Large)",
 "zh": "血袭者螺旋烟火（大型）"
 },
@@ -15209,6 +15285,11 @@
 "kind": "type",
 "en": "Crimson Scythes Firework",
 "zh": "收割之镰烟火"
+},
+{
+"kind": "type",
+"en": "Criterion Cipher",
+"zh": "标准密码"
 },
 {
 "kind": "type",
@@ -16392,6 +16473,11 @@
 },
 {
 "kind": "type",
+"en": "Decayed Capital Remote Armor Repairer Mutaplasmid",
+"zh": "腐蚀的旗舰级远程装甲维修器突变质体"
+},
+{
+"kind": "type",
 "en": "Decayed Capital Shield Booster Mutaplasmid",
 "zh": "腐朽的旗舰护盾回充增量器突变质体"
 },
@@ -16502,6 +16588,11 @@
 },
 {
 "kind": "type",
+"en": "Decayed Large Remote Armor Repairer Mutaplasmid",
+"zh": "腐蚀的大型远程装甲维修器突变质体"
+},
+{
+"kind": "type",
 "en": "Decayed Large Shield Booster Mutaplasmid",
 "zh": "腐朽的大型护盾回充增量器突变质体"
 },
@@ -16559,6 +16650,11 @@
 "kind": "type",
 "en": "Decayed Medium Proton Smartbomb Mutaplasmid",
 "zh": "腐朽的中型质子立体炸弹突变质体"
+},
+{
+"kind": "type",
+"en": "Decayed Medium Remote Armor Repairer Mutaplasmid",
+"zh": "腐蚀的中型远程装甲维修器突变质体"
 },
 {
 "kind": "type",
@@ -16639,6 +16735,11 @@
 "kind": "type",
 "en": "Decayed Small Proton Smartbomb Mutaplasmid",
 "zh": "腐朽的小型质子立体炸弹突变质体"
+},
+{
+"kind": "type",
+"en": "Decayed Small Remote Armor Repairer Mutaplasmid",
+"zh": "腐蚀的小型远程装甲维修器突变质体"
 },
 {
 "kind": "type",
@@ -20368,6 +20469,11 @@
 },
 {
 "kind": "type",
+"en": "Extended 'Radiance' Cerebral Accelerator",
+"zh": "延展型“光辉”大脑加速器"
+},
+{
+"kind": "type",
 "en": "Extruded Compact Heat Sink",
 "zh": "挤压紧凑型散热槽"
 },
@@ -22347,6 +22453,11 @@
 },
 {
 "kind": "type",
+"en": "Glorified Decayed Capital Remote Armor Repairer Mutaplasmid",
+"zh": "腐蚀的荣耀旗舰级远程装甲维修器突变质体"
+},
+{
+"kind": "type",
 "en": "Glorified Decayed Capital Shield Booster Mutaplasmid",
 "zh": "腐朽的荣耀型旗舰护盾回充增量器突变质体"
 },
@@ -22407,6 +22518,11 @@
 },
 {
 "kind": "type",
+"en": "Glorified Decayed Large Remote Armor Repairer Mutaplasmid",
+"zh": "腐朽的荣耀大型远程装甲维修器突变质体"
+},
+{
+"kind": "type",
 "en": "Glorified Decayed Large Shield Booster Mutaplasmid",
 "zh": "腐朽的荣耀大型护盾回充增量器突变质体"
 },
@@ -22447,6 +22563,11 @@
 },
 {
 "kind": "type",
+"en": "Glorified Decayed Medium Remote Armor Repairer Mutaplasmid",
+"zh": "腐朽的荣耀中型远程装甲维修器突变质体"
+},
+{
+"kind": "type",
 "en": "Glorified Decayed Medium Shield Booster Mutaplasmid",
 "zh": "腐朽的荣耀中型护盾回充增量器突变质体"
 },
@@ -22484,6 +22605,11 @@
 "kind": "type",
 "en": "Glorified Decayed Small Energy Nosferatu Mutaplasmid",
 "zh": "腐朽的荣耀小型掠能器突变质体"
+},
+{
+"kind": "type",
+"en": "Glorified Decayed Small Remote Armor Repairer Mutaplasmid",
+"zh": "腐朽的荣耀小型远程装甲维修器突变质体"
 },
 {
 "kind": "type",
@@ -22667,6 +22793,11 @@
 },
 {
 "kind": "type",
+"en": "Glorified Gravid Capital Remote Armor Repairer Mutaplasmid",
+"zh": "怀璧的荣耀旗舰级远程装甲维修器突变质体"
+},
+{
+"kind": "type",
 "en": "Glorified Gravid Capital Shield Booster Mutaplasmid",
 "zh": "怀璧的荣耀型旗舰护盾回充增量器突变质体"
 },
@@ -22727,6 +22858,11 @@
 },
 {
 "kind": "type",
+"en": "Glorified Gravid Large Remote Armor Repairer Mutaplasmid",
+"zh": "怀璧的荣耀大型远程装甲维修器突变质体"
+},
+{
+"kind": "type",
 "en": "Glorified Gravid Large Shield Booster Mutaplasmid",
 "zh": "怀璧的荣耀大型护盾回充增量器突变质体"
 },
@@ -22767,6 +22903,11 @@
 },
 {
 "kind": "type",
+"en": "Glorified Gravid Medium Remote Armor Repairer Mutaplasmid",
+"zh": "怀璧的荣耀中型远程装甲维修器突变质体"
+},
+{
+"kind": "type",
 "en": "Glorified Gravid Medium Shield Booster Mutaplasmid",
 "zh": "怀璧的荣耀中型护盾回充增量器突变质体"
 },
@@ -22804,6 +22945,11 @@
 "kind": "type",
 "en": "Glorified Gravid Small Energy Nosferatu Mutaplasmid",
 "zh": "怀璧的荣耀小型掠能器突变质体"
+},
+{
+"kind": "type",
+"en": "Glorified Gravid Small Remote Armor Repairer Mutaplasmid",
+"zh": "怀璧的荣耀小型远程装甲维修器突变质体"
 },
 {
 "kind": "type",
@@ -22927,6 +23073,11 @@
 },
 {
 "kind": "type",
+"en": "Glorified Unstable Capital Remote Armor Repairer Mutaplasmid",
+"zh": "不稳定的荣耀旗舰级远程装甲维修器突变质体"
+},
+{
+"kind": "type",
 "en": "Glorified Unstable Capital Shield Booster Mutaplasmid",
 "zh": "不稳定的荣耀型旗舰护盾回充增量器突变质体"
 },
@@ -22997,6 +23148,11 @@
 },
 {
 "kind": "type",
+"en": "Glorified Unstable Large Remote Armor Repairer Mutaplasmid",
+"zh": "不稳定的荣耀大型远程装甲维修器突变质体"
+},
+{
+"kind": "type",
 "en": "Glorified Unstable Large Shield Booster Mutaplasmid",
 "zh": "不稳定的荣耀大型护盾回充增量器突变质体"
 },
@@ -23047,6 +23203,11 @@
 },
 {
 "kind": "type",
+"en": "Glorified Unstable Medium Remote Armor Repairer Mutaplasmid",
+"zh": "不稳定的荣耀中型远程装甲维修器突变质体"
+},
+{
+"kind": "type",
 "en": "Glorified Unstable Medium Shield Booster Mutaplasmid",
 "zh": "不稳定的荣耀中型护盾回充增量器突变质体"
 },
@@ -23089,6 +23250,11 @@
 "kind": "type",
 "en": "Glorified Unstable Small Energy Nosferatu Mutaplasmid",
 "zh": "不稳定的荣耀小型掠能器突变质体"
+},
+{
+"kind": "type",
+"en": "Glorified Unstable Small Remote Armor Repairer Mutaplasmid",
+"zh": "不稳定的荣耀小型远程装甲维修器突变质体"
 },
 {
 "kind": "type",
@@ -23401,6 +23567,11 @@
 },
 {
 "kind": "type",
+"en": "Gravid Capital Remote Armor Repairer Mutaplasmid",
+"zh": "怀璧的旗舰级远程装甲维修器突变质体"
+},
+{
+"kind": "type",
 "en": "Gravid Capital Shield Booster Mutaplasmid",
 "zh": "怀璧的旗舰护盾回充增量器突变质体"
 },
@@ -23511,6 +23682,11 @@
 },
 {
 "kind": "type",
+"en": "Gravid Large Remote Armor Repairer Mutaplasmid",
+"zh": "怀璧的大型远程装甲维修器突变质体"
+},
+{
+"kind": "type",
 "en": "Gravid Large Shield Booster Mutaplasmid",
 "zh": "怀璧的大型护盾回充增量器突变质体"
 },
@@ -23568,6 +23744,11 @@
 "kind": "type",
 "en": "Gravid Medium Proton Smartbomb Mutaplasmid",
 "zh": "怀璧的中型质子立体炸弹突变质体"
+},
+{
+"kind": "type",
+"en": "Gravid Medium Remote Armor Repairer Mutaplasmid",
+"zh": "怀璧的中型远程装甲维修器突变质体"
 },
 {
 "kind": "type",
@@ -23648,6 +23829,11 @@
 "kind": "type",
 "en": "Gravid Small Proton Smartbomb Mutaplasmid",
 "zh": "怀璧的小型质子立体炸弹突变质体"
+},
+{
+"kind": "type",
+"en": "Gravid Small Remote Armor Repairer Mutaplasmid",
+"zh": "怀璧的小型远程装甲维修器突变质体"
 },
 {
 "kind": "type",
@@ -24666,6 +24852,86 @@
 "en": "Harpy",
 "zh": "女妖级",
 "cat": "ship"
+},
+{
+"kind": "type",
+"en": "Harvest Anti-Disruptor Booster I",
+"zh": "收割抗扰断增效剂1"
+},
+{
+"kind": "type",
+"en": "Harvest Anti-Disruptor Booster II",
+"zh": "收割抗扰断增效剂2"
+},
+{
+"kind": "type",
+"en": "Harvest Anti-Disruptor Booster III",
+"zh": "收割抗扰断增效剂3"
+},
+{
+"kind": "type",
+"en": "Harvest Anti-Disruptor Booster IV",
+"zh": "收割抗扰断增效剂4"
+},
+{
+"kind": "type",
+"en": "Harvest Damage Booster I",
+"zh": "收割伤害增效剂1"
+},
+{
+"kind": "type",
+"en": "Harvest Damage Booster II",
+"zh": "收割伤害增效剂2"
+},
+{
+"kind": "type",
+"en": "Harvest Damage Booster III",
+"zh": "收割伤害增效剂3"
+},
+{
+"kind": "type",
+"en": "Harvest Damage Booster IV",
+"zh": "收割伤害增效剂4"
+},
+{
+"kind": "type",
+"en": "Harvest Nosferatu Booster I",
+"zh": "收割掠能器增效剂1"
+},
+{
+"kind": "type",
+"en": "Harvest Nosferatu Booster II",
+"zh": "收割掠能器增效剂2"
+},
+{
+"kind": "type",
+"en": "Harvest Nosferatu Booster III",
+"zh": "血族收割增效剂3"
+},
+{
+"kind": "type",
+"en": "Harvest Nosferatu Booster IV",
+"zh": "收割掠能器增效剂4"
+},
+{
+"kind": "type",
+"en": "Harvest Webifier Booster I",
+"zh": "收割停滞缠绕光束增效剂1"
+},
+{
+"kind": "type",
+"en": "Harvest Webifier Booster II",
+"zh": "收割停滞缠绕光束增效剂2"
+},
+{
+"kind": "type",
+"en": "Harvest Webifier Booster III",
+"zh": "收割停滞缠绕光束增效剂3"
+},
+{
+"kind": "type",
+"en": "Harvest Webifier Booster IV",
+"zh": "收割停滞缠绕光束增效剂4"
 },
 {
 "kind": "type",
@@ -25720,6 +25986,11 @@
 "kind": "type",
 "en": "Homeless",
 "zh": "无家可归者"
+},
+{
+"kind": "type",
+"en": "Horm’s Capital Energy Neutralizer",
+"zh": "霍姆旗舰级能量中和器"
 },
 {
 "kind": "type",
@@ -36002,6 +36273,11 @@
 },
 {
 "kind": "type",
+"en": "Potent 'Radiance' Cerebral Accelerator",
+"zh": "强效“光辉”大脑加速器"
+},
+{
+"kind": "type",
 "en": "Poteque 'Prospector' Archaeology AC-905",
 "zh": "波特克 掘金者 考古学 AC-905"
 },
@@ -38899,6 +39175,11 @@
 "en": "Sarathiel",
 "zh": "萨拉希尔",
 "cat": "ship"
+},
+{
+"kind": "type",
+"en": "Sarikusa’s Capital Energy Nosferatu",
+"zh": "萨利库萨旗舰级掠能器"
 },
 {
 "kind": "type",
@@ -45354,6 +45635,91 @@
 },
 {
 "kind": "type",
+"en": "Tetrimon Anti-Drain Booster I",
+"zh": "特里蒙抗吸取增效剂1"
+},
+{
+"kind": "type",
+"en": "Tetrimon Anti-Drain Booster II",
+"zh": "特里蒙抗吸取增效剂2"
+},
+{
+"kind": "type",
+"en": "Tetrimon Anti-Drain Booster III",
+"zh": "特里蒙抗吸取增效剂3"
+},
+{
+"kind": "type",
+"en": "Tetrimon Anti-Drain Booster IV",
+"zh": "特里蒙抗吸取增效剂4"
+},
+{
+"kind": "type",
+"en": "Tetrimon Base Shortcut Keypass",
+"zh": "特里蒙基地捷径钥匙卡"
+},
+{
+"kind": "type",
+"en": "Tetrimon Capacitor Booster I",
+"zh": "特里蒙电容注电器1"
+},
+{
+"kind": "type",
+"en": "Tetrimon Capacitor Booster II",
+"zh": "特里蒙电容注电器2"
+},
+{
+"kind": "type",
+"en": "Tetrimon Capacitor Booster III",
+"zh": "特里蒙电容注电器3"
+},
+{
+"kind": "type",
+"en": "Tetrimon Capacitor Booster IV",
+"zh": "特里蒙电容注电器4"
+},
+{
+"kind": "type",
+"en": "Tetrimon Precision Booster I",
+"zh": "特里蒙精准增效剂1"
+},
+{
+"kind": "type",
+"en": "Tetrimon Precision Booster II",
+"zh": "特里蒙精准增效剂2"
+},
+{
+"kind": "type",
+"en": "Tetrimon Precision Booster III",
+"zh": "特里蒙精准增效剂3"
+},
+{
+"kind": "type",
+"en": "Tetrimon Precision Booster IV",
+"zh": "特里蒙精准增效剂4"
+},
+{
+"kind": "type",
+"en": "Tetrimon Resistance Booster I",
+"zh": "特里蒙抗性增效剂1"
+},
+{
+"kind": "type",
+"en": "Tetrimon Resistance Booster II",
+"zh": "特里蒙抗性增效剂2"
+},
+{
+"kind": "type",
+"en": "Tetrimon Resistance Booster III",
+"zh": "特里蒙抗性增效剂3"
+},
+{
+"kind": "type",
+"en": "Tetrimon Resistance Booster IV",
+"zh": "特里蒙抗性增效剂4"
+},
+{
+"kind": "type",
 "en": "Tetrimonic Warclone Blanks",
 "zh": "特里蒙战斗克隆空槽"
 },
@@ -47673,6 +48039,11 @@
 },
 {
 "kind": "type",
+"en": "Unstable Capital Remote Armor Repairer Mutaplasmid",
+"zh": "不稳定的旗舰级远程装甲维修器突变质体"
+},
+{
+"kind": "type",
 "en": "Unstable Capital Shield Booster Mutaplasmid",
 "zh": "不稳定的旗舰护盾回充增量器突变质体"
 },
@@ -47793,6 +48164,11 @@
 },
 {
 "kind": "type",
+"en": "Unstable Large Remote Armor Repairer Mutaplasmid",
+"zh": "不稳定的大型远程装甲维修器突变质体"
+},
+{
+"kind": "type",
 "en": "Unstable Large Shield Booster Mutaplasmid",
 "zh": "不稳定的大型护盾回充增量器突变质体"
 },
@@ -47860,6 +48236,11 @@
 "kind": "type",
 "en": "Unstable Medium Proton Smartbomb Mutaplasmid",
 "zh": "不稳定的中型质子立体炸弹突变质体"
+},
+{
+"kind": "type",
+"en": "Unstable Medium Remote Armor Repairer Mutaplasmid",
+"zh": "不稳定的中型远程装甲维修器突变质体"
 },
 {
 "kind": "type",
@@ -47945,6 +48326,11 @@
 "kind": "type",
 "en": "Unstable Small Proton Smartbomb Mutaplasmid",
 "zh": "不稳定的小型质子立体炸弹突变质体"
+},
+{
+"kind": "type",
+"en": "Unstable Small Remote Armor Repairer Mutaplasmid",
+"zh": "不稳定的小型远程装甲维修器突变质体"
 },
 {
 "kind": "type",
@@ -50587,6 +50973,11 @@
 "kind": "type",
 "en": "Zorya's Supratidal Entropic Disintegrator",
 "zh": "曙光潮上熵能分解者"
+},
+{
+"kind": "type",
+"en": "Zorya’s Ultratidal Entropic Disintegrator",
+"zh": "曙光潮极熵能分解者"
 },
 {
 "kind": "type",

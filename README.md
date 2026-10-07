@@ -11,7 +11,7 @@
 | 部分 | 数量 | 说明 | 许可 |
 |---|---|---|---|
 | [`glossary.yaml`](glossary.yaml) 人工整理的黑话表 | **325 条**，另有 907 个别名 | 舰队行动、船型俗称、装备、建筑与主权、虫洞、工业与市场、PvE、聊天缩写、国服叫法 | CC BY 4.0 |
-| [`official/`](official/) 官方中英名称表 | **12,396 条** | 从 CCP 静态数据生成（build 3579973）：舰船、装备等物品 9,296，分组 709，大类 27，星系 1,974，星座 323，星域 67 | CCP 版权，仅限非商业用途，见 [NOTICE](official/NOTICE.md) |
+| [`official/`](official/) 官方中英名称表 | **12,474 条** | 从 CCP 静态数据生成（build 3586130）：舰船、装备等物品 9,374，分组 709，大类 27，星系 1,974，星座 323，星域 67 | CCP 版权，仅限非商业用途，见 [NOTICE](official/NOTICE.md) |
 | [`official/data/`](official/data/) 插件数据 | 见 [`manifest.json`](official/data/manifest.json) | 从 CCP 静态数据生成：物品（含拼音）、工业、星图，给 QQ 机器人插件在线读取，格式见下面的「插件数据」 | 同上 |
 
 黑话表按类别：舰队 87、聊天 61、装备 34、工业 32、建筑 30、船型 27、虫洞 24、PvE 16、安全等级与区域 14。
@@ -164,7 +164,7 @@ data/eve-cn-slang/glossary.yaml;;data/dcqq-bridge/local-slang.yaml
 A glossary of EVE Online slang, abbreviations and fleet jargon as actually used by **Chinese players on Tranquility**, with the English terms they correspond to. It was built for machine translation between Chinese QQ groups and English Discord channels, and every entry was tested against real fleet pings and chat logs.
 
 - [`glossary.yaml`](glossary.yaml): **325 hand-curated entries** (907 aliases), licensed **CC BY 4.0**. Each entry has `en`, `zh`, `mode` (`keep` / `force` / `hint`) and `dir` (`both` / `en2zh` / `zh2en`); see the format section above.
-- [`official/`](official/): **12,396 official English/Chinese names** (types, groups, categories, systems, constellations, regions) generated from CCP's Static Data Export. Each entry has `kind`, `en` and `zh`; ship and structure types also carry `cat` (`ship` / `structure`). **Not** covered by CC BY 4.0: © CCP hf., non-commercial use only under the EVE Developer License Agreement; see [official/NOTICE.md](official/NOTICE.md).
+- [`official/`](official/): **12,474 official English/Chinese names** (types, groups, categories, systems, constellations, regions) generated from CCP's Static Data Export. Each entry has `kind`, `en` and `zh`; ship and structure types also carry `cat` (`ship` / `structure`). **Not** covered by CC BY 4.0: © CCP hf., non-commercial use only under the EVE Developer License Agreement; see [official/NOTICE.md](official/NOTICE.md).
 - [`official/data/`](official/data/): data for the koishi-plugin-eve-market QQ bot plugin, generated from the Static Data Export by `scripts/build_data.py`: `types.json` (all published types with Chinese names and pinyin, plus groups, categories, market groups and meta groups), `industry.json` (manufacturing / reaction / invention blueprints, Upwell structure bonuses, industry rigs and their target filters) and `universe.json` (regions, constellations, systems, NPC stations, factions, stargate jumps). Poll `manifest.json` (build number, `sha256`, size and row count of each file). Most tables are a column-name array plus compact rows; `structures`, `rigs` and `filters` in `industry.json` are one JSON object per line. Rows are sorted by id; read columns by name, as columns may be added (`schema` only changes on incompatible changes). Unchanged files are not rewritten, so trust the build number in `manifest.json`, not the file headers. Checked weekly; when the data changes it is validated and committed to `main` automatically. Same CCP license as `official/`; see [official/NOTICE.md](official/NOTICE.md).
 
 Contributions are welcome via issues and pull requests. Please run `python scripts/check.py` before submitting.
