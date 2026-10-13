@@ -1,10 +1,10 @@
 {
 "schema": 1,
-"buildNumber": 3579973,
-"sdeReleaseDate": "2026-10-06T11:08:26Z",
-"source": "CCP hf. EVE Online Static Data Export (Tranquility), build 3579973",
+"buildNumber": 3607705,
+"sdeReleaseDate": "2026-10-12T11:08:38Z",
+"source": "CCP hf. EVE Online Static Data Export (Tranquility), build 3607705",
 "license": "EVE Developer License Agreement (non-commercial). NOT covered by CC BY 4.0. See official/NOTICE.md",
-"generatedAt": "2026-10-07T08:09:40.607Z",
+"generatedAt": "2026-10-13T12:38:32.089Z",
 "blueprintColumns": ["blueprint","activity","time","maxRuns","products","materials"],
 "blueprints": [
 [683,"i",63900,30,[[39581,1,0.3]],[[20416,2],[25887,2]]],
@@ -5364,5 +5364,33 @@
 {"id":16,"name":"Hybrid Reactions","categories":[],"groups":[974]},
 {"id":17,"name":"Biochemical Reactions","categories":[],"groups":[712,4096]},
 {"id":18,"name":"Composite Reactions","categories":[],"groups":[428,429,4932]}
+],
+"services": [
+{"id":35877,"key":"supercapital","en":"Standup Supercapital Shipyard I","zh":"屹立超级旗舰级船坞 I","activity":"m","groups":[30,485,547,659,883,1538,4594,5120],"categories":[],"fitGroups":[],"fitTypes":[35827],"sec":{"h":false,"l":false,"n":true}},
+{"id":35878,"key":"manufacturing","en":"Standup Manufacturing Plant I","zh":"屹立制造厂 I","activity":"m","groups":[25,26,27,28,31,324,358,380,419,420,463,513,540,541,543,830,831,832,833,834,893,894,898,900,902,906,941,963,1201,1202,1283,1305,1527,1534,1972,4902,5087],"categories":[2,4,5,7,8,17,18,20,22,23,32,39,40,46,65,66,87],"fitGroups":[1404,1406,1657],"fitTypes":[],"sec":{"h":true,"l":true,"n":true}},
+{"id":35881,"key":"capital","en":"Standup Capital Shipyard I","zh":"屹立旗舰级船坞 I","activity":"m","groups":[485,547,883,1538,4594,5120],"categories":[],"fitGroups":[],"fitTypes":[35826,35827,35833,35834,40340,47512,47513,47514,47515,47516],"sec":{"h":false,"l":true,"n":true}},
+{"id":35899,"key":"reprocessing","en":"Standup Reprocessing Facility I","zh":"屹立提炼设施 I","activity":"rp","groups":[],"categories":[],"fitGroups":[1404,1406,1657],"fitTypes":[],"sec":{"h":true,"l":true,"n":true}},
+{"id":45537,"key":"reaction","en":"Standup Composite Reactor I","zh":"屹立复合反应堆 I","activity":"r","groups":[428,429,4932],"categories":[],"fitGroups":[1406],"fitTypes":[],"sec":{"h":false,"l":true,"n":true}},
+{"id":45538,"key":"reaction","en":"Standup Hybrid Reactor I","zh":"屹立混合反应堆 I","activity":"r","groups":[974],"categories":[],"fitGroups":[1406],"fitTypes":[],"sec":{"h":false,"l":true,"n":true}},
+{"id":45539,"key":"reaction","en":"Standup Biochemical Reactor I","zh":"屹立生化反应堆 I","activity":"r","groups":[712,4096],"categories":[],"fitGroups":[1406],"fitTypes":[],"sec":{"h":false,"l":true,"n":true}}
+],
+"reprocessing": [
+{"id":29659,"portion":1,"skill":null,"materials":[[17769,73]]},
+{"id":29660,"portion":1,"skill":null,"materials":[[16646,173],[16668,73]]},
+{"id":29661,"portion":1,"skill":null,"materials":[[16646,173],[16667,73]]},
+{"id":29662,"portion":1,"skill":null,"materials":[[16643,173],[17960,73]]},
+{"id":29663,"portion":1,"skill":null,"materials":[[16648,173],[16669,73]]},
+{"id":29664,"portion":1,"skill":null,"materials":[[16642,173],[16666,73]]},
+{"id":32821,"portion":1,"skill":null,"materials":[[16642,164],[17959,36]]},
+{"id":32822,"portion":1,"skill":null,"materials":[[16644,164],[16662,36]]},
+{"id":32823,"portion":1,"skill":null,"materials":[[16641,164],[16664,36]]},
+{"id":32824,"portion":1,"skill":null,"materials":[[16643,164],[16663,36]]},
+{"id":32825,"portion":1,"skill":null,"materials":[[16665,36]]},
+{"id":32826,"portion":1,"skill":null,"materials":[[16637,164],[16657,36]]},
+{"id":32827,"portion":1,"skill":null,"materials":[[16638,164],[16654,36]]},
+{"id":32828,"portion":1,"skill":null,"materials":[[16639,164],[16656,36]]},
+{"id":32829,"portion":1,"skill":null,"materials":[[16640,164],[16655,36]]},
+{"id":33338,"portion":1,"skill":null,"materials":[[16646,173],[33337,73]]},
+{"id":33339,"portion":1,"skill":null,"materials":[[16648,173],[33336,73]]}
 ]
 }

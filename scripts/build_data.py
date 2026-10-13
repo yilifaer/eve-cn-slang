@@ -2,11 +2,12 @@
 
 给 QQ 机器人插件（koishi-plugin-eve-market）在线读取，插件只轮询 manifest.json，有变化时三个数据文件一起下载：
 - types.json：所有已发布的物品（带拼音列 py）、分组、大类、市场分组、元分组；
-- industry.json：蓝图（制造 m、反应 r、发明 i）、Upwell 建筑的工业加成、工业改装件、目标过滤器；
+- industry.json：蓝图（制造 m、反应 r、发明 i）、Upwell 建筑的工业加成、工业改装件、目标过滤器、
+  建筑服务装备（services：能造什么、能装在哪些建筑上、哪些安全等级能用）、粗糙反应产物的提炼产出（reprocessing）；
 - universe.json：星域、星座、星系（含虫洞空间）、NPC 空间站、势力、星门连接。
 
 格式：开头是头部键，每个一行；表一行一条、按 id 排序。大部分表带列名数组（columns、groupColumns……），行是紧凑的 JSON 数组；
-industry.json 的 structures、rigs、filters 是对象数组，一行一个对象。
+industry.json 的 structures、rigs、filters、services、reprocessing 是对象数组，一行一个对象。
 插件按列名取值，所以加列不影响旧插件：加列、加表时把 DATA_REVISION 加 1；改列名、改含义这种不兼容的变化才把 SCHEMA 加 1。
 整数写整数，其他数字保留 6 位小数；SDE 没有中文名、中文和英文一样或者是代号星系时 zh 写 ""。
 
@@ -34,7 +35,7 @@ from build_official import CODE_NAME, ROOT, download, latest_build, name, rows
 
 OUT = ROOT / "official" / "data"
 SCHEMA = 1  # 不兼容的变化（改列名、改含义）才加 1
-DATA_REVISION = 1  # 生成规则的版本：SDE 没变、但这里加了列或表时加 1，插件才会换掉缓存里缺列的旧文件
+DATA_REVISION = 2  # 生成规则的版本：SDE 没变、但这里加了列或表时加 1，插件才会换掉缓存里缺列的旧文件
 LICENSE = "EVE Developer License Agreement (non-commercial). NOT covered by CC BY 4.0. See official/NOTICE.md"
 MAX_BYTES = 10 * 1024 * 1024  # 任何文件超过 10 MB 就失败（jsDelivr 单文件限制约 20 MB）
 MIN_RATIO = 0.8  # 任何一张表的行数比仓库里少 20% 以上就失败（防止 SDE 出问题）
@@ -57,6 +58,8 @@ TABLES = {
         "structures": (None, None),
         "rigs": (None, None),
         "filters": (None, None),
+        "services": (None, None),
+        "reprocessing": (None, None),
     },
     "universe.json": {
         "regions": ("regionColumns", ["id", "en", "zh"]),
@@ -69,7 +72,7 @@ TABLES = {
 }
 MAIN_TABLE = {"types.json": "types", "industry.json": "blueprints", "universe.json": "systems"}  # manifest 里的 rows
 TABLE_ZH = {"groups": "分组", "categories": "大类", "marketGroups": "市场分组", "metaGroups": "元分组", "structures": "建筑",
-            "rigs": "改装件", "filters": "过滤器", "regions": "星域", "constellations": "星座", "stations": "空间站",
+            "rigs": "改装件", "filters": "过滤器", "services": "服务装备", "reprocessing": "提炼产出", "regions": "星域", "constellations": "星座", "stations": "空间站",
             "factions": "势力", "jumps": "星门连接"}
 KEY_WIDTH = {"blueprints": 2, "jumps": 2}  # 这两张表按前两列排序、检查唯一，其他表按第一列（id）
 KEY_TYPES = {"blueprints": (int, str), "jumps": (int, int)}  # 排序用的列的类型，其他表的 id 是整数
@@ -90,6 +93,16 @@ ATTR_RIG_SIZE, ATTR_NO_HIGHSEC = 1547, 1970
 STRUCTURE_ATTRS = {2600: "me", 2601: "cost", 2602: "te", 2721: "te"}  # 建筑加成（乘数）；2721 是反应时间
 RIG_SEC_ATTRS = {"h": 2355, "l": 2356, "n": 2357}  # 高安、低安、00 的倍数；没有这个属性写 null，表示这里不生效
 OP_POST_PERCENT = 6  # dogma 效果的运算：按百分比加成（改装件的加成都是这种）
+# 建筑服务装备（Standup 服务模块）；key 是数据层给的语义名，插件按 key 判断开关。不认识的装备 key 写 null、写进变化说明，不让脚本失败
+SERVICE_CATEGORY = 66  # 建筑装备（改装件也在这个大类里，所以要有装配线或精炼属性才算服务）
+SERVICE_LINES = {1: "m", 9: "r"}  # 装配线的活动：制造、反应；研究、发明（3、4、5、8）不收
+SERVICE_KEYS = {35878: "manufacturing", 35881: "capital", 35877: "supercapital",
+                45537: "reaction", 45538: "reaction", 45539: "reaction", 35899: "reprocessing"}
+ATTR_REFINING_MOON, ATTR_REPROCESS_SKILL = 2445, 790  # refiningYieldMoonOres（提炼服务才有）；reprocessingSkillType
+FIT_ATTR_PREFIXES = {"fitGroups": "canFitShipGroup", "fitTypes": "canFitShipType"}  # 能装的建筑分组、类型：按名字找属性 ID
+SEC_ATTR_NAMES = ("disallowInHighSec", "disallowInEmpireSpace")  # 高安不能用；高安和低安都不能用（只能放 00）
+SERVICE_ACTIVITIES = {"m", "r", "rp"}  # 制造、反应、提炼
+SERVICE_LISTS = ("groups", "categories", "fitGroups", "fitTypes")
 HAN = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]+")  # 汉字
 PY_TOKEN = re.compile(r"[a-z0-9]+")
 
@@ -229,7 +242,19 @@ def build(zip_path):
         modifiers = {m["_key"]: m for m in rows(zf, "industryModifierSources.jsonl")}
         structure_ids = sorted(k for k, t in types.items() if t[3] in STRUCTURE_GROUPS)
         rig_ids = sorted(k for k in modifiers if k in types and group_category.get(types[k][3]) == RIG_CATEGORY and types[k][3] != OUTPOST_RIG_GROUP)
-        need = set(structure_ids) | set(rig_ids)
+        # 建筑服务装备：大类 66、已发布，有制造 / 反应装配线，或者带提炼属性（后面读 dogma 才知道）
+        attr_names = {a["_key"]: a.get("name", "") for a in rows(zf, "dogmaAttributes.jsonl")}
+        attr_ids = {n: i for i, n in attr_names.items()}
+        if not all(n in attr_ids for n in SEC_ATTR_NAMES):
+            raise SystemExit(f"dogmaAttributes 里找不到 {SEC_ATTR_NAMES}，先核实属性名")
+        fit_attrs = {k: {i for i, n in attr_names.items() if n.startswith(pre)} for k, pre in FIT_ATTR_PREFIXES.items()}
+        lines = {o["_key"]: o for o in rows(zf, "industryAssemblyLines.jsonl")}
+        install = {o["_key"]: [lines[a["assemblyLineID"]] for a in o.get("assemblyLines", []) if a["assemblyLineID"] in lines]
+                   for o in rows(zf, "industryInstallationTypes.jsonl")}
+        service_cands = sorted(k for k, t in types.items() if group_category.get(t[3]) == SERVICE_CATEGORY)
+        # 粗糙反应产物：已发布的反应产物
+        reaction_products = {p[0] for b in blueprints if b[1] == "r" for p in b[4] if p[0] in published}
+        need = set(structure_ids) | set(rig_ids) | set(service_cands) | reaction_products
         dogma, rig_effect_ids = {}, {}
         for d in rows(zf, "typeDogma.jsonl"):
             if d["_key"] in need:
@@ -242,6 +267,7 @@ def build(zip_path):
         effect_attrs = {e["_key"]: [(m["modifiedAttributeID"], m["modifyingAttributeID"]) for m in e.get("modifierInfo") or []
                                     if m.get("domain") == "structureID" and m.get("operation") == OP_POST_PERCENT]
                         for e in rows(zf, "dogmaEffects.jsonl") if e["_key"] in wanted}
+        type_materials = {m["_key"]: m for m in rows(zf, "typeMaterials.jsonl") if m["_key"] in reaction_products}
         filters = [{"id": f["_key"], "name": f["name"] if isinstance(f.get("name"), str) else name(f, "en"),
                     "categories": sorted(f.get("categoryIDs", [])), "groups": sorted(f.get("groupIDs", []))}
                    for f in rows(zf, "industryTargetFilters.jsonl")]
@@ -265,6 +291,34 @@ def build(zip_path):
                     bonus.setdefault(act, {})[kind] = num(d[attr])
         structures.append({"id": k, "en": types[k][1], "zh": types[k][2], "group": types[k][3], "rigSize": num(d.get(ATTR_RIG_SIZE)),
                            "highsec": not d.get(ATTR_NO_HIGHSEC), "bonus": {a: {x: b[x] for x in KIND_ORDER if x in b} for a, b in bonus.items()}})
+    services, structure_set = [], set(structure_ids)
+    for k in service_cands:
+        d, ls = dogma.get(k, {}), [l for l in install.get(k, []) if l.get("activityID") in SERVICE_LINES]
+        if ls:
+            act = "m" if any(l["activityID"] == 1 for l in ls) else "r"
+        elif ATTR_REFINING_MOON in d:
+            act = "rp"
+        else:
+            continue
+        fits = {f: sorted({int(d[a]) for a in attrs if a in d}) for f, attrs in fit_attrs.items()}
+        if SERVICE_KEYS.get(k) is None:  # 不认识的新装备：能装的建筑类型不在建筑表里就丢掉，不让每周自动更新停下
+            fits["fitTypes"] = [t for t in fits["fitTypes"] if t in structure_set]
+        no_empire = bool(d.get(attr_ids["disallowInEmpireSpace"]))
+        no_high = bool(d.get(attr_ids["disallowInHighSec"]))
+        services.append({"id": k, "key": SERVICE_KEYS.get(k), "en": types[k][1], "zh": types[k][2], "activity": act,
+                         "groups": sorted({x["groupID"] for l in ls for x in l.get("detailsPerGroup", [])}),
+                         "categories": sorted({x["categoryID"] for l in ls for x in l.get("detailsPerCategory", [])}),
+                         **fits,
+                         "sec": {"h": not no_high and not no_empire, "l": not no_empire, "n": True}})
+    # 粗糙的…：提炼产出里有反应产物的反应产物（带 randomizedMaterials 的不收）
+    reprocessing = []
+    for k in sorted(reaction_products):
+        if "randomizedMaterials" in type_materials.get(k, {}):
+            continue
+        mats = [[m["materialTypeID"], m["quantity"]] for m in type_materials.get(k, {}).get("materials", [])]
+        if any(m[0] in reaction_products for m in mats):
+            skill = dogma.get(k, {}).get(ATTR_REPROCESS_SKILL)
+            reprocessing.append({"id": k, "portion": types[k][9], "skill": None if skill is None else int(skill), "materials": sorted(mats)})
     for k in rig_ids:
         # 每条加成的百分比顺着 dogma 效果找：修正来源里的建筑属性 → 改装件的哪个属性给它加成。
         # 同一个改装件对不同产品的加成可能不一样：Thukker 改装件对旗舰组件的材料加成用属性 2653，
@@ -296,7 +350,8 @@ def build(zip_path):
             "marketGroups": [[m["_key"], m.get("parentGroupID"), name(m, "en"), zh_of(m)] for m in market_groups],
             "metaGroups": [[m["_key"], name(m, "en"), zh_of(m)] for m in meta_groups],
         },
-        "industry.json": {"blueprints": blueprints, "structures": structures, "rigs": rigs, "filters": filters},
+        "industry.json": {"blueprints": blueprints, "structures": structures, "rigs": rigs, "filters": filters,
+                          "services": services, "reprocessing": reprocessing},
         "universe.json": {"regions": regions, "constellations": constellations, "systems": systems, "stations": stations,
                           "factions": factions, "jumps": [list(j) for j in jumps]},
     }
@@ -426,6 +481,18 @@ def validate(docs):
         ("过滤器的 categories、groups 应该是整数数组",
          [x["id"] for x in ind["filters"]
           if not all(isinstance(x.get(k), list) and all(type(v) is int for v in x[k]) for k in ("categories", "groups"))]),
+        ("服务装备应该有 key（字符串或 null）、en、zh、activity（m / r / rp）、groups / categories / fitGroups / fitTypes（排好序的整数数组）、"
+         "sec（h、l、n 三个布尔值）",
+         [s["id"] for s in ind["services"] if not (
+             (s.get("key") is None or isinstance(s["key"], str)) and isinstance(s.get("en"), str) and isinstance(s.get("zh"), str)
+             and s.get("activity") in SERVICE_ACTIVITIES
+             and all(isinstance(s.get(k), list) and all(type(v) is int for v in s[k]) and s[k] == sorted(set(s[k])) for k in SERVICE_LISTS)
+             and isinstance(s.get("sec"), dict) and set(s["sec"]) == {"h", "l", "n"} and all(type(v) is bool for v in s["sec"].values()))]),
+        ("提炼产出应该有 portion（整数）、skill（整数或 null）、materials（排好序的 [[typeID, 数量], ...]）",
+         [s["id"] for s in ind["reprocessing"] if not (
+             type(s.get("portion")) is int and (s.get("skill") is None or type(s["skill"]) is int)
+             and isinstance(s.get("materials"), list) and s["materials"] and all(ints(m, 2) and len(m) == 2 for m in s["materials"])
+             and s["materials"] == sorted(s["materials"]))]),
     ]
     for what, bad in shapes:
         if bad:
@@ -466,6 +533,14 @@ def validate(docs):
     refs("改装件 effects 的过滤器", (e[2] for s in ind["rigs"] for e in s.get("effects", [])), filter_ids)
     refs("过滤器的大类", (c for f in ind["filters"] for c in f["categories"]), category_ids, False)
     refs("过滤器的分组", (g for f in ind["filters"] for g in f["groups"]), group_ids, False)
+    refs("服务装备", (s["id"] for s in ind["services"]), type_ids, False)
+    refs("服务装备能装的建筑类型（fitTypes）", (t for s in ind["services"] for t in s["fitTypes"]), {s["id"] for s in ind["structures"]}, False)
+    refs("服务装备能装的建筑分组（fitGroups）", (g for s in ind["services"] for g in s["fitGroups"]), group_ids, False)
+    refs("服务装备的分组", (g for s in ind["services"] for g in s["groups"]), group_ids, False)
+    refs("服务装备的大类", (c for s in ind["services"] for c in s["categories"]), category_ids, False)
+    refs("提炼产出的物品", (s["id"] for s in ind["reprocessing"]), type_ids, False)
+    refs("提炼产出的技能", (s["skill"] for s in ind["reprocessing"]), type_ids)
+    refs("提炼产出的材料", (m[0] for s in ind["reprocessing"] for m in s["materials"]), type_ids, False)
 
     region_ids, system_ids = {r[0] for r in uni["regions"]}, {r[0] for r in uni["systems"]}
     con_region = {r[0]: r[1] for r in uni["constellations"]}
@@ -572,6 +647,39 @@ def changes_of(cols, o, n):
     return "；".join(out)
 
 
+def service_notes(new):
+    """服务装备和提炼产出的说明（Markdown 行）：每个服务覆盖多少分组、没人覆盖的产品分组、不认识的装备、有专用技能的提炼产出"""
+    ind, ty = new["industry.json"], new["types.json"]
+    group_en = {r[0]: r[2] for r in ty["groups"]}
+    group_of = {r[0]: r[3] for r in ty["types"]}
+    group_cat = {r[0]: r[1] for r in ty["groups"]}
+    out = ["### 服务装备", "", "| 装备 | key | 活动 | 分组数 | 大类数 |", "|---|---|---|---|---|"]
+    out += [f"| {s['id']} {s['en']} | {s['key'] or '无'} | {s['activity']} | {len(s['groups'])} | {len(s['categories'])} |" for s in ind["services"]]
+    out.append("")
+    unknown = [s for s in ind["services"] if s["key"] is None]
+    if unknown:
+        out += ["**有 key 为 null 的服务装备（SERVICE_KEYS 里没有，插件不会当作任何已知服务；能装的建筑类型里不在建筑表中的已丢掉，请核实后补上）**：" + "、".join(
+            f"{s['id']} {s['en']}" for s in unknown), ""]
+    for act, zh in (("m", "制造"), ("r", "反应")):
+        svc = [s for s in ind["services"] if s["activity"] == act]
+        groups = {g for s in svc for g in s["groups"]}
+        cats = {c for s in svc for c in s["categories"]}
+        products = {p[0] for b in ind["blueprints"] if b[1] == act for p in b[4]}
+        left = sorted({group_of[t] for t in products if t in group_of} - groups - {g for g in group_cat if group_cat[g] in cats})
+        out.append(f"没有任何服务装备覆盖的{zh}产品分组（{len(left)}）：" + ("、".join(f"{g} {group_en.get(g, '')}" for g in left) or "无") + "。")
+    out.append("")
+    rp = ind["reprocessing"]
+    out.append(f"粗糙反应产物的提炼产出：{len(rp)} 种。")
+    with_skill = [r for r in rp if r["skill"] is not None]
+    if with_skill:
+        out += ["", "**警告：下面这些提炼产出有专用提炼技能（skill 不是 null），插件不能对它们套用 55% 的废料处理规则：**",
+                "", "、".join(f"{r['id']}（技能 {r['skill']}）" for r in with_skill)]
+    else:
+        out.append("其中没有 skill 不是 null 的。")
+    out.append("")
+    return out
+
+
 def summary(old, new, old_build, dropped):
     """变化说明（Markdown）"""
     ty_new = {r[0]: r for r in new["types.json"]["types"]}
@@ -627,6 +735,7 @@ def summary(old, new, old_build, dropped):
                     other.append(TABLE_ZH[t] + " " + "、".join(f"{w} {len(x)}" for w, x in zip(("新增", "删除", "修改"), d) if x))
         if other:
             sections.extend(["### 其他表", "", "；".join(other) + "。", ""])
+    sections.extend(service_notes(new))
     if dropped:
         table("丢掉的蓝图（材料或产品没有发布）", ["蓝图", "活动", "找不到的 typeID"],
               [(label(ty_new.get(b)) or b, ACT_ZH[a], ", ".join(map(str, m))) for b, a, m in dropped])
@@ -689,6 +798,9 @@ def main():
         msg = f"丢掉了 {len(dropped)} 行蓝图（材料或产品没有发布），见变化说明"
         print(f"::warning::{msg}" if os.environ.get("GITHUB_ACTIONS") else msg)
 
+    if any(r["skill"] is not None for r in new["industry.json"]["reprocessing"]):
+        msg = "提炼产出里有 skill 不是 null 的行，插件不能对它们套用 55% 规则，见变化说明"
+        print(f"::warning::{msg}" if os.environ.get("GITHUB_ACTIONS") else msg)
     head = new["types.json"]
     manifest = {"schema": SCHEMA, "dataRevision": DATA_REVISION, "buildNumber": head["buildNumber"],
                 "sdeReleaseDate": head["sdeReleaseDate"], "generatedAt": head["generatedAt"],

@@ -73,7 +73,7 @@
 |---|---|
 | [`manifest.json`](official/data/manifest.json) | 很小，插件只轮询这个文件：`schema`、`dataRevision`、`buildNumber`、`sdeReleaseDate`、`generatedAt`，以及每个数据文件的 `sha256`、`bytes`（字节数）、`rows`（`types`、`blueprints`、`systems` 的行数） |
 | [`types.json`](official/data/types.json) | 所有已发布的物品（含拼音），以及分组、大类、市场分组、元分组 |
-| [`industry.json`](official/data/industry.json) | 蓝图（制造、反应、发明）、Upwell 建筑的工业加成、工业改装件、改装件的目标过滤器 |
+| [`industry.json`](official/data/industry.json) | 蓝图（制造、反应、发明）、Upwell 建筑的工业加成、工业改装件、改装件的目标过滤器、建筑服务装备（能造什么、能装在哪些建筑上）、粗糙反应产物的提炼产出 |
 | [`universe.json`](official/data/universe.json) | 星域、星座、星系（含虫洞空间）、NPC 空间站、势力、星门连接 |
 
 网址：先读 manifest，有变化时把三个数据文件一起下载，逐个核对 `sha256`。数据文件和 manifest 在同一个目录。
@@ -84,7 +84,7 @@
 **格式**：
 
 - 每个数据文件开头是头部键：`schema`、`buildNumber`、`sdeReleaseDate`、`source`、`license`、`generatedAt`。内容没变的文件不重写，所以各文件头部的 build 号可能比 manifest 旧，**以 manifest 为准**；manifest 的 `generatedAt` 是数据内容上次变化的时间，不是上次检查的时间（SDE 没有变化时它不会更新）。
-- 大部分表带一个列名数组（`columns`、`groupColumns`……），行是紧凑的 JSON 数组；`industry.json` 的 `structures`、`rigs`、`filters` 是对象数组，一行一个对象。都是一行一条、按 id 排序。**请按列名（字段名）取值**：以后可能加列、加表（这时 `dataRevision` 加 1）；只有改列名、改含义这种不兼容的变化才会把 `schema` 加 1。
+- 大部分表带一个列名数组（`columns`、`groupColumns`……），行是紧凑的 JSON 数组；`industry.json` 的 `structures`、`rigs`、`filters`、`services`、`reprocessing` 是对象数组，一行一个对象。都是一行一条、按 id 排序。**请按列名（字段名）取值**：以后可能加列、加表（这时 `dataRevision` 加 1）；只有改列名、改含义这种不兼容的变化才会把 `schema` 加 1。
 - 整数写整数，其他数字保留 6 位小数；没有中文名、或者中文和英文一样时 `zh` 是 `""`；代号星系（例如 `YM-SRU`）、代号星座和星域的 `zh` 也是 `""`。
 
 ```json
@@ -111,6 +111,8 @@
 | `structures` | `id`、`en`、`zh`、`group`、`rigSize`、`highsec`、`bonus` | Upwell 工程复合体、精炼厂、堡垒。`rigSize` 是能装的改装件尺寸：2 = M、3 = L、4 = XL；`bonus` 按活动（`m`、`r`、`i`、`c` 拷贝、`rm` 材料研究、`rt` 时间研究）给 `me`、`te`、`cost` 的乘数（例如 0.99）；没有工业加成的建筑是 `{}`；`highsec` 是 false 时不能放在高安 |
 | `rigs` | `id`、`en`、`zh`、`group`、`size`、`sec`、`effects` | 工业改装件。`size` 和建筑的 `rigSize` 一样才能装（2 = M、3 = L、4 = XL）；`sec` 是高安 `h`、低安 `l`、00 `n` 的倍数，`null` 表示这里不生效；`effects` 每一条是 `[活动, me/te/cost, 过滤器 id, 百分比]`：产品命中过滤器时按这个百分比加成（例如 `-2` 再乘 `sec` 里的倍数），过滤器是 `null` 时对这个活动的所有产品生效。同一个改装件对不同产品的百分比可能不一样（Thukker 改装件对旗舰组件、高级旗舰组件的材料加成是 -3.7，来自属性 2653；对其他产品是 -2），所以要用每一条自己的百分比 |
 | `filters` | `id`、`name`、`categories`、`groups` | 改装件的目标过滤器：产品的大类在 `categories` 里、或者分组在 `groups` 里就算命中 |
+| `services` | `id`、`key`、`en`、`zh`、`activity`、`groups`、`categories`、`fitGroups`、`fitTypes`、`sec` | 建筑服务装备（Standup 模块）：制造、反应，以及月矿提炼用的提炼服务。`activity`：`m` 制造、`r` 反应、`rp` 提炼；`groups`、`categories` 是它能造的产品分组和大类（制造、反应装配线的合集，提炼服务是空数组）；`fitGroups`、`fitTypes` 是能装在哪些建筑分组、哪些建筑类型上（`fitTypes` 里的 id 都在 `structures` 里）；`sec` 的 `h` 高安、`l` 低安、`n` 00 是 true 才能用；`key` 是语义名（`manufacturing`、`capital`、`supercapital`、`reaction`、`reprocessing`），认不出的新装备是 `null`。研究、发明的装配线不收 |
+| `reprocessing` | `id`、`portion`、`skill`、`materials` | 只收「粗糙的…」这类老的反应产物（提炼产出里还有反应产物的）：`portion` 是每批数量（portionSize）；`skill` 是专用提炼技能的 typeID，没有时是 `null`（有的话不能套用通用的废料处理规则）；`materials` 是 `[typeID, 数量]`，按 typeID 排序。靠规则选出，不是写死的名单 |
 | `regions` | `id`、`en`、`zh` | 星域 |
 | `constellations` | `id`、`region`、`en`、`zh` | 星座 |
 | `systems` | `id`、`constellation`、`region`、`security`、`en`、`zh` | 星系（含虫洞空间）；`security` 是安全等级 |
@@ -165,6 +167,6 @@ A glossary of EVE Online slang, abbreviations and fleet jargon as actually used 
 
 - [`glossary.yaml`](glossary.yaml): **325 hand-curated entries** (907 aliases), licensed **CC BY 4.0**. Each entry has `en`, `zh`, `mode` (`keep` / `force` / `hint`) and `dir` (`both` / `en2zh` / `zh2en`); see the format section above.
 - [`official/`](official/): **12,396 official English/Chinese names** (types, groups, categories, systems, constellations, regions) generated from CCP's Static Data Export. Each entry has `kind`, `en` and `zh`; ship and structure types also carry `cat` (`ship` / `structure`). **Not** covered by CC BY 4.0: © CCP hf., non-commercial use only under the EVE Developer License Agreement; see [official/NOTICE.md](official/NOTICE.md).
-- [`official/data/`](official/data/): data for the koishi-plugin-eve-market QQ bot plugin, generated from the Static Data Export by `scripts/build_data.py`: `types.json` (all published types with Chinese names and pinyin, plus groups, categories, market groups and meta groups), `industry.json` (manufacturing / reaction / invention blueprints, Upwell structure bonuses, industry rigs and their target filters) and `universe.json` (regions, constellations, systems, NPC stations, factions, stargate jumps). Poll `manifest.json` (build number, `sha256`, size and row count of each file). Most tables are a column-name array plus compact rows; `structures`, `rigs` and `filters` in `industry.json` are one JSON object per line. Rows are sorted by id; read columns by name, as columns may be added (`schema` only changes on incompatible changes). Unchanged files are not rewritten, so trust the build number in `manifest.json`, not the file headers. Checked weekly; when the data changes it is validated and committed to `main` automatically. Same CCP license as `official/`; see [official/NOTICE.md](official/NOTICE.md).
+- [`official/data/`](official/data/): data for the koishi-plugin-eve-market QQ bot plugin, generated from the Static Data Export by `scripts/build_data.py`: `types.json` (all published types with Chinese names and pinyin, plus groups, categories, market groups and meta groups), `industry.json` (manufacturing / reaction / invention blueprints, Upwell structure bonuses, industry rigs and their target filters, structure service modules and the reprocessing output of the legacy "Unrefined" reaction products) and `universe.json` (regions, constellations, systems, NPC stations, factions, stargate jumps). Poll `manifest.json` (build number, `sha256`, size and row count of each file). Most tables are a column-name array plus compact rows; `structures`, `rigs`, `filters`, `services` and `reprocessing` in `industry.json` are one JSON object per line. Rows are sorted by id; read columns by name, as columns may be added (`schema` only changes on incompatible changes). Unchanged files are not rewritten, so trust the build number in `manifest.json`, not the file headers. Checked weekly; when the data changes it is validated and committed to `main` automatically. Same CCP license as `official/`; see [official/NOTICE.md](official/NOTICE.md).
 
 Contributions are welcome via issues and pull requests. Please run `python scripts/check.py` before submitting.
