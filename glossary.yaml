@@ -2737,3 +2737,39 @@
   category: structure
   note: "AA 建筑通知的标题"
 
+- en: "Blockade Runner"
+  zh: "偷运"
+  mode: force
+  dir: zh2en
+  category: ship
+  note: "偷运舰（官方组名）的口语。模型曾译成 smuggle，送审时被当成违法内容拦下"
+
+- en: "Marauder"
+  zh: "掠夺"
+  mode: hint
+  dir: zh2en
+  category: ship
+  note: "掠夺舰（官方组名）的口语，例如「掠夺随便打」。「掠夺」也是普通动词，所以只作参考；模型曾译成 loot / pillage"
+
+- en: "Vargur"
+  zh: "恶狼"
+  mode: hint
+  dir: zh2en
+  zh_aliases: ["饿狼"]
+  category: ship
+  note: "恶狼级（官方名）。玩家常写成「饿狼」。两个字的普通词，只作参考"
+
+- en: "Apocalypse"
+  zh: "灾难"
+  mode: hint
+  dir: zh2en
+  category: ship
+  note: "灾难级（官方名）。「灾难」是普通词，只作参考；模型曾译成别的船"
+
+- en: "Satisfactory"
+  zh: "幸福工厂"
+  mode: force
+  dir: zh2en
+  category: chat
+  note: "游戏《幸福工厂》的英文名；模型曾直译成 Happiness Factory"
+
