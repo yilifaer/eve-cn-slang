@@ -18,6 +18,8 @@
 
 官方表可以直接在 GitHub 上搜索：打开 [`official/eve-official.csv`](official/eve-official.csv)，GitHub 会显示成可搜索的表格。
 
+**国内打不开 GitHub 时**，可以用 GitCode 上的镜像：[gitcode.com/gcw_PFAZLIHC/eve-cn-slang](https://gitcode.com/gcw_PFAZLIHC/eve-cn-slang)，内容和这里一样，自动同步，不用登录就能查看和下载。
+
 ## 黑话表格式
 
 每一条是一个 YAML 对象：
