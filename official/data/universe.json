@@ -1,10 +1,10 @@
 {
 "schema": 1,
-"buildNumber": 3579973,
-"sdeReleaseDate": "2026-10-06T11:08:26Z",
-"source": "CCP hf. EVE Online Static Data Export (Tranquility), build 3579973",
+"buildNumber": 3654997,
+"sdeReleaseDate": "2026-10-27T11:16:34Z",
+"source": "CCP hf. EVE Online Static Data Export (Tranquility), build 3654997",
 "license": "EVE Developer License Agreement (non-commercial). NOT covered by CC BY 4.0. See official/NOTICE.md",
-"generatedAt": "2026-10-07T08:09:40.607Z",
+"generatedAt": "2026-10-28T18:21:14.070Z",
 "regionColumns": ["id","en","zh"],
 "regions": [
 [10000001,"Derelik","德里克"],
@@ -6796,7 +6796,7 @@
 [30100082,20010009,10001004,1,"Vaejra","瓦埃杰拉"],
 [30100083,20010009,10001004,1,"Sakizra","萨基兹拉"],
 [30100084,20010009,10001004,1,"Ichorah","伊科拉"],
-[31000001,21000334,11000033,-0.99,"Sentinel MZ","哨兵MZ"],
+[31000001,21000334,11000033,-0.99,"Sentinel MZ","哨兵军事区"],
 [31000002,21000334,11000033,-0.99,"Liberated Barbican","自由巴比肯"],
 [31000003,21000334,11000033,-0.99,"Sanctified Vidette","维德特圣域"],
 [31000004,21000334,11000033,-0.99,"Conflux Eyrie","合流鹰巢"],
