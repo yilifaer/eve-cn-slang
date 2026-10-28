@@ -1,7 +1,7 @@
 {
-"source": "CCP hf. EVE Online Static Data Export (Tranquility), build 3632936",
-"buildNumber": 3632936,
-"generatedAt": "2026-10-21T17:12:33.861Z",
+"source": "CCP hf. EVE Online Static Data Export (Tranquility), build 3654997",
+"buildNumber": 3654997,
+"generatedAt": "2026-10-28T18:21:16.733Z",
 "license": "EVE Developer License Agreement (non-commercial). NOT covered by CC BY 4.0. See official/NOTICE.md",
 "count": 12474,
 "entries": [
@@ -38892,7 +38892,7 @@
 {
 "kind": "type",
 "en": "Salvation",
-"zh": "救赎级",
+"zh": "拯救级",
 "cat": "ship"
 },
 {
