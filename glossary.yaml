@@ -6,7 +6,7 @@
   mode: keep
   dir: both
   en_aliases: ["cta", "call to arms", "call-to-arms"]
-  zh_aliases: ["全员集结", "强制集结", "极限集结"]
+  zh_aliases: ["全员集结", "强制集结"]
   category: fleet
   note: "联盟级全员集结通知"
 
@@ -384,10 +384,10 @@
 
 - en: "supercaps"
   zh: "超旗"
-  mode: hint
-  dir: both
+  mode: force
+  dir: en2zh
   en_aliases: ["supercap", "super-cap", "supercapital", "super-capital"]
-  zh_aliases: ["超级旗舰", "超期"]
+  zh_aliases: ["超级旗舰"]
   category: ship
   note: "超级航母与泰坦统称"
 
@@ -411,10 +411,10 @@
 
 - en: "subcaps"
   zh: "常规船"
-  mode: hint
-  dir: both
+  mode: force
+  dir: en2zh
   en_aliases: ["subcap", "sub-cap", "subcapital"]
-  zh_aliases: ["亚旗舰", "非旗舰", "常规", "常规队"]
+  zh_aliases: ["亚旗舰", "非旗舰"]
   category: ship
   note: "非旗舰级舰船统称"
 
@@ -1374,7 +1374,7 @@
   mode: keep
   dir: both
   en_aliases: ["planetary industry"]
-  zh_aliases: ["行星工业", "行星开发", "种菜"]
+  zh_aliases: ["行星工业", "行星开发"]
   category: industry
   note: "行星工业的玩家简称"
 
@@ -2050,9 +2050,9 @@
   mode: hint
   dir: both
   en_aliases: ["multi-boxing", "multibox", "multi box", "dual-boxing", "dual boxing", "dual-box", "dual box", "dualbox"]
-  zh_aliases: ["多号同开", "双开", "三开", "四开", "十开"]
+  zh_aliases: ["多号同开", "双开", "三开", "四开", "十开", "五开", "八开"]
   category: chat
-  note: "同时操作多个账号；双开/三开/十开=同时开 N 个号，单开=只开一个号"
+  note: "同时操作多个账号；双开/三开/五开/十开=同时开 N 个号（五开=5-boxing），单开=只开一个号；「五五开」是对半分，不是五开"
 
 - en: "DCed"
   zh: "掉线"
@@ -2784,12 +2784,11 @@
 
 - en: "intel"
   zh: "情报"
-  mode: hint
-  dir: both
+  mode: force
+  dir: en2zh
   en_aliases: ["intel channel", "intel report"]
-  zh_aliases: ["预警", "预警频道"]
   category: fleet
-  note: "敌情信息、情报频道"
+  note: "敌情信息；中译英方向的「预警」另有词条"
 
 - en: "staging"
   zh: "集结点"
@@ -2840,7 +2839,7 @@
   mode: hint
   dir: both
   en_aliases: ["umbrella fleet", "capital umbrella", "umbrella up", "cap umbrella", "supercap umbrella", "super umbrella"]
-  zh_aliases: ["开伞", "撑伞", "伞内", "伞外", "进伞", "保护伞", "值守伞", "伞舰队", "大鱼伞", "超旗伞"]
+  zh_aliases: ["开伞", "撑伞", "伞内", "伞外", "进伞", "值守伞", "伞舰队", "大鱼伞", "超旗伞"]
   category: fleet
   note: "随时待命的旗舰保护体系；群里常简称「伞」，「开伞」=旗舰伞上线"
 
@@ -2986,7 +2985,7 @@
 - en: "CRAB beacon"
   zh: "CRAB信标"
   mode: force
-  dir: en2zh
+  dir: both
   en_aliases: ["CRAB beacons", "CRAB site", "CONCORD Rogue Analysis Beacon"]
   zh_aliases: ["CRAB 信标", "刷CRAB"]
   category: pve
@@ -4595,7 +4594,7 @@
   en_aliases: ["smartbomb ratter", "smartbombing rats"]
   zh_aliases: ["炸鱼队", "炸鱼船", "炸鱼佬"]
   category: pve
-  note: "多开智能炸弹战列刷怪；炸鱼船=智能炸弹刷怪船，炸鱼佬=干这个的玩家，炸鱼队=猎杀刷怪者的小队，常配隐轰；一般游戏圈也指高手虐新手，所以只做 hint"
+  note: "多开智能炸弹战列刷怪；炸鱼船=智能炸弹刷怪船，炸鱼佬=干这个的玩家。群里有时也指猎杀刷怪的人，含义待群主确认，所以只做 hint"
 
 - en: "bombs"
   zh: "炸弹"
@@ -4605,10 +4604,33 @@
   category: module
   note: "口语里基本指立体炸弹（smartbomb），「开炸弹」=激活立体炸弹；隐轰投的是 bomb，看语境。立体炸弹本体见 smartbomb 条（force），这里不并进去以免和隐轰混"
 
-- en: "N-boxing"
-  zh: "五开"
+- en: "intel"
+  zh: "预警"
   mode: hint
   dir: zh2en
-  zh_aliases: ["八开"]
+  zh_aliases: ["预警频道"]
   category: chat
-  note: "N开=同时开 N 个号，保留数字；注意「五五开」是对半分，不是五开"
+  note: "群里说「预警」指敌情、情报频道；「情报」多是地震播报，不做中译英"
+
+- en: "subcaps"
+  zh: "常规"
+  mode: hint
+  dir: zh2en
+  zh_aliases: ["常规船", "常规队"]
+  category: ship
+  note: "和旗舰相对的非旗舰船；也是普通词「常规」，只作参考"
+
+- en: "supercaps"
+  zh: "超期"
+  mode: hint
+  dir: zh2en
+  zh_aliases: ["超旗"]
+  category: ship
+  note: "「超旗」及其谐音写法「超期」；普通中文里「超期」是逾期，只做 hint"
+
+- en: "doing PI"
+  zh: "种菜"
+  mode: hint
+  dir: zh2en
+  category: industry
+  note: "行星开发（种菜号、种菜技能）；「回家种菜」是熟语，所以只做 hint，不并进 PI"
