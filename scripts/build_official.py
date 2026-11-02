@@ -12,7 +12,7 @@
 用法：
     python scripts/build_official.py                       # 下载 CCP 最新的 SDE
     python scripts/build_official.py path/to/sde.zip       # 用下载好的 eve-online-static-data-<build>-jsonl.zip
-    python scripts/build_official.py --summary changes.md  # 另外把变化写成 Markdown（每周自动检查开合并请求时用）
+    python scripts/build_official.py --summary changes.md  # 另外把变化写成 Markdown（每周自动检查写进运行记录的 Summary 页面）
 """
 import argparse, csv, io, json, re, shutil, tempfile, urllib.request, zipfile
 from collections import Counter, defaultdict
@@ -32,7 +32,7 @@ EXCLUDED_CATEGORIES = {91, 9, 30, 16, 63}
 TYPE_CAT_MARKERS = {6: "ship", 65: "structure"}
 CODE_NAME = re.compile(r"[A-Z0-9]{1,5}-[A-Z0-9]{1,5}")  # 代号星系（以及同样形式的星域、星座名）
 WH_REGION_MIN, WH_CONSTELLATION_MIN = 11000000, 21000000  # 虫洞等特殊空间
-SUMMARY_LIMIT = 200  # 合并请求说明里每张表最多列多少条（GitHub 限制说明长度）
+SUMMARY_LIMIT = 200  # 变化列表里每张表最多列多少条（Summary 页面有长度限制）
 
 
 def latest_build():
@@ -182,7 +182,7 @@ def summary(old_build, build_no, added, removed, changed, cat_changed):
     table("中文名变化", ["类型", "英文", "原来的中文", "现在的中文"], changed)
     if cat_changed:
         lines.extend([f"### 类别标记变化（{cat_changed}）", "", f"有 {cat_changed} 条物品名称没变，类别标记（cat：ship 舰船 / structure 建筑）变了。", ""])
-    lines.append("由每周自动检查（.github/workflows/update-official.yml）生成。看过没问题就点「Merge pull request」。")
+    lines.append("由每周自动检查（.github/workflows/update-official.yml）生成，检查通过后已直接提交到 main。")
     return "\n".join(lines) + "\n"
 
 
