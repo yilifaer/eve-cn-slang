@@ -284,7 +284,7 @@
   mode: hint
   dir: both
   en_aliases: ["roaming", "roaming fleet"]
-  zh_aliases: ["漫游队", "出门找架"]
+  zh_aliases: ["漫游队", "出门找架", "游走"]
   category: fleet
   note: "小队机动寻找交战"
 
@@ -606,7 +606,7 @@
 
 - en: "Booster"
   zh: "加成船"
-  mode: force
+  mode: hint
   dir: en2zh
   en_aliases: ["fleet booster", "link booster"]
   category: ship
@@ -648,7 +648,7 @@
   note: "降低目标速度的网子"
 
 - en: "neut"
-  zh: "毁电（也常指本地中立玩家）"
+  zh: "毁电"
   mode: hint
   dir: en2zh
   en_aliases: ["neuted", "neuting", "energy neutralizer"]
@@ -2063,7 +2063,7 @@
   zh: "PAP"
   mode: keep
   dir: both
-  en_aliases: ["pap", "participation link"]
+  en_aliases: ["pap", "participation link", "FAT", "fleet activity tracking"]
   zh_aliases: ["出勤", "出勤记录"]
   category: chat
   note: "联盟舰队出勤记录"
@@ -2186,6 +2186,7 @@
   zh: "星城"
   mode: force
   dir: en2zh
+  en_aliases: ["Keepstar"]
   category: fleet
   note: "删除原来的裸 \"keep\" hint（keep 是常用动词，本批 2 处被误译成星城）"
 
@@ -2773,3 +2774,349 @@
   category: chat
   note: "游戏《幸福工厂》的英文名；模型曾直译成 Happiness Factory"
 
+# ---- IGC 联盟 wiki 整理的新词（2026-11-02）----
+
+- en: "intel"
+  zh: "情报"
+  mode: force
+  dir: en2zh
+  en_aliases: ["intel channel", "intel report"]
+  zh_aliases: ["报情报", "情报频道"]
+  category: fleet
+  note: "敌情信息、情报频道"
+
+- en: "staging"
+  zh: "集结点"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["staging system", "home staging"]
+  zh_aliases: ["驻地"]
+  category: fleet
+  note: "舰队出发和放船的基地星系"
+
+- en: "on grid"
+  zh: "在场"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["on-grid", "same grid", "landed on grid"]
+  zh_aliases: ["同场", "落地"]
+  category: fleet
+  note: "在同一个 grid 内，总览能直接看到"
+
+- en: "home defense"
+  zh: "主场防守"
+  mode: hint
+  dir: both
+  en_aliases: ["home defence", "home defense fleet", "home def"]
+  zh_aliases: ["守家"]
+  category: fleet
+  note: "保卫自家星域的舰队"
+
+- en: "counter-drop"
+  zh: "反投"
+  mode: force
+  dir: en2zh
+  en_aliases: ["counter drop", "counterdrop", "counter-dropped"]
+  category: fleet
+  note: "对方投人后我方旗舰跳进去反打"
+
+- en: "got dropped"
+  zh: "被投"
+  mode: force
+  dir: en2zh
+  en_aliases: ["getting dropped", "dropped on", "get dropped", "being dropped"]
+  zh_aliases: ["被投了"]
+  category: fleet
+  note: "被敌方旗舰或黑隐跳脸；和 hotdrop / 投子是一回事，这里是被动说法"
+
+- en: "umbrella"
+  zh: "保护伞"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["umbrella fleet", "capital umbrella", "umbrella up"]
+  zh_aliases: ["开伞"]
+  category: fleet
+  note: "随时待命的旗舰保护体系；群里常简称「伞」，「开伞」= 保护伞上线"
+
+- en: "cover fleet"
+  zh: "掩护舰队"
+  mode: hint
+  dir: both
+  en_aliases: ["cover fleets", "covering fleet"]
+  category: fleet
+  note: "给刷怪、挖矿旗舰站岗的待命舰队"
+
+- en: "response fleet"
+  zh: "救援舰队"
+  mode: hint
+  dir: both
+  en_aliases: ["rescue fleet", "response fleets"]
+  zh_aliases: ["响应舰队"]
+  category: fleet
+  note: "旗舰被抓后集结去救的舰队"
+
+- en: "jump fatigue"
+  zh: "跳跃疲劳"
+  mode: force
+  dir: both
+  en_aliases: ["jump fatigued", "jump timer fatigue"]
+  category: fleet
+  note: "旗舰跳跃 / 跳桥后的冷却惩罚"
+
+- en: "jump clone"
+  zh: "远克"
+  mode: force
+  dir: both
+  en_aliases: ["jump clones", "JC", "jumpclone"]
+  zh_aliases: ["远程克隆", "跳克隆"]
+  category: fleet
+  note: "空间站里放的备用克隆，可以远程切换"
+
+- en: "death clone"
+  zh: "医疗克隆"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["medical clone", "home station clone"]
+  zh_aliases: ["复活点"]
+  category: fleet
+  note: "死后复活的地方，一般设在集结点"
+
+- en: "outstanding calls"
+  zh: "outstanding calls"
+  mode: keep
+  dir: both
+  en_aliases: ["outstanding call", "outstanding calls window"]
+  category: fleet
+  note: "舰队广播记录窗口；中文玩家直接说英文"
+
+- en: "PTT"
+  zh: "PTT"
+  mode: keep
+  dir: both
+  en_aliases: ["push to talk", "push-to-talk"]
+  zh_aliases: ["按键说话", "按键发言"]
+  category: fleet
+  note: "语音按键说话"
+
+- en: "siege"
+  zh: "攻城"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["siege module", "sieged", "in siege", "siege cycle", "siege timer"]
+  zh_aliases: ["开攻城", "会战"]
+  category: module
+  note: "无畏的会战装备（国服官方名），玩家都叫攻城；desiege = 退出攻城"
+
+- en: "industrial core"
+  zh: "工业核心"
+  mode: force
+  dir: both
+  en_aliases: ["indy core", "industrial cores"]
+  zh_aliases: ["开核心"]
+  category: module
+  note: "长须鲸的挖矿核心，开着不能动"
+
+- en: "PANIC"
+  zh: "PANIC"
+  mode: hint
+  dir: both
+  en_aliases: ["panic module", "PANIC module", "PANIC timer"]
+  zh_aliases: ["应急", "开应急"]
+  category: module
+  note: "长须鲸的脉冲激活式关联全能核心，开了结构无敌一段时间"
+
+- en: "smartbomb"
+  zh: "立体炸弹"
+  mode: force
+  dir: both
+  en_aliases: ["smartbombs", "smart bomb", "smart bombs", "smartbombing"]
+  zh_aliases: ["开立体炸弹"]
+  category: module
+  note: "以自己为中心的范围伤害装备"
+
+- en: "hardener"
+  zh: "抗性"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["hardeners", "shield hardener", "armor hardener"]
+  zh_aliases: ["抗性模块", "开抗性"]
+  category: module
+  note: "主动抗性装备"
+
+- en: "buffer"
+  zh: "缓冲装"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["buffer fit", "buffer tank", "buffer fax"]
+  zh_aliases: ["有效装"]
+  category: module
+  note: "靠血量硬扛的装配；buffer FAX = 缓冲装 FAX"
+
+- en: "active tank"
+  zh: "主动装"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["active fit", "active tanked", "active fax"]
+  zh_aliases: ["自修装"]
+  category: module
+  note: "靠自修扛伤害的装配"
+
+- en: "fighters"
+  zh: "铁骑"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["fighter", "fighter squadron", "fighter squad"]
+  zh_aliases: ["铁骑舰载机"]
+  category: ship
+  note: "航母、大航放的舰载机"
+
+- en: "anti-cap fighters"
+  zh: "反旗舰铁骑"
+  mode: force
+  dir: en2zh
+  en_aliases: ["anti-capital fighters", "heavy fighters", "anticap fighters"]
+  zh_aliases: ["重型铁骑", "重铁骑"]
+  category: ship
+  note: "打旗舰用的重型铁骑"
+
+- en: "CRAB beacon"
+  zh: "CRAB信标"
+  mode: force
+  dir: both
+  en_aliases: ["CRAB beacons", "CRAB site", "CONCORD Rogue Analysis Beacon"]
+  zh_aliases: ["CRAB 信标", "刷CRAB"]
+  category: pve
+  note: "统合部自由分析信标，旗舰链接后刷自由无人机"
+
+- en: "CEQ"
+  zh: "CEQ"
+  mode: keep
+  dir: both
+  category: pve
+  note: "部署 CRAB 信标消耗的物品"
+
+- en: "red loot"
+  zh: "红货"
+  mode: force
+  dir: en2zh
+  en_aliases: ["rogue drone infestation data"]
+  category: pve
+  note: "CRAB 掉的自由无人机滋生数据"
+
+- en: "mutaplasmid"
+  zh: "突变质体"
+  mode: force
+  dir: both
+  en_aliases: ["mutaplasmids", "muta", "mutas"]
+  category: pve
+  note: "改装备属性的掉落物"
+
+- en: "sov"
+  zh: "主权"
+  mode: hint
+  dir: both
+  en_aliases: ["sovereignty", "SOV", "sov upgrades"]
+  zh_aliases: ["主权升级"]
+  category: structure
+  note: "00 星系主权"
+
+- en: "CSM"
+  zh: "CSM"
+  mode: keep
+  dir: both
+  en_aliases: ["Council of Stellar Management", "CSM vote"]
+  zh_aliases: ["星际议会", "CSM投票"]
+  category: chat
+  note: "玩家选出的星际管理委员会"
+
+- en: "OPSEC"
+  zh: "OPSEC"
+  mode: keep
+  dir: both
+  en_aliases: ["opsec", "operational security"]
+  zh_aliases: ["保密"]
+  category: chat
+  note: "行动保密，不外传集结和行动信息"
+
+- en: "RMT"
+  zh: "RMT"
+  mode: keep
+  dir: both
+  en_aliases: ["real money trading"]
+  zh_aliases: ["现金交易"]
+  category: chat
+  note: "用现实货币买卖 ISK、角色，会被封号"
+
+- en: "GSF"
+  zh: "GSF"
+  mode: keep
+  dir: both
+  en_aliases: ["Goonswarm", "Goonswarm Federation"]
+  zh_aliases: ["蜜蜂"]
+  category: chat
+  note: "Goonswarm Federation，中文玩家常叫蜜蜂"
+
+- en: "Imperium"
+  zh: "帝国"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["the Imperium", "Imperium coalition"]
+  zh_aliases: ["帝国联军"]
+  category: chat
+  note: "以 GSF 为首的联军"
+
+- en: "blues"
+  zh: "蓝加"
+  mode: hint
+  dir: en2zh
+  en_aliases: ["blue", "blued", "set blue"]
+  zh_aliases: ["蓝色", "友军"]
+  category: chat
+  note: "声望设为蓝色的友方；red / neut 另见"
+
+- en: "DOTLAN"
+  zh: "DOTLAN"
+  mode: keep
+  dir: both
+  en_aliases: ["dotlan", "evemaps"]
+  category: chat
+  note: "星图网站"
+
+- en: "EANM"
+  zh: "EANM"
+  mode: keep
+  dir: both
+  category: chat
+  note: "复制角色客户端设置的工具"
+
+- en: "Russians"
+  zh: "毛子"
+  mode: hint
+  dir: zh2en
+  zh_aliases: ["毛子哥"]
+  category: chat
+  note: "俄语玩家，口语、偏调侃"
+
+- en: "flaked"
+  zh: "咕咕咕"
+  mode: hint
+  dir: zh2en
+  zh_aliases: ["咕了", "鸽了"]
+  category: chat
+  note: "放鸽子、没来"
+
+- en: "brawl"
+  zh: "硬换硬"
+  mode: hint
+  dir: zh2en
+  zh_aliases: ["贴脸换"]
+  category: fleet
+  note: "正面硬拼，不放风筝"
+
+- en: "war stock"
+  zh: "战备"
+  mode: hint
+  dir: zh2en
+  zh_aliases: ["买战备", "囤战备"]
+  category: chat
+  note: "为打仗囤的船和物资"
