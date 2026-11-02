@@ -1,7 +1,7 @@
 {
-"source": "CCP hf. EVE Online Static Data Export (Tranquility), build 3632936",
-"buildNumber": 3632936,
-"generatedAt": "2026-10-21T17:12:33.861Z",
+"source": "CCP hf. EVE Online Static Data Export (Tranquility), build 3665151",
+"buildNumber": 3665151,
+"generatedAt": "2026-11-02T16:33:24.730Z",
 "license": "EVE Developer License Agreement (non-commercial). NOT covered by CC BY 4.0. See official/NOTICE.md",
 "count": 12474,
 "entries": [
@@ -34421,7 +34421,7 @@
 {
 "kind": "type",
 "en": "Moreau’s Modified Expanded Scan Probe Launcher",
-"zh": "莫罗的改良延展型扫描探针发射器"
+"zh": "莫罗氏改良型延伸探针发射器"
 },
 {
 "kind": "type",
@@ -38892,7 +38892,7 @@
 {
 "kind": "type",
 "en": "Salvation",
-"zh": "救赎级",
+"zh": "拯救级",
 "cat": "ship"
 },
 {
