@@ -641,9 +641,9 @@
 - en: "web"
   zh: "网子"
   mode: hint
-  dir: en2zh
+  dir: both
   en_aliases: ["webs", "webbed", "webbing"]
-  zh_aliases: ["停滞缠绕", "缠绕光束"]
+  zh_aliases: ["停滞缠绕", "缠绕光束", "轻网"]
   category: module
   note: "降低目标速度的网子"
 
@@ -1259,7 +1259,7 @@
   mode: hint
   dir: en2zh
   en_aliases: ["WH chain", "wormhole chain"]
-  zh_aliases: ["虫洞链", "洞中洞"]
+  zh_aliases: ["虫洞链"]
   category: wormhole
   note: "多个虫洞组成的路线"
 
@@ -3783,11 +3783,11 @@
   category: module
   note: "无人机伤害增效装置缩写"
 
-- en: "Pith A-Type"
+- en: "Pithum A-Type"
   zh: "PA"
   mode: hint
   dir: zh2en
-  en_aliases: ["Pith A", "Pithum A-Type"]
+  en_aliases: ["Pithum A"]
   zh_aliases: ["pa", "Pa", "皮A", "皮a"]
   category: module
   note: "皮特姆 A 型装备，多指多谱式护盾增强器；「双pa」=两个"
@@ -4962,7 +4962,7 @@
   mode: hint
   dir: both
   en_aliases: ["free kill", "feeder"]
-  zh_aliases: ["送肉"]
+  zh_aliases: ["送肉", "喂鱼"]
   category: fleet
   note: "故意或白白把舰船送给对方击杀。"
 - en: "capital hunting"
@@ -6538,7 +6538,7 @@
   mode: hint
   dir: both
   en_aliases: ["Thera hole", "Thera connection"]
-  zh_aliases: ["希腊洞", "席拉洞"]
+  zh_aliases: ["希腊洞", "席拉洞", "特拉", "特拉洞"]
   category: wormhole
   note: "连往 Thera 的虫洞，Thera 是有 NPC 空间站的虫洞枢纽星系"
 - en: "other side of the wormhole"
@@ -8067,3 +8067,180 @@
   zh_aliases: ["拖黄字"]
   category: chat
   note: "聊天里可点击的游戏内链接（星系、角色、物品等）"
+
+- en: "community fleet"
+  zh: "社区队"
+  mode: hint
+  dir: zh2en
+  category: fleet
+  note: "蜜蜂（GSF）中文社区组的公开舰队，中文圈通用说法"
+
+- en: "long-range poke"
+  zh: "远嫖"
+  mode: hint
+  dir: zh2en
+  category: fleet
+  note: "远距离蹭伤害、打一下就跑；口语偏粗俗，只用于中译英"
+
+- en: "Raven Navy Issue"
+  zh: "海鸟"
+  mode: hint
+  dir: zh2en
+  category: ship
+  note: "乌鸦级海军型的叫法；「海鸟」也是普通词，所以只作参考"
+
+- en: "Blockade Runner"
+  zh: "强运"
+  mode: hint
+  dir: zh2en
+  category: ship
+  note: "封锁运输舰的简称；「强运」也是普通词（运气好），所以只作参考"
+
+- en: "C-J6MT"
+  zh: "CJ"
+  mode: hint
+  dir: zh2en
+  zh_aliases: ["cj"]
+  category: space
+  note: "C-J6MT 星系的简称"
+
+- en: "O4T-Z5"
+  zh: "O4T"
+  mode: hint
+  dir: zh2en
+  zh_aliases: ["o4t"]
+  category: space
+  note: "O4T-Z5 星系的简称"
+
+- en: "4-HWWF"
+  zh: "4H"
+  mode: hint
+  dir: zh2en
+  zh_aliases: ["4h"]
+  category: space
+  note: "4-HWWF 星系的简称"
+
+- en: "X-7OMU"
+  zh: "X7"
+  mode: hint
+  dir: zh2en
+  zh_aliases: ["x7"]
+  category: space
+  note: "X-7OMU 星系的简称"
+
+- en: "8QT-H4"
+  zh: "8QT"
+  mode: hint
+  dir: zh2en
+  zh_aliases: ["8qt"]
+  category: space
+  note: "8QT-H4 星系的简称"
+
+- en: "stealing exploration sites"
+  zh: "偷坟"
+  mode: hint
+  dir: zh2en
+  category: pve
+  note: "抢别人已经扫出来的数据/遗迹点（坟=探索点）"
+
+- en: "Omen Navy Issue"
+  zh: "海启"
+  mode: hint
+  dir: zh2en
+  zh_aliases: ["海启示"]
+  category: ship
+  note: "启示级海军型（Omen Navy Issue，巡洋舰）的叫法；不是神示级（Revelation）"
+
+- en: "exploration ship"
+  zh: "挖坟船"
+  mode: hint
+  dir: zh2en
+  category: ship
+  note: "拆数据/遗迹点用的探索船（挖坟=拆探索点）"
+
+- en: "criminal flag"
+  zh: "红骷髅"
+  mode: hint
+  dir: zh2en
+  category: chat
+  note: "刚犯罪、闪红的状态（任何人都能合法攻击）"
+
+- en: "Pochven"
+  zh: "故土"
+  mode: hint
+  dir: zh2en
+  category: space
+  note: "波赫文的叫法；「故土」也是普通词，所以只作参考"
+
+- en: "failcascade"
+  zh: "灭灯"
+  mode: hint
+  dir: zh2en
+  category: chat
+  note: "联盟或军团被打崩、丢了据点"
+
+- en: "lowsec veteran"
+  zh: "低安爷"
+  mode: hint
+  dir: zh2en
+  category: chat
+  note: "低安老玩家的调侃说法，常和「虫洞爹」并称"
+
+- en: "Phenomena Generator"
+  zh: "天象插"
+  mode: hint
+  dir: zh2en
+  category: structure
+  note: "主权升级产生的星系效应（现象发生器）；虫洞的「天象」另有词条"
+
+- en: "hole behind a hole"
+  zh: "洞中洞"
+  mode: hint
+  dir: zh2en
+  category: wormhole
+  note: "从一个虫洞再进下一层虫洞；比「中洞」长，优先匹配"
+
+- en: "X-Type 100MN Afterburner"
+  zh: "100x"
+  mode: hint
+  dir: zh2en
+  zh_aliases: ["100X", "100x推"]
+  category: module
+  note: "X 型 100MN 加力燃烧器（游戏里没有 100MN 微曲）"
+
+- en: "Capital Armor Repairer"
+  zh: "旗舰修"
+  mode: hint
+  dir: zh2en
+  category: module
+  note: "旗舰级装甲维修器"
+
+- en: "small railgun"
+  zh: "小磁轨"
+  mode: hint
+  dir: zh2en
+  zh_aliases: ["小轨"]
+  category: module
+  note: "小型磁轨炮"
+
+- en: "ECM drone"
+  zh: "电子苍蝇"
+  mode: hint
+  dir: zh2en
+  category: module
+  note: "ECM 无人机（如大黄蜂EC-300），中文圈通用叫法"
+
+- en: "Amarr lasers"
+  zh: "a炮"
+  mode: hint
+  dir: zh2en
+  zh_aliases: ["A炮"]
+  category: module
+  note: "艾玛的激光炮（A=艾玛，同 A族）"
+
+- en: "faction BCS"
+  zh: "势力弹道"
+  mode: hint
+  dir: zh2en
+  category: module
+  note: "势力版弹道控制系统（弹道=BCS）"
