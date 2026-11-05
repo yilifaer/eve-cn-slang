@@ -22,7 +22,7 @@
 - en: "form up"
   zh: "集结"
   mode: hint
-  dir: en2zh
+  dir: both
   en_aliases: ["form-up", "forming up", "fleet form-up", "form fleet"]
   zh_aliases: ["起队", "组队", "开组", "开队"]
   category: fleet
@@ -182,9 +182,9 @@
 - en: "warp to zero"
   zh: "零跳"
   mode: hint
-  dir: en2zh
+  dir: both
   en_aliases: ["warp at zero", "warp zero", "warp to 0"]
-  zh_aliases: ["跳零", "跃迁零米", "跳0", "零米"]
+  zh_aliases: ["跳零", "跃迁零米", "零米"]
   category: fleet
   note: "跃迁至目标零米"
 
@@ -794,9 +794,9 @@
 - en: "RR"
   zh: "遥修"
   mode: hint
-  dir: en2zh
+  dir: both
   en_aliases: ["rr", "remote rep", "remote repair"]
-  zh_aliases: ["摇修", "远程维修", "互修"]
+  zh_aliases: ["远程维修", "互修"]
   category: module
   note: "远程装甲或护盾维修"
 
@@ -1008,9 +1008,9 @@
 - en: "reffed"
   zh: "打进增强"
   mode: hint
-  dir: en2zh
+  dir: both
   en_aliases: ["refed", "ref'd", "reinforced"]
-  zh_aliases: ["进增强", "打进增强", "打增强"]
+  zh_aliases: ["进增强", "打增强"]
   category: structure
   note: "建筑已进入增强"
 
@@ -1143,7 +1143,7 @@
 - en: "rolling"
   zh: "塌洞"
   mode: hint
-  dir: en2zh
+  dir: both
   en_aliases: ["roll", "rolled", "hole rolling", "roll the hole", "collapse the wormhole", "collapse the hole", "rolling ship"]
   zh_aliases: ["人工塌洞", "爆洞", "塌洞作业", "roll洞", "塌虫洞", "把洞塌了", "塌洞船"]
   category: wormhole
@@ -3144,7 +3144,7 @@
 - en: "drugs"
   zh: "增效剂"
   mode: hint
-  dir: en2zh
+  dir: both
   en_aliases: ["drug", "combat booster", "combat boosters", "event booster"]
   zh_aliases: ["嗑药", "磕药", "活动药", "加成药"]
   category: module
