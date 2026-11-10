@@ -1,9 +1,9 @@
 {
-"source": "CCP hf. EVE Online Static Data Export (Tranquility), build 3665151",
-"buildNumber": 3665151,
-"generatedAt": "2026-11-02T16:33:24.730Z",
+"source": "CCP hf. EVE Online Static Data Export (Tranquility), build 3682781",
+"buildNumber": 3682781,
+"generatedAt": "2026-11-10T15:10:47.012Z",
 "license": "EVE Developer License Agreement (non-commercial). NOT covered by CC BY 4.0. See official/NOTICE.md",
-"count": 12474,
+"count": 12570,
 "entries": [
 {
 "kind": "category",
@@ -782,6 +782,11 @@
 },
 {
 "kind": "group",
+"en": "Cyber Rigging",
+"zh": "赛博改装技术"
+},
+{
+"kind": "group",
 "en": "Cyber Scanning",
 "zh": "脑控扫描"
 },
@@ -1252,8 +1257,28 @@
 },
 {
 "kind": "group",
+"en": "FW Amarr Empire Dreadnought",
+"zh": "势力战争艾玛帝国无畏舰"
+},
+{
+"kind": "group",
 "en": "FW Amarr Empire Frigate",
 "zh": "势力战争艾玛帝国护卫舰"
+},
+{
+"kind": "group",
+"en": "FW Amarr Empire General",
+"zh": "势力战争艾玛帝国上将"
+},
+{
+"kind": "group",
+"en": "FW Amarr Empire Shuttle",
+"zh": "势力战争艾玛帝国穿梭机"
+},
+{
+"kind": "group",
+"en": "FW Amarr Empire Titan",
+"zh": "势力战争艾玛帝国泰坦"
 },
 {
 "kind": "group",
@@ -1277,8 +1302,28 @@
 },
 {
 "kind": "group",
+"en": "FW Caldari State Dreadnought",
+"zh": "势力战争加达里合众国无畏舰"
+},
+{
+"kind": "group",
 "en": "FW Caldari State Frigate",
 "zh": "势力战争加达里合众国护卫舰"
+},
+{
+"kind": "group",
+"en": "FW Caldari State General",
+"zh": "势力战争加达里合众国上将"
+},
+{
+"kind": "group",
+"en": "FW Caldari State Shuttle",
+"zh": "势力战争加达里合众国穿梭机"
+},
+{
+"kind": "group",
+"en": "FW Caldari State Titan",
+"zh": "势力战争加达里合众国泰坦"
 },
 {
 "kind": "group",
@@ -1302,8 +1347,28 @@
 },
 {
 "kind": "group",
+"en": "FW Gallente Federation Dreadnought",
+"zh": "势力战争盖伦特联邦无畏舰"
+},
+{
+"kind": "group",
 "en": "FW Gallente Federation Frigate",
 "zh": "势力战争盖伦特联邦护卫舰"
+},
+{
+"kind": "group",
+"en": "FW Gallente Federation General",
+"zh": "势力战争盖伦特联邦上将"
+},
+{
+"kind": "group",
+"en": "FW Gallente Federation Shuttle",
+"zh": "势力战争盖伦特联邦穿梭机"
+},
+{
+"kind": "group",
+"en": "FW Gallente Federation Titan",
+"zh": "势力战争盖伦特联邦泰坦"
 },
 {
 "kind": "group",
@@ -1332,13 +1397,43 @@
 },
 {
 "kind": "group",
+"en": "FW Minmatar Republic Dreadnought",
+"zh": "势力战争米玛塔尔共和国无畏舰"
+},
+{
+"kind": "group",
 "en": "FW Minmatar Republic Frigate",
 "zh": "势力战争米玛塔尔共和国护卫舰"
 },
 {
 "kind": "group",
+"en": "FW Minmatar Republic General",
+"zh": "势力战争米玛塔尔共和国上将"
+},
+{
+"kind": "group",
+"en": "FW Minmatar Republic Shuttle",
+"zh": "势力战争米玛塔尔共和国穿梭机"
+},
+{
+"kind": "group",
+"en": "FW Minmatar Republic Titan",
+"zh": "势力战争米玛塔尔共和国泰坦"
+},
+{
+"kind": "group",
 "en": "FW Propaganda Broadcast Structure",
 "zh": "势力战争广播宣传建筑"
+},
+{
+"kind": "group",
+"en": "FW Rally Point",
+"zh": "势力战争集会点"
+},
+{
+"kind": "group",
+"en": "FW Vanguard Hauler",
+"zh": "势力战争先锋运载舰"
 },
 {
 "kind": "group",
@@ -1659,6 +1754,11 @@
 "kind": "group",
 "en": "Intermediate Materials",
 "zh": "中间产物"
+},
+{
+"kind": "group",
+"en": "Item Trader",
+"zh": "物品贸易官"
 },
 {
 "kind": "group",
@@ -2414,6 +2514,11 @@
 "kind": "group",
 "en": "Rig Shield",
 "zh": "护盾改装件"
+},
+{
+"kind": "group",
+"en": "Rig Synchronizer",
+"zh": "改装件同步器"
 },
 {
 "kind": "group",
@@ -4661,6 +4766,16 @@
 },
 {
 "kind": "type",
+"en": "'Pluto' Ice Harvesting Drone",
+"zh": "“冥王”冰矿采集无人机"
+},
+{
+"kind": "type",
+"en": "'Pluto' Mining Drone",
+"zh": "“冥王”采矿无人机"
+},
+{
+"kind": "type",
 "en": "'Poacher' EM Shield Hardener",
 "zh": "入侵者电磁护盾增强器"
 },
@@ -4829,6 +4944,26 @@
 "kind": "type",
 "en": "'Vehemence' Compact Small EMP Smartbomb",
 "zh": "盛怒紧凑小型EMP立体炸弹"
+},
+{
+"kind": "type",
+"en": "'Vigilant' Vital Cap Recharger",
+"zh": "“警惕级”活力电容回充器"
+},
+{
+"kind": "type",
+"en": "'Vigilant' Vital Drone Navigation Computer",
+"zh": "“警惕级”活力无人机导航计算机"
+},
+{
+"kind": "type",
+"en": "'Vigilant' Vital Overdrive Injector System",
+"zh": "“警惕级”活力超载喷注系统"
+},
+{
+"kind": "type",
+"en": "'Vigilant' Vital Shield Boost Amplifier",
+"zh": "“警惕级”活力护盾回充增量增效器"
 },
 {
 "kind": "type",
@@ -5985,6 +6120,26 @@
 "en": "Abaddon",
 "zh": "地狱天使级",
 "cat": "ship"
+},
+{
+"kind": "type",
+"en": "Aberrant Kangite",
+"zh": "异变钪原矿"
+},
+{
+"kind": "type",
+"en": "Aberrant Moissanite",
+"zh": "异变碳硅石"
+},
+{
+"kind": "type",
+"en": "Aberrant Polycrase",
+"zh": "异变复稀金矿"
+},
+{
+"kind": "type",
+"en": "Aberrant Raspite",
+"zh": "异变斜钨铅矿"
 },
 {
 "kind": "type",
@@ -7937,6 +8092,11 @@
 "kind": "type",
 "en": "Basic 'Radiance' Cerebral Accelerator",
 "zh": "基础型“光辉”大脑加速器"
+},
+{
+"kind": "type",
+"en": "Basic Conquest Glamourex Booster",
+"zh": "基础型征服魅惑增效剂"
 },
 {
 "kind": "type",
@@ -13174,6 +13334,26 @@
 },
 {
 "kind": "type",
+"en": "Compressed Flawed Kangite",
+"zh": "高密度瑕疵钪原矿"
+},
+{
+"kind": "type",
+"en": "Compressed Flawed Moissanite",
+"zh": "高密度瑕疵碳硅石"
+},
+{
+"kind": "type",
+"en": "Compressed Flawed Polycrase",
+"zh": "高密度瑕疵复稀金矿"
+},
+{
+"kind": "type",
+"en": "Compressed Flawed Raspite",
+"zh": "高密度瑕疵斜钨铅矿"
+},
+{
+"kind": "type",
 "en": "Compressed Gelidus",
 "zh": "高密度加里多斯冰矿"
 },
@@ -13359,6 +13539,11 @@
 },
 {
 "kind": "type",
+"en": "Compressed Kangite Z-Grade",
+"zh": "高密度钪原矿（Z级）"
+},
+{
+"kind": "type",
 "en": "Compressed Kernite",
 "zh": "高密度水硼砂"
 },
@@ -13446,6 +13631,11 @@
 "kind": "type",
 "en": "Compressed Moissanite X-Grade",
 "zh": "高密度碳硅石（5级）"
+},
+{
+"kind": "type",
+"en": "Compressed Moissanite Z-Grade",
+"zh": "高密度碳硅石（Z级）"
 },
 {
 "kind": "type",
@@ -13549,6 +13739,11 @@
 },
 {
 "kind": "type",
+"en": "Compressed Polycrase Z-Grade",
+"zh": "高密度复稀金矿（Z级）"
+},
+{
+"kind": "type",
 "en": "Compressed Prismaticite",
 "zh": "高密度棱柱岩"
 },
@@ -13590,7 +13785,12 @@
 {
 "kind": "type",
 "en": "Compressed Raspite X-Grade",
-"zh": "高密度斜钨铅矿（5级）"
+"zh": "高密度斜钨铅矿（X级）"
+},
+{
+"kind": "type",
+"en": "Compressed Raspite Z-Grade",
+"zh": "高密度斜钨铅矿（Z级）"
 },
 {
 "kind": "type",
@@ -13625,7 +13825,7 @@
 {
 "kind": "type",
 "en": "Compressed Scordite 0-Grade",
-"zh": "高密度灼烧岩（0级）"
+"zh": "高密度灼烧岩（40级）"
 },
 {
 "kind": "type",
@@ -14088,6 +14288,11 @@
 "kind": "type",
 "en": "Conflux Sequence 1",
 "zh": "合流序列1"
+},
+{
+"kind": "type",
+"en": "Conquest Salvager",
+"zh": "征服打捞器"
 },
 {
 "kind": "type",
@@ -15435,26 +15640,6 @@
 "kind": "type",
 "en": "Crystalline Isogen-10",
 "zh": "晶体同位聚合体-10"
-},
-{
-"kind": "type",
-"en": "Crystalline Kangite",
-"zh": "晶体钪原矿"
-},
-{
-"kind": "type",
-"en": "Crystalline Moissanite",
-"zh": "晶体碳硅石"
-},
-{
-"kind": "type",
-"en": "Crystalline Polycrase",
-"zh": "晶体复稀金矿"
-},
-{
-"kind": "type",
-"en": "Crystalline Raspite",
-"zh": "晶体斜钨铅矿"
 },
 {
 "kind": "type",
@@ -20474,6 +20659,11 @@
 },
 {
 "kind": "type",
+"en": "Extended Conquest Glamourex Booster",
+"zh": "持久征服魅惑增效剂"
+},
+{
+"kind": "type",
 "en": "Extruded Compact Heat Sink",
 "zh": "挤压紧凑型散热槽"
 },
@@ -21337,6 +21527,26 @@
 "kind": "type",
 "en": "Flames of the Rebellion Firework",
 "zh": "自由之焰烟火"
+},
+{
+"kind": "type",
+"en": "Flawed Kangite",
+"zh": "瑕疵钪原矿"
+},
+{
+"kind": "type",
+"en": "Flawed Moissanite",
+"zh": "瑕疵碳硅石"
+},
+{
+"kind": "type",
+"en": "Flawed Polycrase",
+"zh": "瑕疵复稀金矿"
+},
+{
+"kind": "type",
+"en": "Flawed Raspite",
+"zh": "瑕疵斜钨铅矿"
 },
 {
 "kind": "type",
@@ -26842,6 +27052,11 @@
 },
 {
 "kind": "type",
+"en": "Imperial Navy Stasis Webifier",
+"zh": "帝国海军停滞缠绕光束"
+},
+{
+"kind": "type",
 "en": "Imperial Navy Tachyon Beam Laser",
 "zh": "帝国海军超光速粒子集束激光器"
 },
@@ -26882,6 +27097,16 @@
 },
 {
 "kind": "type",
+"en": "Imperial Navy Warp Disruptor",
+"zh": "帝国海军跃迁扰断器"
+},
+{
+"kind": "type",
+"en": "Imperial Navy Warp Scrambler",
+"zh": "帝国海军跃迁扰频器"
+},
+{
+"kind": "type",
 "en": "Imperial Navy Xray L",
 "zh": "帝国海军X射线晶体 L"
 },
@@ -26899,11 +27124,6 @@
 "kind": "type",
 "en": "Imperial Special Ops Field Enhancer - Standard",
 "zh": "帝国别动队战场增效体—标准型"
-},
-{
-"kind": "type",
-"en": "Imperial War Reserves Supply Package",
-"zh": "帝国战争后备处补给包"
 },
 {
 "kind": "type",
@@ -28270,6 +28490,11 @@
 },
 {
 "kind": "type",
+"en": "Kangite Z-Grade",
+"zh": "Z级钪原矿"
+},
+{
+"kind": "type",
 "en": "Kapteyn Compact Sensor Dampener",
 "zh": "卡普坦紧凑型感应抑阻器"
 },
@@ -28893,6 +29118,11 @@
 },
 {
 "kind": "type",
+"en": "Large Caldari Navy Synchronizer",
+"zh": "大型加达里海军同步器"
+},
+{
+"kind": "type",
 "en": "Large Cap Battery I",
 "zh": "大型电容器电池 I"
 },
@@ -29000,6 +29230,21 @@
 "kind": "type",
 "en": "Large Core Defense Operational Solidifier II",
 "zh": "大型核心防御操控稳定装置 II"
+},
+{
+"kind": "type",
+"en": "Large Dark Blood Synchronizer",
+"zh": "大型黑暗血袭者同步器"
+},
+{
+"kind": "type",
+"en": "Large Domination Synchronizer",
+"zh": "大型主天使同步器"
+},
+{
+"kind": "type",
+"en": "Large Dread Guristas Synchronizer",
+"zh": "大型恐惧古斯塔斯同步器"
 },
 {
 "kind": "type",
@@ -29218,6 +29463,11 @@
 },
 {
 "kind": "type",
+"en": "Large Federation Navy Synchronizer",
+"zh": "大型联邦海军同步器"
+},
+{
+"kind": "type",
 "en": "Large Gas Compressor I",
 "zh": "大型气云压缩装置 I"
 },
@@ -29355,6 +29605,11 @@
 "kind": "type",
 "en": "Large Ice Compressor I",
 "zh": "大型冰矿压缩装置 I"
+},
+{
+"kind": "type",
+"en": "Large Imperial Navy Synchronizer",
+"zh": "大型帝国海军同步器"
 },
 {
 "kind": "type",
@@ -29668,6 +29923,11 @@
 },
 {
 "kind": "type",
+"en": "Large Republic Fleet Synchronizer",
+"zh": "大型共和舰队同步器"
+},
+{
+"kind": "type",
 "en": "Large Rocket Fuel Cache Partition I",
 "zh": "大型火箭燃料缓冲隔离装置 I"
 },
@@ -29715,6 +29975,11 @@
 "kind": "type",
 "en": "Large Sentry Damage Augmentor II",
 "zh": "大型岗哨炮伤害增强设备 II"
+},
+{
+"kind": "type",
+"en": "Large Shadow Serpentis Synchronizer",
+"zh": "大型暗影天蛇同步器"
 },
 {
 "kind": "type",
@@ -29845,6 +30110,11 @@
 "kind": "type",
 "en": "Large Trimark Armor Pump II",
 "zh": "大型三角装甲聚合器 II"
+},
+{
+"kind": "type",
+"en": "Large True Sansha Synchronizer",
+"zh": "大型萨沙爱国者同步器"
 },
 {
 "kind": "type",
@@ -31636,6 +31906,11 @@
 },
 {
 "kind": "type",
+"en": "Medium Caldari Navy Synchronizer",
+"zh": "中型加达里海军同步器"
+},
+{
+"kind": "type",
 "en": "Medium Cap Battery I",
 "zh": "中型电容器电池 I"
 },
@@ -31756,8 +32031,23 @@
 },
 {
 "kind": "type",
+"en": "Medium Dark Blood Synchronizer",
+"zh": "中型黑暗血袭者同步器"
+},
+{
+"kind": "type",
 "en": "Medium Deep Core Mining Optimization I",
 "zh": "中型深层地核采矿优化I"
+},
+{
+"kind": "type",
+"en": "Medium Domination Synchronizer",
+"zh": "中型主天使同步器"
+},
+{
+"kind": "type",
+"en": "Medium Dread Guristas Synchronizer",
+"zh": "中型恐惧古斯塔斯同步器"
 },
 {
 "kind": "type",
@@ -32001,6 +32291,11 @@
 },
 {
 "kind": "type",
+"en": "Medium Federation Navy Synchronizer",
+"zh": "中型联邦海军同步器"
+},
+{
+"kind": "type",
 "en": "Medium Gas Compressor I",
 "zh": "中型气云压缩装置 I"
 },
@@ -32158,6 +32453,11 @@
 "kind": "type",
 "en": "Medium Ice Harvester Accelerator I",
 "zh": "中型冰矿采集器加速器 I"
+},
+{
+"kind": "type",
+"en": "Medium Imperial Navy Synchronizer",
+"zh": "中型帝国海军同步器"
 },
 {
 "kind": "type",
@@ -32471,6 +32771,11 @@
 },
 {
 "kind": "type",
+"en": "Medium Republic Fleet Synchronizer",
+"zh": "中型共和舰队同步器"
+},
+{
+"kind": "type",
 "en": "Medium Rocket Fuel Cache Partition I",
 "zh": "中型火箭燃料缓冲隔离装置 I"
 },
@@ -32518,6 +32823,11 @@
 "kind": "type",
 "en": "Medium Sentry Damage Augmentor II",
 "zh": "中型岗哨炮伤害增强设备 II"
+},
+{
+"kind": "type",
+"en": "Medium Shadow Serpentis Synchronizer",
+"zh": "中型暗影天蛇同步器"
 },
 {
 "kind": "type",
@@ -32658,6 +32968,11 @@
 "kind": "type",
 "en": "Medium Trimark Armor Pump II",
 "zh": "中型三角装甲聚合器 II"
+},
+{
+"kind": "type",
+"en": "Medium True Sansha Synchronizer",
+"zh": "中型萨沙爱国者同步器"
 },
 {
 "kind": "type",
@@ -34356,6 +34671,11 @@
 },
 {
 "kind": "type",
+"en": "Moissanite Z-Grade",
+"zh": "Z级碳硅石"
+},
+{
+"kind": "type",
 "en": "Molok",
 "zh": "摩洛克级",
 "cat": "ship"
@@ -34571,6 +34891,12 @@
 },
 {
 "kind": "type",
+"en": "Naga Navy Issue",
+"zh": "娜迦级海军型",
+"cat": "ship"
+},
+{
+"kind": "type",
 "en": "Naglfar",
 "zh": "纳迦法级",
 "cat": "ship"
@@ -34726,6 +35052,11 @@
 "kind": "type",
 "en": "Navy Micro Auxiliary Power Core",
 "zh": "海军型微型辅助能源核心"
+},
+{
+"kind": "type",
+"en": "Navy Salvager",
+"zh": "海军打捞器"
 },
 {
 "kind": "type",
@@ -35409,6 +35740,12 @@
 },
 {
 "kind": "type",
+"en": "Oracle Navy Issue",
+"zh": "预言级海军型",
+"cat": "ship"
+},
+{
+"kind": "type",
 "en": "Orca",
 "zh": "逆戟鲸级",
 "cat": "ship"
@@ -35495,6 +35832,11 @@
 "kind": "type",
 "en": "Otavite",
 "zh": "菱镉矿"
+},
+{
+"kind": "type",
+"en": "Outbreak Initiation Thread",
+"zh": "爆发起始线程"
 },
 {
 "kind": "type",
@@ -36251,6 +36593,11 @@
 },
 {
 "kind": "type",
+"en": "Polycrase Z-Grade",
+"zh": "Z级复稀金矿"
+},
+{
+"kind": "type",
 "en": "Polymer Reactor Array",
 "zh": "聚合物反应堆阵列"
 },
@@ -36275,6 +36622,11 @@
 "kind": "type",
 "en": "Potent 'Radiance' Cerebral Accelerator",
 "zh": "强效“光辉”大脑加速器"
+},
+{
+"kind": "type",
+"en": "Potent Conquest Glamourex Booster",
+"zh": "强效征服魅惑增效剂"
 },
 {
 "kind": "type",
@@ -36660,16 +37012,6 @@
 "kind": "type",
 "en": "Prototype 'Arbalest' Torpedo Launcher",
 "zh": "尖端型劲弩鱼雷发射器"
-},
-{
-"kind": "type",
-"en": "Prototype 'Pluto' Ice Harvesting Drone",
-"zh": "“冥王”原型冰矿采集无人机"
-},
-{
-"kind": "type",
-"en": "Prototype 'Pluto' Mining Drone",
-"zh": "“冥王”原型采矿无人机"
 },
 {
 "kind": "type",
@@ -37486,6 +37828,11 @@
 "kind": "type",
 "en": "Raspite X-Grade",
 "zh": "X级斜钨铅矿"
+},
+{
+"kind": "type",
+"en": "Raspite Z-Grade",
+"zh": "Z级斜钨铅矿"
 },
 {
 "kind": "type",
@@ -39180,6 +39527,31 @@
 "kind": "type",
 "en": "Sarikusa's Capital Energy Nosferatu",
 "zh": "萨利库萨旗舰级掠能器"
+},
+{
+"kind": "type",
+"en": "SARO Enforcement Booster",
+"zh": "法序局执法增效剂"
+},
+{
+"kind": "type",
+"en": "SARO Forensic Booster",
+"zh": "法序局鉴定增效剂"
+},
+{
+"kind": "type",
+"en": "SARO Mobile Observatory",
+"zh": "法序局移动观测站"
+},
+{
+"kind": "type",
+"en": "SARO Monitoring Booster",
+"zh": "法序局监视增效剂"
+},
+{
+"kind": "type",
+"en": "SARO Pursuit Booster",
+"zh": "法序局追击增效剂"
 },
 {
 "kind": "type",
@@ -41511,6 +41883,11 @@
 },
 {
 "kind": "type",
+"en": "Small Caldari Navy Synchronizer",
+"zh": "小型加达里海军同步器"
+},
+{
+"kind": "type",
 "en": "Small Cap Battery I",
 "zh": "小型电容器电池 I"
 },
@@ -41628,6 +42005,21 @@
 "kind": "type",
 "en": "Small Core Defense Operational Solidifier II",
 "zh": "小型核心防御操控稳定装置 II"
+},
+{
+"kind": "type",
+"en": "Small Dark Blood Synchronizer",
+"zh": "小型黑暗血袭者同步器"
+},
+{
+"kind": "type",
+"en": "Small Domination Synchronizer",
+"zh": "小型主天使同步器"
+},
+{
+"kind": "type",
+"en": "Small Dread Guristas Synchronizer",
+"zh": "小型恐惧古斯塔斯同步器"
 },
 {
 "kind": "type",
@@ -41871,6 +42263,11 @@
 },
 {
 "kind": "type",
+"en": "Small Federation Navy Synchronizer",
+"zh": "小型联邦海军同步器"
+},
+{
+"kind": "type",
 "en": "Small Focused Afocal Laser I",
 "zh": "小型聚焦无焦点激光器I"
 },
@@ -42068,6 +42465,11 @@
 "kind": "type",
 "en": "Small I-b Polarized Structural Regenerator",
 "zh": "小型I-b偏振式结构再生器"
+},
+{
+"kind": "type",
+"en": "Small Imperial Navy Synchronizer",
+"zh": "小型帝国海军同步器"
 },
 {
 "kind": "type",
@@ -42381,6 +42783,11 @@
 },
 {
 "kind": "type",
+"en": "Small Republic Fleet Synchronizer",
+"zh": "小型共和舰队同步器"
+},
+{
+"kind": "type",
 "en": "Small Rocket Fuel Cache Partition I",
 "zh": "小型火箭燃料缓冲隔离装置 I"
 },
@@ -42428,6 +42835,11 @@
 "kind": "type",
 "en": "Small Sentry Damage Augmentor II",
 "zh": "小型岗哨炮伤害增强设备 II"
+},
+{
+"kind": "type",
+"en": "Small Shadow Serpentis Synchronizer",
+"zh": "小型暗影天蛇同步器"
 },
 {
 "kind": "type",
@@ -42571,6 +42983,11 @@
 },
 {
 "kind": "type",
+"en": "Small True Sansha Synchronizer",
+"zh": "小型萨沙爱国者同步器"
+},
+{
+"kind": "type",
 "en": "Small Vorton Projector I",
 "zh": "小型电弧弦投射器 I"
 },
@@ -42671,18 +43088,18 @@
 },
 {
 "kind": "type",
-"en": "Soldier of Fortune - Combat Frigate Crate",
-"zh": "自由战士 - 战斗护卫舰箱"
+"en": "Soldier - Combat Frigate Crate",
+"zh": "战士 - 战斗护卫舰箱"
 },
 {
 "kind": "type",
-"en": "Soldier of Fortune - Frigate Skill Crate",
-"zh": "自由战士 - 护卫舰技能箱"
+"en": "Soldier - Frigate Skill Crate",
+"zh": "战士 - 护卫舰技能箱"
 },
 {
 "kind": "type",
-"en": "Soldier of Fortune - Support Frigate Crate",
-"zh": "自由战士 - 后勤护卫舰箱"
+"en": "Soldier - Support Frigate Crate",
+"zh": "战士 - 后勤护卫舰箱"
 },
 {
 "kind": "type",
@@ -45308,6 +45725,11 @@
 },
 {
 "kind": "type",
+"en": "Talman’s Ashimmu",
+"zh": "塔尔曼的阿什姆级舰船"
+},
+{
+"kind": "type",
 "en": "Talocan Automation Accounts",
 "zh": "塔洛迦自控帐户"
 },
@@ -45385,6 +45807,12 @@
 "kind": "type",
 "en": "Talos",
 "zh": "塔洛斯级",
+"cat": "ship"
+},
+{
+"kind": "type",
+"en": "Talos Navy Issue",
+"zh": "塔洛斯级海军型",
 "cat": "ship"
 },
 {
@@ -46241,6 +46669,12 @@
 "kind": "type",
 "en": "Tornado",
 "zh": "龙卷风级",
+"cat": "ship"
+},
+{
+"kind": "type",
+"en": "Tornado Fleet Issue",
+"zh": "龙卷风级舰队型",
 "cat": "ship"
 },
 {
@@ -48888,6 +49322,56 @@
 "en": "Vigilant",
 "zh": "警惕级",
 "cat": "ship"
+},
+{
+"kind": "type",
+"en": "Vigilant Tyrannos 'Xyston' Armor Rigging AR-1020",
+"zh": "暴君专制统治集团“绪斯同级”装甲系统改装技术AR-1020"
+},
+{
+"kind": "type",
+"en": "Vigilant Tyrannos 'Xyston' Astronautics Rigging AS-1020",
+"zh": "暴君专制统治集团“绪斯同级”空间航行系统改装技术AS-1020"
+},
+{
+"kind": "type",
+"en": "Vigilant Tyrannos 'Xyston' Drones Rigging DR-1020",
+"zh": "暴君专制统治集团“绪斯同级”无人机改造技术DR-1020"
+},
+{
+"kind": "type",
+"en": "Vigilant Tyrannos 'Xyston' Electronic Superiority Rigging ES-1020",
+"zh": "暴君专制统治集团“绪斯同级”电子优势改装技术ES-1020"
+},
+{
+"kind": "type",
+"en": "Vigilant Tyrannos 'Xyston' Energy Weapon Rigging EW-1020",
+"zh": "暴君专制统治集团“绪斯同级”能量武器改装技术EW-1020"
+},
+{
+"kind": "type",
+"en": "Vigilant Tyrannos 'Xyston' Hybrid Weapon Rigging HW-1020",
+"zh": "暴君专制统治集团“绪斯同级”混合武器改装技术HW-1020"
+},
+{
+"kind": "type",
+"en": "Vigilant Tyrannos 'Xyston' Launcher Rigging LR-1020",
+"zh": "暴君专制统治集团“绪斯同级”发射器改装技术LR-1020"
+},
+{
+"kind": "type",
+"en": "Vigilant Tyrannos 'Xyston' Projectile Weapon Rigging PW-1020",
+"zh": "暴君专制统治集团“绪斯同级”射弹武器改装技术PW-1020"
+},
+{
+"kind": "type",
+"en": "Vigilant Tyrannos 'Xyston' Shield Rigging SH-1020",
+"zh": "暴君专制统治集团“绪斯同级”护盾改装技术SH-1020"
+},
+{
+"kind": "type",
+"en": "Vigilant Tyrannos 'Xyston' Synchronization Rigging SY-1020",
+"zh": "暴君专制统治集团“绪斯同级”同步改装技术SY-1020"
 },
 {
 "kind": "type",
@@ -54053,11 +54537,6 @@
 "kind": "system",
 "en": "Arza",
 "zh": "阿尔察"
-},
-{
-"kind": "system",
-"en": "Arzad",
-"zh": "阿尔扎德"
 },
 {
 "kind": "system",
@@ -61458,6 +61937,11 @@
 "kind": "system",
 "en": "Stacmon",
 "zh": "斯塔克蒙"
+},
+{
+"kind": "system",
+"en": "Starkman",
+"zh": "斯塔科马"
 },
 {
 "kind": "system",
