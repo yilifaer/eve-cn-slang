@@ -1,9 +1,9 @@
 {
-"source": "CCP hf. EVE Online Static Data Export (Tranquility), build 3682781",
-"buildNumber": 3682781,
-"generatedAt": "2026-11-10T15:10:47.012Z",
+"source": "CCP hf. EVE Online Static Data Export (Tranquility), build 3687575",
+"buildNumber": 3687575,
+"generatedAt": "2026-11-11T19:35:43.262Z",
 "license": "EVE Developer License Agreement (non-commercial). NOT covered by CC BY 4.0. See official/NOTICE.md",
-"count": 12570,
+"count": 12523,
 "entries": [
 {
 "kind": "category",
@@ -8090,11 +8090,6 @@
 },
 {
 "kind": "type",
-"en": "Basic 'Radiance' Cerebral Accelerator",
-"zh": "基础型“光辉”大脑加速器"
-},
-{
-"kind": "type",
 "en": "Basic Conquest Glamourex Booster",
 "zh": "基础型征服魅惑增效剂"
 },
@@ -12533,66 +12528,6 @@
 "kind": "type",
 "en": "Chelm's Modified Thermal Energized Membrane",
 "zh": "切尔姆氏改良型热能电压薄膜"
-},
-{
-"kind": "type",
-"en": "Chemal Tech Exploration Booster I",
-"zh": "切玛科技探索增效剂1"
-},
-{
-"kind": "type",
-"en": "Chemal Tech Exploration Booster II",
-"zh": "切玛科技探索增效剂2"
-},
-{
-"kind": "type",
-"en": "Chemal Tech Exploration Booster III",
-"zh": "切玛科技探索增效剂3"
-},
-{
-"kind": "type",
-"en": "Chemal Tech Mining Booster I",
-"zh": "切玛科技采矿增效剂1"
-},
-{
-"kind": "type",
-"en": "Chemal Tech Mining Booster II",
-"zh": "切玛科技采矿增效剂2"
-},
-{
-"kind": "type",
-"en": "Chemal Tech Mining Booster III",
-"zh": "切玛科技采矿增效剂3"
-},
-{
-"kind": "type",
-"en": "Chemal Tech Repair Booster I",
-"zh": "切玛科技修复增效剂1"
-},
-{
-"kind": "type",
-"en": "Chemal Tech Repair Booster II",
-"zh": "切玛科技修复增效剂2"
-},
-{
-"kind": "type",
-"en": "Chemal Tech Repair Booster III",
-"zh": "切玛科技修复增效剂3"
-},
-{
-"kind": "type",
-"en": "Chemal Tech Turret Booster I",
-"zh": "切玛科技炮台增效剂1"
-},
-{
-"kind": "type",
-"en": "Chemal Tech Turret Booster II",
-"zh": "切玛科技炮台增效剂2"
-},
-{
-"kind": "type",
-"en": "Chemal Tech Turret Booster III",
-"zh": "切玛科技炮台增效剂3"
 },
 {
 "kind": "type",
@@ -20654,11 +20589,6 @@
 },
 {
 "kind": "type",
-"en": "Extended 'Radiance' Cerebral Accelerator",
-"zh": "延展型“光辉”大脑加速器"
-},
-{
-"kind": "type",
 "en": "Extended Conquest Glamourex Booster",
 "zh": "持久征服魅惑增效剂"
 },
@@ -25065,86 +24995,6 @@
 },
 {
 "kind": "type",
-"en": "Harvest Anti-Disruptor Booster I",
-"zh": "收割抗扰断增效剂1"
-},
-{
-"kind": "type",
-"en": "Harvest Anti-Disruptor Booster II",
-"zh": "收割抗扰断增效剂2"
-},
-{
-"kind": "type",
-"en": "Harvest Anti-Disruptor Booster III",
-"zh": "收割抗扰断增效剂3"
-},
-{
-"kind": "type",
-"en": "Harvest Anti-Disruptor Booster IV",
-"zh": "收割抗扰断增效剂4"
-},
-{
-"kind": "type",
-"en": "Harvest Damage Booster I",
-"zh": "收割伤害增效剂1"
-},
-{
-"kind": "type",
-"en": "Harvest Damage Booster II",
-"zh": "收割伤害增效剂2"
-},
-{
-"kind": "type",
-"en": "Harvest Damage Booster III",
-"zh": "收割伤害增效剂3"
-},
-{
-"kind": "type",
-"en": "Harvest Damage Booster IV",
-"zh": "收割伤害增效剂4"
-},
-{
-"kind": "type",
-"en": "Harvest Nosferatu Booster I",
-"zh": "收割掠能器增效剂1"
-},
-{
-"kind": "type",
-"en": "Harvest Nosferatu Booster II",
-"zh": "收割掠能器增效剂2"
-},
-{
-"kind": "type",
-"en": "Harvest Nosferatu Booster III",
-"zh": "血族收割增效剂3"
-},
-{
-"kind": "type",
-"en": "Harvest Nosferatu Booster IV",
-"zh": "收割掠能器增效剂4"
-},
-{
-"kind": "type",
-"en": "Harvest Webifier Booster I",
-"zh": "收割停滞缠绕光束增效剂1"
-},
-{
-"kind": "type",
-"en": "Harvest Webifier Booster II",
-"zh": "收割停滞缠绕光束增效剂2"
-},
-{
-"kind": "type",
-"en": "Harvest Webifier Booster III",
-"zh": "收割停滞缠绕光束增效剂3"
-},
-{
-"kind": "type",
-"en": "Harvest Webifier Booster IV",
-"zh": "收割停滞缠绕光束增效剂4"
-},
-{
-"kind": "type",
 "en": "Harvester Mining Drone",
 "zh": "收割者采矿无人机"
 },
@@ -27124,6 +26974,11 @@
 "kind": "type",
 "en": "Imperial Special Ops Field Enhancer - Standard",
 "zh": "帝国别动队战场增效体—标准型"
+},
+{
+"kind": "type",
+"en": "Imperial War Reserves Supply Package",
+"zh": "塔尔曼的阿什姆级舰船"
 },
 {
 "kind": "type",
@@ -36620,11 +36475,6 @@
 },
 {
 "kind": "type",
-"en": "Potent 'Radiance' Cerebral Accelerator",
-"zh": "强效“光辉”大脑加速器"
-},
-{
-"kind": "type",
 "en": "Potent Conquest Glamourex Booster",
 "zh": "强效征服魅惑增效剂"
 },
@@ -45725,11 +45575,6 @@
 },
 {
 "kind": "type",
-"en": "Talman’s Ashimmu",
-"zh": "塔尔曼的阿什姆级舰船"
-},
-{
-"kind": "type",
 "en": "Talocan Automation Accounts",
 "zh": "塔洛迦自控帐户"
 },
@@ -46063,88 +45908,8 @@
 },
 {
 "kind": "type",
-"en": "Tetrimon Anti-Drain Booster I",
-"zh": "特里蒙抗吸取增效剂1"
-},
-{
-"kind": "type",
-"en": "Tetrimon Anti-Drain Booster II",
-"zh": "特里蒙抗吸取增效剂2"
-},
-{
-"kind": "type",
-"en": "Tetrimon Anti-Drain Booster III",
-"zh": "特里蒙抗吸取增效剂3"
-},
-{
-"kind": "type",
-"en": "Tetrimon Anti-Drain Booster IV",
-"zh": "特里蒙抗吸取增效剂4"
-},
-{
-"kind": "type",
 "en": "Tetrimon Base Shortcut Keypass",
 "zh": "特里蒙基地捷径钥匙卡"
-},
-{
-"kind": "type",
-"en": "Tetrimon Capacitor Booster I",
-"zh": "特里蒙电容注电器1"
-},
-{
-"kind": "type",
-"en": "Tetrimon Capacitor Booster II",
-"zh": "特里蒙电容注电器2"
-},
-{
-"kind": "type",
-"en": "Tetrimon Capacitor Booster III",
-"zh": "特里蒙电容注电器3"
-},
-{
-"kind": "type",
-"en": "Tetrimon Capacitor Booster IV",
-"zh": "特里蒙电容注电器4"
-},
-{
-"kind": "type",
-"en": "Tetrimon Precision Booster I",
-"zh": "特里蒙精准增效剂1"
-},
-{
-"kind": "type",
-"en": "Tetrimon Precision Booster II",
-"zh": "特里蒙精准增效剂2"
-},
-{
-"kind": "type",
-"en": "Tetrimon Precision Booster III",
-"zh": "特里蒙精准增效剂3"
-},
-{
-"kind": "type",
-"en": "Tetrimon Precision Booster IV",
-"zh": "特里蒙精准增效剂4"
-},
-{
-"kind": "type",
-"en": "Tetrimon Resistance Booster I",
-"zh": "特里蒙抗性增效剂1"
-},
-{
-"kind": "type",
-"en": "Tetrimon Resistance Booster II",
-"zh": "特里蒙抗性增效剂2"
-},
-{
-"kind": "type",
-"en": "Tetrimon Resistance Booster III",
-"zh": "特里蒙抗性增效剂3"
-},
-{
-"kind": "type",
-"en": "Tetrimon Resistance Booster IV",
-"zh": "特里蒙抗性增效剂4"
 },
 {
 "kind": "type",
