@@ -1,7 +1,7 @@
 {
-"source": "CCP hf. EVE Online Static Data Export (Tranquility), build 3687575",
-"buildNumber": 3687575,
-"generatedAt": "2026-11-11T19:35:43.262Z",
+"source": "CCP hf. EVE Online Static Data Export (Tranquility), build 3693310",
+"buildNumber": 3693310,
+"generatedAt": "2026-11-13T05:13:10.172Z",
 "license": "EVE Developer License Agreement (non-commercial). NOT covered by CC BY 4.0. See official/NOTICE.md",
 "count": 12523,
 "entries": [
@@ -26978,7 +26978,7 @@
 {
 "kind": "type",
 "en": "Imperial War Reserves Supply Package",
-"zh": "塔尔曼的阿什姆级舰船"
+"zh": "帝国战争后备处补给包"
 },
 {
 "kind": "type",
@@ -48554,7 +48554,7 @@
 {
 "kind": "type",
 "en": "Unstable Vorton Tuning System Mutaplasmid",
-"zh": "波动型电弧弦调谐系统突变质体"
+"zh": "不稳定的电弧弦调谐系统突变质体"
 },
 {
 "kind": "type",
