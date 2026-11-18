@@ -516,7 +516,7 @@ group,Scanner Array,扫描器阵列,
 group,Scanner Probe,扫描探针,
 group,Scanning Upgrade,扫描升级,
 group,Scanning Upgrade Time,扫描升级时间,
-group,SCARAB Breacher Pods,圣甲虫突破者逃生舱,
+group,SCARAB Breacher Pods,圣甲虫突破者座舱,
 group,Scatter Container,散落货柜,
 group,Scordite,灼烧岩,
 group,Secure Cargo Container,安全货柜,
@@ -699,7 +699,7 @@ group,Structure Resource Rig M - Moon Ore Reprocessing,建筑资源中型改装�
 group,Structure Resource Rig XL - Reprocessing,建筑资源超大型改装件 - 提炼,
 group,Structure Signal Amplifier,建筑信号放大器,
 group,Structure Stasis Webifier,建筑停滞缠绕光束,
-group,Structure Support Fighter,建筑后勤铁骑舰载机,
+group,Structure Support Fighter,建筑支援铁骑舰载机,
 group,Structure Warp Disruptor Script,建筑跃迁扰断器脚本,
 group,Structure Warp Scrambler,建筑跃迁扰频器,
 group,Structure Weapon Upgrade,建筑武器升级,
@@ -707,7 +707,7 @@ group,Structure XL Missile Launcher,建筑超大型导弹发射器,
 group,Super Kerr-Induced Nanocoatings,超级克尔诱导纳米涂层,
 group,Super Weapon,超级武器,
 group,Supercarrier,超级航母,
-group,Support Fighter,后勤铁骑舰载机,
+group,Support Fighter,支援铁骑舰载机,
 group,Survey Probe,测量探针,
 group,Survey Probe Launcher,测量探针发射器,
 group,System Scanner,星系扫描仪,
@@ -986,10 +986,10 @@ type,'Undertaker' Heavy Missile Launcher,挑战者重型导弹发射器,
 type,'Vehemence' Compact Large EMP Smartbomb,盛怒紧凑大型EMP立体炸弹,
 type,'Vehemence' Compact Medium EMP Smartbomb,盛怒紧凑中型EMP立体炸弹,
 type,'Vehemence' Compact Small EMP Smartbomb,盛怒紧凑小型EMP立体炸弹,
-type,'Vigilant' Vital Cap Recharger,“警惕级”活力电容回充器,
-type,'Vigilant' Vital Drone Navigation Computer,“警惕级”活力无人机导航计算机,
-type,'Vigilant' Vital Overdrive Injector System,“警惕级”活力超载喷注系统,
-type,'Vigilant' Vital Shield Boost Amplifier,“警惕级”活力护盾回充增量增效器,
+type,'Vigilant' Vital Cap Recharger,“警戒”活力电容回充器,
+type,'Vigilant' Vital Drone Navigation Computer,“警戒”活力无人机导航计算机,
+type,'Vigilant' Vital Overdrive Injector System,“警戒”活力超载喷注系统,
+type,'Vigilant' Vital Shield Boost Amplifier,“警戒”活力护盾回充增量增效器,
 type,'Warhammer' Large EMP Smartbomb,战锤大型EMP立体炸弹,
 type,'Wetu' Mobile Depot,小屋移动式仓库,
 type,'Whiskey' Explosive Shield Amplifier,威士忌爆炸护盾增效器,
@@ -1437,7 +1437,7 @@ type,Angel Spatial Analyzer,天使集团空间分析仪,
 type,Angel Standard Trigger Mechanism,天使集团标准触发机关,
 type,Angel Stasis Webification Battery,天使停滞缠绕光束发射台,
 type,Angels Arisen Firework,天使崛起烟火,
-type,Anhinga,蛇鹈号,ship
+type,Anhinga,蛇鹈级,ship
 type,Anode Electron Particle Cannon I,阳极电子加农炮 I,
 type,Anode Ion Particle Cannon I,阳极离子加农炮 I,
 type,Anode Light Electron Particle Cannon I,阳极轻型电子加农炮 I,
@@ -1473,6 +1473,7 @@ type,Apocalypse Imperial Issue,灾难级帝国型,ship
 type,Apocalypse Navy Issue,灾难级海军型,ship
 type,Apostle,使徒级,ship
 type,Apotheosis,神圣穿梭机,ship
+type,Arabellata SW-900-I,阿贝拉 SW-900-I,
 type,Aralez,翼灵级,
 type,Arazu,埃拉兹级,ship
 type,Arbalest Compact Light Missile Launcher,劲弩紧凑型轻型导弹发射器,
@@ -1556,6 +1557,7 @@ type,Astronautic Mutaplasmid Residue,空间技术突变质体残渣,
 type,Atavum,阿塔文,
 type,Athanor,阿塔诺,structure
 type,Athanor Upwell Quantum Core,阿塔诺昇威量子芯,
+type,Atlas SD-900-I,阿特拉斯 SD-900-I,
 type,Atmospheric Gases,标准大气,
 type,Atron,阿特龙级,ship
 type,Augoror,奥格诺级,ship
@@ -1582,14 +1584,14 @@ type,B-53 Entangled GQD,B-53纠缠型GQD,
 type,B-66 Entangled GQD,B-66纠缠型GQD,
 type,B-79 Entangled GQD,B-79纠缠型GQD,
 type,B-97 Entangled GQD,B-97纠缠型GQD,
-type,Babaroga,巴巴罗加号,ship
+type,Babaroga,巴巴罗加级,ship
 type,Badger,獾级,ship
 type,Baker Nunn Enduring Tracking Disruptor I,贝克伦持久型索敌扰断器 I,
 type,Ballistic Control System I,弹道控制系统 I,
 type,Ballistic Control System II,弹道控制系统 II,
 type,Ballistic Deflection Array,弹道偏阻阵列,
 type,Balmer Series Compact Tracking Disruptor I,巴尔默序列紧凑型索敌扰断器 I,
-type,Bane,破坏者,ship
+type,Bane,破坏者级,ship
 type,Bantam,矮脚鸡级,ship
 type,Barbican Element,碉堡元素,
 type,Barbican Index,碉堡索引,
@@ -1678,7 +1680,7 @@ type,Berserker I,狂战士 I,
 type,Berserker II,狂战士 II,
 type,Berserker SW-900,狂战士SW-900,
 type,Berserker TP-900,狂战士TP-900,
-type,Bestla,贝斯特拉,ship
+type,Bestla,贝斯特拉级,ship
 type,Bestower,恩赐者级,ship
 type,Bezdnacine,贝兹岩,
 type,Bezdnacine II-Grade,贝兹岩（2级）,
@@ -1919,7 +1921,7 @@ type,Caldari Navy Command Mindlink,加达里海军指挥思维网络芯片,
 type,Caldari Navy Commodore Insignia I,加达里海军准将勋章I,
 type,Caldari Navy Commodore Insignia II,加达里海军准将勋章II,
 type,Caldari Navy Cruise Missile Launcher,加达里海军巡航导弹发射器,
-type,Caldari Navy Dragonfly,蜻蜓级加达里海军,
+type,Caldari Navy Dragonfly,加达里海军蜻蜓,
 type,Caldari Navy Dual 150mm Railgun,加达里海军双联150mm磁轨炮,
 type,Caldari Navy Dual 250mm Railgun,加达里海军双联250mm磁轨炮,
 type,Caldari Navy EM Shield Amplifier,加达里海军电磁护盾增效器,
@@ -2732,7 +2734,7 @@ type,Compressed Replete Pollucite,高密度盈铯榴石,
 type,Compressed Replete Zircon,高密度盈锆石,
 type,Compressed Scheelite,高密度白钨矿,
 type,Compressed Scordite,高密度灼烧岩,
-type,Compressed Scordite 0-Grade,高密度灼烧岩（40级）,
+type,Compressed Scordite 0-Grade,高密度灼烧岩（0级）,
 type,Compressed Scordite II-Grade,高密度灼烧岩（2级）,
 type,Compressed Scordite III-Grade,高密度灼烧岩（3级）,
 type,Compressed Scordite IV-Grade,高密度灼烧岩（4级）,
@@ -3248,6 +3250,7 @@ type,Dark Ochre,黑赭石,
 type,Dark Ochre II-Grade,黑赭石（2级）,
 type,Dark Ochre III-Grade,黑赭石（3级）,
 type,Dark Ochre IV-Grade,黑赭石（4级）,
+type,Darter TP-600-I,飞镖手 TP-600-I,
 type,Data Analyzer I,数据分析仪 I,
 type,Data Analyzer II,数据分析仪 II,
 type,Data Processor,数据处理器,
@@ -5179,9 +5182,11 @@ type,Hornet I,大黄蜂 I,
 type,Hornet II,大黄蜂 II,
 type,Hostile Target Acquisition I,敌对目标锁定器 I,
 type,Hound,猎犬级,ship
-type,Hubris,狂徒,ship
+type,Hubris,狂徒级,ship
 type,Huginn,休津级,ship
 type,Hulk,霍克级,ship
+type,Humboldt EC-900-I,洪堡 EC-900-I,
+type,Huntsman SW-600-I,猎人蛛 SW-600-I,
 type,Hurricane,暴风级,ship
 type,Hurricane Fleet Issue,暴风级舰队型,ship
 type,Hyasyoda Research Lab Technical Data Chip,三岛研究实验室技术数据芯片,
@@ -5220,6 +5225,7 @@ type,Ikitursa,伊基图萨级,ship
 type,Imai Kenon's Tag,伊麦·克农的铭牌,
 type,Imicus,伊米卡斯级,ship
 type,Imicus Navy Issue,伊米卡斯级海军型,ship
+type,Immaculate TD-600-I,星芒 TD-600-I,
 type,Immolator,献祭者级,ship
 type,Imp,小鬼级,ship
 type,Impairor,帝国号,ship
@@ -5342,7 +5348,7 @@ type,Imperial Navy Standard M,帝国海军标准晶体 M,
 type,Imperial Navy Standard S,帝国海军标准晶体 S,
 type,Imperial Navy Stasis Webifier,帝国海军停滞缠绕光束,
 type,Imperial Navy Tachyon Beam Laser,帝国海军超光速粒子集束激光器,
-type,Imperial Navy Templar,圣殿骑士级帝国海军,
+type,Imperial Navy Templar,帝国海军圣殿骑士,
 type,Imperial Navy Thermal Armor Hardener,帝国海军热能装甲增强器,
 type,Imperial Navy Thermal Coating,帝国海军热能涂层,
 type,Imperial Navy Thermal Energized Membrane,帝国海军热能电压薄膜,
@@ -5536,6 +5542,7 @@ type,Inquest 'Hedone' Entanglement Optimizer WS-802,审查'享乐'缠绕优化�
 type,Inquest 'Hedone' Entanglement Optimizer WS-803,审查'享乐'缠绕优化器WS-803,
 type,Inquest 'Hedone' Entanglement Optimizer WS-804,审查'享乐'缠绕优化器WS-804,
 type,Inquisitor,检察官级,ship
+type,Inshore EC-300-I,近海 EC-300-I,
 type,Insurgent Trojan Fragments,义军木马病毒片段,
 type,Intact Armor Plates,完好的装甲附甲,
 type,Intact Neurosynaptic Profile,完整的神经突触资料,
@@ -5629,7 +5636,7 @@ type,Kameiras,卡莫兵,
 type,Kangite X-Grade,X级钪原矿,
 type,Kangite Z-Grade,Z级钪原矿,
 type,Kapteyn Compact Sensor Dampener,卡普坦紧凑型感应抑阻器,
-type,Karura,迦楼罗,ship
+type,Karura,迦楼罗级,ship
 type,Karzo Sarum's Insignia,卡尔佐·萨拉姆的勋章,
 type,Kasiha's Modified Vorton Tuning System,卡斯哈改良型电弧弦调谐系统,
 type,Keepstar,星城,structure
@@ -6212,6 +6219,7 @@ type,Low-grade Wedge Epsilon,低级分裂伊普西隆型,
 type,Low-grade Wedge Gamma,低级分裂伽玛型,
 type,Low-grade Wedge Omega,低级分裂欧米伽型,
 type,Lucent Compound,透光复合物,
+type,Luna SD-600-I,月之女神 SD-600-I,
 type,Lustering Alloy,光泽合金,
 type,M-36 Enduring Warp Disruption Field Generator,M-36持久型跃迁扰断力场发生器,
 type,M51 Benefactor Compact Shield Recharger,M51感恩紧凑型护盾回充器,
@@ -6542,6 +6550,7 @@ type,Mega Pulse Laser II,超级脉冲激光器 II,
 type,Megacorp Transaction Thread,超级集团交易线程,
 type,Megacyte,超噬矿,
 type,Megaera's Modified Medium Energy Nosferatu,墨盖拉改良中型掠能器,
+type,Meganeura TP-900-I,巨脉蜓 TP-900-I,
 type,Megathron,万王宝座级,ship
 type,Megathron Federate Issue,万王宝座级联邦型,ship
 type,Megathron Navy Issue,万王宝座级海军型,ship
@@ -6871,6 +6880,7 @@ type,Moros,莫洛级,ship
 type,Moros Navy Issue,莫洛级海军型,ship
 type,Morpheus Enduring Magnetometric ECM,感应持久型磁力ECM,
 type,Morphite,莫尔石,
+type,Mosquito EV-600-I,蚊式 EV-600-I,
 type,Motley Compound,杂色复合物,
 type,Multifrequency L,多频晶体 L,
 type,Multifrequency M,多频晶体 M,
@@ -6939,6 +6949,7 @@ type,Neophite,新醇岩矿,
 type,Nephrite,软玉,
 type,Nereus,涅鲁斯级,ship
 type,Nergal,涅伽尔级,ship
+type,Nertic EC-600-I,浅滩 EC-600-I,
 type,Nerve Sticks,神经冲击,
 type,Nesosilicate Rakovene,岛状硅酸盐拉克岩,
 type,Nestor,涅斯托级,ship
@@ -7061,6 +7072,7 @@ type,Opulent Compound,多样复合物,
 type,Opux Luxury Yacht,奥普克斯级豪华游轮,ship
 type,Oracle,预言级,ship
 type,Oracle Navy Issue,预言级海军型,ship
+type,Orbweaver SW-300-I,圆网蛛 SW-300-I,
 type,Orca,逆戟鲸级,ship
 type,ORE Deep Core Mining Laser,外空联合矿业深层地核采矿激光器,
 type,ORE Deep Core Strip Miner,外太空联合矿业集团深层地核露天采矿器,
@@ -8203,10 +8215,11 @@ type,Sisters Expanded Probe Launcher,姐妹会延伸探针发射器,
 type,Sisters Expedition Command Burst,姐妹会远征指挥脉冲波,
 type,Sisters Expedition Command Mindlink,姐妹会远征指挥思维网络芯片,
 type,Skiff,轻舟级,ship
+type,Skimmer TP-300-I,掠水者 TP-300-I,
 type,Skirmish Command Burst I,游击战指挥脉冲波 I,
 type,Skirmish Command Burst II,游击战指挥脉冲波 II,
 type,Skirmish Command Mindlink,游击战指挥思维网络芯片,
-type,Skua,贼鸥号,ship
+type,Skua,贼鸥级,ship
 type,Skybreaker,破天级,ship
 type,SlamBolt Condenser Pack L,瞬闪电容包 L,
 type,SlamBolt Condenser Pack M,瞬闪电容包 M,
@@ -8875,6 +8888,8 @@ type,Stellar Transmuter Datacore,星际突变器数据核心,
 type,Stellar Transmuter Research Data Fragment,星际突变器研究数据片段,
 type,Stellar Transmuter Research Encryption Key,星际突变器研究加密密钥,
 type,Stellar Transmuter Research Index File,星际突变器研究索引文件,
+type,Stellate TD-300-I,洁净 TD-300-I,
+type,Stigmella SD-300-I,斯蒂梅拉 SD-300-I,
 type,Stiletto,短剑级,ship
 type,Stork,鹳鸟级,ship
 type,Stormbringer,唤风级,ship
@@ -8983,6 +8998,7 @@ type,Synthetic Hull Conversion Overdrive Injector,合成结构转换超载注喷
 type,Synthetic Hull Conversion Reinforced Bulkheads,合成结构转换强化舱隔壁,
 type,System Scanning Array,星系扫描阵列,
 type,Ta3 Compact Ship Scanner,Ta3紧凑型船体扫描器,
+type,Tabanida EV-900-I,虻式 EV-900-I,
 type,Tachyon Afocal Laser I,超光速粒子无焦点激光器I,
 type,Tachyon Anode Particle Stream I,超光速粒子阳极粒子束 I,
 type,Tachyon Beam Laser I,超光速粒子集束激光器 I,
@@ -9167,6 +9183,7 @@ type,Thulium,铥,
 type,Thulium Hafnite,铥铪合金,
 type,Thunderchild,雷裔级,ship
 type,Tiamat,提亚玛特级,ship
+type,Tick EV-300-I,蜱式 EV-300-I,
 type,Time Crystal Oscillator,时间水晶振荡器,
 type,Tisiphone's Modified Target Painter,提西福涅改良型目标标记装置,
 type,Titanite,榍石,
@@ -9201,6 +9218,7 @@ type,Tobias' Modified Thermal Shield Amplifier,托比雅斯氏改良型热能护
 type,Tobias' Modified Torpedo Launcher,托比雅斯改良型鱼雷发射器,
 type,Tobias' Modified Tracking Enhancer,托比雅斯氏改良型索敌增强器,
 type,Tobias' Modified X-Large Shield Booster,托比雅斯氏改良型超大型护盾回充增量器,
+type,Torafugu TD-900-I,河豚 TD-900-I,
 type,Torelle's Custom Magnetic Field Stabilizer,托雷尔的定制磁性力场稳定器,
 type,Torigo’s Modified Capacitor Flux Coil,托里格的改良型电容通量线圈,
 type,Tormentor,巨神兵级,ship
@@ -9659,7 +9677,7 @@ type,Valkyrie I,瓦尔基里 I,
 type,Valkyrie II,瓦尔基里 II,
 type,Valkyrie SW-600,瓦尔基里SW-600,
 type,Valkyrie TP-600,瓦尔基里TP-600,
-type,Valravn,血鸦,ship
+type,Valravn,血鸦级,ship
 type,Vanadinite,钒铅矿,
 type,Vanadium,钒,
 type,Vanadium Hafnite,铪化钒,
@@ -9676,7 +9694,7 @@ type,Vedmak,维德马克级,ship
 type,Vehement,猛烈级,ship
 type,Velator,维拉托尔号,ship
 type,Veldspar,凡晶石,
-type,Veldspar 0-Grade,凡晶石（40级）,
+type,Veldspar 0-Grade,凡晶石（0级）,
 type,Veldspar II-Grade,凡晶石（2级）,
 type,Veldspar III-Grade,凡晶石（3级）,
 type,Veldspar IV-Grade,凡晶石（4级）,
@@ -10157,7 +10175,7 @@ type,Zorya's Supratidal Entropic Disintegrator,曙光潮上熵能分解者,
 type,Zorya's Ultratidal Entropic Disintegrator,曙光潮极熵能分解者,
 type,Zydrine,晶状石英核岩,
 type,‘Tyrannos’ Armor Command Burst,“专制者”装甲指挥脉冲波,
-type,‘Vigilant’ Shield Command Burst,“警戒”级护盾指挥脉冲波,
+type,‘Vigilant’ Shield Command Burst,“警戒”护盾指挥脉冲波,
 region,Aridia,艾里迪亚,
 region,Black Rise,暗涌之域,
 region,Branch,血脉,

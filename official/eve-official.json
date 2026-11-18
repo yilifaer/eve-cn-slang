@@ -1,9 +1,9 @@
 {
-"source": "CCP hf. EVE Online Static Data Export (Tranquility), build 3693310",
-"buildNumber": 3693310,
-"generatedAt": "2026-11-13T05:13:10.172Z",
+"source": "CCP hf. EVE Online Static Data Export (Tranquility), build 3714173",
+"buildNumber": 3714173,
+"generatedAt": "2026-11-18T20:30:55.848Z",
 "license": "EVE Developer License Agreement (non-commercial). NOT covered by CC BY 4.0. See official/NOTICE.md",
-"count": 12523,
+"count": 12541,
 "entries": [
 {
 "kind": "category",
@@ -2593,7 +2593,7 @@
 {
 "kind": "group",
 "en": "SCARAB Breacher Pods",
-"zh": "圣甲虫突破者逃生舱"
+"zh": "圣甲虫突破者座舱"
 },
 {
 "kind": "group",
@@ -3508,7 +3508,7 @@
 {
 "kind": "group",
 "en": "Structure Support Fighter",
-"zh": "建筑后勤铁骑舰载机"
+"zh": "建筑支援铁骑舰载机"
 },
 {
 "kind": "group",
@@ -3548,7 +3548,7 @@
 {
 "kind": "group",
 "en": "Support Fighter",
-"zh": "后勤铁骑舰载机"
+"zh": "支援铁骑舰载机"
 },
 {
 "kind": "group",
@@ -4948,22 +4948,22 @@
 {
 "kind": "type",
 "en": "'Vigilant' Vital Cap Recharger",
-"zh": "“警惕级”活力电容回充器"
+"zh": "“警戒”活力电容回充器"
 },
 {
 "kind": "type",
 "en": "'Vigilant' Vital Drone Navigation Computer",
-"zh": "“警惕级”活力无人机导航计算机"
+"zh": "“警戒”活力无人机导航计算机"
 },
 {
 "kind": "type",
 "en": "'Vigilant' Vital Overdrive Injector System",
-"zh": "“警惕级”活力超载喷注系统"
+"zh": "“警戒”活力超载喷注系统"
 },
 {
 "kind": "type",
 "en": "'Vigilant' Vital Shield Boost Amplifier",
-"zh": "“警惕级”活力护盾回充增量增效器"
+"zh": "“警戒”活力护盾回充增量增效器"
 },
 {
 "kind": "type",
@@ -7213,7 +7213,7 @@
 {
 "kind": "type",
 "en": "Anhinga",
-"zh": "蛇鹈号",
+"zh": "蛇鹈级",
 "cat": "ship"
 },
 {
@@ -7397,6 +7397,11 @@
 "en": "Apotheosis",
 "zh": "神圣穿梭机",
 "cat": "ship"
+},
+{
+"kind": "type",
+"en": "Arabellata SW-900-I",
+"zh": "阿贝拉 SW-900-I"
 },
 {
 "kind": "type",
@@ -7828,6 +7833,11 @@
 },
 {
 "kind": "type",
+"en": "Atlas SD-900-I",
+"zh": "阿特拉斯 SD-900-I"
+},
+{
+"kind": "type",
 "en": "Atmospheric Gases",
 "zh": "标准大气"
 },
@@ -7966,7 +7976,7 @@
 {
 "kind": "type",
 "en": "Babaroga",
-"zh": "巴巴罗加号",
+"zh": "巴巴罗加级",
 "cat": "ship"
 },
 {
@@ -8003,7 +8013,7 @@
 {
 "kind": "type",
 "en": "Bane",
-"zh": "破坏者",
+"zh": "破坏者级",
 "cat": "ship"
 },
 {
@@ -8453,7 +8463,7 @@
 {
 "kind": "type",
 "en": "Bestla",
-"zh": "贝斯特拉",
+"zh": "贝斯特拉级",
 "cat": "ship"
 },
 {
@@ -9674,7 +9684,7 @@
 {
 "kind": "type",
 "en": "Caldari Navy Dragonfly",
-"zh": "蜻蜓级加达里海军"
+"zh": "加达里海军蜻蜓"
 },
 {
 "kind": "type",
@@ -13760,7 +13770,7 @@
 {
 "kind": "type",
 "en": "Compressed Scordite 0-Grade",
-"zh": "高密度灼烧岩（40级）"
+"zh": "高密度灼烧岩（0级）"
 },
 {
 "kind": "type",
@@ -16359,6 +16369,11 @@
 "kind": "type",
 "en": "Dark Ochre IV-Grade",
 "zh": "黑赭石（4级）"
+},
+{
+"kind": "type",
+"en": "Darter TP-600-I",
+"zh": "飞镖手 TP-600-I"
 },
 {
 "kind": "type",
@@ -26081,7 +26096,7 @@
 {
 "kind": "type",
 "en": "Hubris",
-"zh": "狂徒",
+"zh": "狂徒级",
 "cat": "ship"
 },
 {
@@ -26095,6 +26110,16 @@
 "en": "Hulk",
 "zh": "霍克级",
 "cat": "ship"
+},
+{
+"kind": "type",
+"en": "Humboldt EC-900-I",
+"zh": "洪堡 EC-900-I"
+},
+{
+"kind": "type",
+"en": "Huntsman SW-600-I",
+"zh": "猎人蛛 SW-600-I"
 },
 {
 "kind": "type",
@@ -26294,6 +26319,11 @@
 "en": "Imicus Navy Issue",
 "zh": "伊米卡斯级海军型",
 "cat": "ship"
+},
+{
+"kind": "type",
+"en": "Immaculate TD-600-I",
+"zh": "星芒 TD-600-I"
 },
 {
 "kind": "type",
@@ -26913,7 +26943,7 @@
 {
 "kind": "type",
 "en": "Imperial Navy Templar",
-"zh": "圣殿骑士级帝国海军"
+"zh": "帝国海军圣殿骑士"
 },
 {
 "kind": "type",
@@ -27884,6 +27914,11 @@
 },
 {
 "kind": "type",
+"en": "Inshore EC-300-I",
+"zh": "近海 EC-300-I"
+},
+{
+"kind": "type",
 "en": "Insurgent Trojan Fragments",
 "zh": "义军木马病毒片段"
 },
@@ -28356,7 +28391,7 @@
 {
 "kind": "type",
 "en": "Karura",
-"zh": "迦楼罗",
+"zh": "迦楼罗级",
 "cat": "ship"
 },
 {
@@ -31290,6 +31325,11 @@
 },
 {
 "kind": "type",
+"en": "Luna SD-600-I",
+"zh": "月之女神 SD-600-I"
+},
+{
+"kind": "type",
 "en": "Lustering Alloy",
 "zh": "光泽合金"
 },
@@ -32953,6 +32993,11 @@
 "kind": "type",
 "en": "Megaera's Modified Medium Energy Nosferatu",
 "zh": "墨盖拉改良中型掠能器"
+},
+{
+"kind": "type",
+"en": "Meganeura TP-900-I",
+"zh": "巨脉蜓 TP-900-I"
 },
 {
 "kind": "type",
@@ -34622,6 +34667,11 @@
 },
 {
 "kind": "type",
+"en": "Mosquito EV-600-I",
+"zh": "蚊式 EV-600-I"
+},
+{
+"kind": "type",
 "en": "Motley Compound",
 "zh": "杂色复合物"
 },
@@ -34970,6 +35020,11 @@
 "en": "Nergal",
 "zh": "涅伽尔级",
 "cat": "ship"
+},
+{
+"kind": "type",
+"en": "Nertic EC-600-I",
+"zh": "浅滩 EC-600-I"
 },
 {
 "kind": "type",
@@ -35598,6 +35653,11 @@
 "en": "Oracle Navy Issue",
 "zh": "预言级海军型",
 "cat": "ship"
+},
+{
+"kind": "type",
+"en": "Orbweaver SW-300-I",
+"zh": "圆网蛛 SW-300-I"
 },
 {
 "kind": "type",
@@ -41389,6 +41449,11 @@
 },
 {
 "kind": "type",
+"en": "Skimmer TP-300-I",
+"zh": "掠水者 TP-300-I"
+},
+{
+"kind": "type",
 "en": "Skirmish Command Burst I",
 "zh": "游击战指挥脉冲波 I"
 },
@@ -41405,7 +41470,7 @@
 {
 "kind": "type",
 "en": "Skua",
-"zh": "贼鸥号",
+"zh": "贼鸥级",
 "cat": "ship"
 },
 {
@@ -44757,6 +44822,16 @@
 },
 {
 "kind": "type",
+"en": "Stellate TD-300-I",
+"zh": "洁净 TD-300-I"
+},
+{
+"kind": "type",
+"en": "Stigmella SD-300-I",
+"zh": "斯蒂梅拉 SD-300-I"
+},
+{
+"kind": "type",
 "en": "Stiletto",
 "zh": "短剑级",
 "cat": "ship"
@@ -45301,6 +45376,11 @@
 "kind": "type",
 "en": "Ta3 Compact Ship Scanner",
 "zh": "Ta3紧凑型船体扫描器"
+},
+{
+"kind": "type",
+"en": "Tabanida EV-900-I",
+"zh": "虻式 EV-900-I"
 },
 {
 "kind": "type",
@@ -46246,6 +46326,11 @@
 },
 {
 "kind": "type",
+"en": "Tick EV-300-I",
+"zh": "蜱式 EV-300-I"
+},
+{
+"kind": "type",
 "en": "Time Crystal Oscillator",
 "zh": "时间水晶振荡器"
 },
@@ -46413,6 +46498,11 @@
 "kind": "type",
 "en": "Tobias' Modified X-Large Shield Booster",
 "zh": "托比雅斯氏改良型超大型护盾回充增量器"
+},
+{
+"kind": "type",
+"en": "Torafugu TD-900-I",
+"zh": "河豚 TD-900-I"
 },
 {
 "kind": "type",
@@ -48717,7 +48807,7 @@
 {
 "kind": "type",
 "en": "Valravn",
-"zh": "血鸦",
+"zh": "血鸦级",
 "cat": "ship"
 },
 {
@@ -48809,7 +48899,7 @@
 {
 "kind": "type",
 "en": "Veldspar 0-Grade",
-"zh": "凡晶石（40级）"
+"zh": "凡晶石（0级）"
 },
 {
 "kind": "type",
@@ -51241,7 +51331,7 @@
 {
 "kind": "type",
 "en": "‘Vigilant’ Shield Command Burst",
-"zh": "“警戒”级护盾指挥脉冲波"
+"zh": "“警戒”护盾指挥脉冲波"
 },
 {
 "kind": "region",
