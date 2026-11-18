@@ -1,12 +1,12 @@
 {
 "schema": 1,
 "dataRevision": 2,
-"buildNumber": 3693310,
-"sdeReleaseDate": "2026-11-12T11:07:00Z",
-"generatedAt": "2026-11-13T05:13:07.463Z",
+"buildNumber": 3714173,
+"sdeReleaseDate": "2026-11-18T11:22:46Z",
+"generatedAt": "2026-11-18T20:30:52.761Z",
 "files": {
-"types.json": {"sha256":"2a782ed69b4014c99467def4827c4d92216d7b67b2557795c2adad10862674db","bytes":4426851,"rows":27490},
-"industry.json": {"sha256":"504a53cfd6875152e643835789987048d08e4894e06a77e1ba87daf8bafbc3c9","bytes":493980,"rows":5229},
+"types.json": {"sha256":"398a8fb99034fa59cf1d8e6c8ac4c75f41eb249a79ed74733367b4113bc85729","bytes":4427865,"rows":27492},
+"industry.json": {"sha256":"efb62c27cc87459162adf0101e4f999ddb0cae682d81aec7988737f6b2b1e63b","bytes":494043,"rows":5230},
 "universe.json": {"sha256":"d8767a6630104c5f58ec3e43322daab51f0e6fb2eea14d95cf2aec1b64112d22","bytes":754426,"rows":8490}
 }
 }

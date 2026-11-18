@@ -1,10 +1,10 @@
 {
 "schema": 1,
-"buildNumber": 3687575,
-"sdeReleaseDate": "2026-11-11T11:07:08Z",
-"source": "CCP hf. EVE Online Static Data Export (Tranquility), build 3687575",
+"buildNumber": 3714173,
+"sdeReleaseDate": "2026-11-18T11:22:46Z",
+"source": "CCP hf. EVE Online Static Data Export (Tranquility), build 3714173",
 "license": "EVE Developer License Agreement (non-commercial). NOT covered by CC BY 4.0. See official/NOTICE.md",
-"generatedAt": "2026-11-11T19:35:40.105Z",
+"generatedAt": "2026-11-18T20:30:52.761Z",
 "blueprintColumns": ["blueprint","activity","time","maxRuns","products","materials"],
 "blueprints": [
 [683,"i",63900,30,[[39581,1,0.3]],[[20416,2],[25887,2]]],
@@ -5235,7 +5235,8 @@
 [97993,"m",1800,100,[[97957,1]],[[39,4],[37,197],[35,297],[36,334],[34,502]]],
 [97994,"m",1800,100,[[97956,1]],[[39,4],[37,197],[35,297],[36,334],[34,502]]],
 [97995,"m",1800,100,[[97955,1]],[[36,529],[35,792],[34,862]]],
-[98143,"m",12000,10,[[98142,1]],[[58904,1]]]
+[98143,"m",12000,10,[[98142,1]],[[58904,1]]],
+[98846,"m",1800,100,[[98845,1]],[[36,529],[35,792],[34,862]]]
 ],
 "structures": [
 {"id":35825,"en":"Raitaru","zh":"莱塔卢","group":1404,"rigSize":2,"highsec":true,"bonus":{"m":{"me":0.99,"te":0.85,"cost":0.97},"i":{"te":0.85,"cost":0.97},"c":{"te":0.85,"cost":0.97},"rm":{"te":0.85,"cost":0.97},"rt":{"te":0.85,"cost":0.97}}},
