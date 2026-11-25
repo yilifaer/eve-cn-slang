@@ -1,9 +1,9 @@
 {
-"source": "CCP hf. EVE Online Static Data Export (Tranquility), build 3714173",
-"buildNumber": 3714173,
-"generatedAt": "2026-11-18T20:30:55.848Z",
+"source": "CCP hf. EVE Online Static Data Export (Tranquility), build 3744011",
+"buildNumber": 3744011,
+"generatedAt": "2026-11-25T21:41:48.600Z",
 "license": "EVE Developer License Agreement (non-commercial). NOT covered by CC BY 4.0. See official/NOTICE.md",
-"count": 12541,
+"count": 12543,
 "entries": [
 {
 "kind": "category",
@@ -6555,7 +6555,7 @@
 {
 "kind": "type",
 "en": "Allecto's Modified Medium Multispectrum Smartbomb",
-"zh": "阿莱克托改良中型多谱式立体炸弹"
+"zh": "阿莱克托氏改良中型多谱式立体炸弹"
 },
 {
 "kind": "type",
@@ -7740,32 +7740,32 @@
 {
 "kind": "type",
 "en": "Asine's Modified 1MN Afterburner",
-"zh": "阿希呢改良型1MN加力燃烧器"
+"zh": "阿希呢氏改良型1MN加力燃烧器"
 },
 {
 "kind": "type",
 "en": "Asine's Modified 5MN Microwarpdrive",
-"zh": "阿希呢改良型5MN微型跃迁推进器"
+"zh": "阿希呢氏改良型5MN微型跃迁推进器"
 },
 {
 "kind": "type",
 "en": "Asine's Modified Assault Damage Control",
-"zh": "阿希呢改良突击型损伤控制"
+"zh": "阿希呢氏改良突击型损伤控制"
 },
 {
 "kind": "type",
 "en": "Asine's Modified Light Neutron Blaster",
-"zh": "阿希呢改良轻型中子疾速炮"
+"zh": "阿希呢氏改良轻型中子疾速炮"
 },
 {
 "kind": "type",
 "en": "Asine's Modified Small Armor Repairer",
-"zh": "阿希呢改良小型装甲维修器"
+"zh": "阿希呢氏改良小型装甲维修器"
 },
 {
 "kind": "type",
 "en": "Asine's Modified Small Remote Armor Repairer",
-"zh": "阿希呢改良小型远程装甲维修器"
+"zh": "阿希呢氏改良小型远程装甲维修器"
 },
 {
 "kind": "type",
@@ -14236,11 +14236,6 @@
 },
 {
 "kind": "type",
-"en": "Conquest Salvager",
-"zh": "征服打捞器"
-},
-{
-"kind": "type",
 "en": "Consortium Capital Tractor Beam",
 "zh": "财团旗舰级牵引光束"
 },
@@ -14899,7 +14894,7 @@
 {
 "kind": "type",
 "en": "Cormack's Modified Tracking Computer",
-"zh": "科马克改良型索敌计算机"
+"zh": "科尔马克氏改良型索敌计算机"
 },
 {
 "kind": "type",
@@ -20962,7 +20957,7 @@
 {
 "kind": "type",
 "en": "Federation Navy Firbolg",
-"zh": "联邦海军掷矛手舰载机"
+"zh": "联邦海军掷矛手"
 },
 {
 "kind": "type",
@@ -21446,7 +21441,7 @@
 {
 "kind": "type",
 "en": "Filmir’s Modified Mining Laser Upgrade",
-"zh": "菲尔米尔的改良型采矿激光器提升器"
+"zh": "菲尔米尔氏改良型采矿激光器提升器"
 },
 {
 "kind": "type",
@@ -21896,27 +21891,27 @@
 {
 "kind": "type",
 "en": "Gara's Modified 10MN Afterburner",
-"zh": "贾拉改良型10MN加力燃烧器"
+"zh": "贾拉氏改良型10MN加力燃烧器"
 },
 {
 "kind": "type",
 "en": "Gara's Modified 50MN Microwarpdrive",
-"zh": "贾拉改良型50MN微型跃迁推进器"
+"zh": "贾拉氏改良型50MN微型跃迁推进器"
 },
 {
 "kind": "type",
 "en": "Gara's Modified Heavy Neutron Blaster",
-"zh": "贾拉改良重型中子极速炮"
+"zh": "贾拉氏改良重型中子极速炮"
 },
 {
 "kind": "type",
 "en": "Gara's Modified Medium Armor Repairer",
-"zh": "贾拉改良中型装甲维修器"
+"zh": "贾拉氏改良中型装甲维修器"
 },
 {
 "kind": "type",
 "en": "Gara's Modified Medium Remote Armor Repairer",
-"zh": "贾拉改良中型远程装甲维修器"
+"zh": "贾拉氏改良中型远程装甲维修器"
 },
 {
 "kind": "type",
@@ -24943,7 +24938,7 @@
 {
 "kind": "type",
 "en": "Hakuzosu's Modified Signature Radius Suppressor",
-"zh": "哈库藏改良型信号半径抑制装置"
+"zh": "哈库藏苏氏改良型信号半径抑制装置"
 },
 {
 "kind": "type",
@@ -24973,22 +24968,22 @@
 {
 "kind": "type",
 "en": "Hanaruwa's Modified Heavy Assault Missile Launcher",
-"zh": "阿娜鲁瓦改良重型突击导弹发射器"
+"zh": "阿娜鲁瓦氏改良重型突击导弹发射器"
 },
 {
 "kind": "type",
 "en": "Hanaruwa's Modified Medium Remote Shield Booster",
-"zh": "阿娜鲁瓦改良中型远程护盾回充增量器"
+"zh": "阿娜鲁瓦氏改良中型远程护盾回充增量器"
 },
 {
 "kind": "type",
 "en": "Hanaruwa's Modified Medium Shield Booster",
-"zh": "阿娜鲁瓦改良中型护盾回充增量器"
+"zh": "阿娜鲁瓦氏改良中型护盾回充增量器"
 },
 {
 "kind": "type",
 "en": "Hanaruwa's Modified Signal Distortion Amplifier",
-"zh": "阿娜鲁瓦改良型信号畸变放大器"
+"zh": "阿娜鲁瓦氏改良型信号畸变放大器"
 },
 {
 "kind": "type",
@@ -26065,7 +26060,7 @@
 {
 "kind": "type",
 "en": "Horm's Capital Energy Neutralizer",
-"zh": "霍姆旗舰级能量中和器"
+"zh": "霍姆氏旗舰级能量中和器"
 },
 {
 "kind": "type",
@@ -26323,7 +26318,7 @@
 {
 "kind": "type",
 "en": "Immaculate TD-600-I",
-"zh": "星芒 TD-600-I"
+"zh": "洁净 TD-600-I"
 },
 {
 "kind": "type",
@@ -28402,7 +28397,7 @@
 {
 "kind": "type",
 "en": "Kasiha's Modified Vorton Tuning System",
-"zh": "卡斯哈改良型电弧弦调谐系统"
+"zh": "卡斯哈氏改良型电弧弦调谐系统"
 },
 {
 "kind": "type",
@@ -30686,7 +30681,7 @@
 {
 "kind": "type",
 "en": "Lorharyth’s Modified Inertial Stabilizer",
-"zh": "洛哈里斯改进型惯性稳定器"
+"zh": "洛哈里斯氏改进型惯性稳定器"
 },
 {
 "kind": "type",
@@ -31422,32 +31417,32 @@
 {
 "kind": "type",
 "en": "Makra's Modified Micro Auxiliary Power Core",
-"zh": "马卡拉改良微型辅助能源核心"
+"zh": "马卡拉氏改良微型辅助能源核心"
 },
 {
 "kind": "type",
 "en": "Makra's Modified Small Armor Repairer",
-"zh": "马卡拉改良小型装甲维修器"
+"zh": "马卡拉氏改良小型装甲维修器"
 },
 {
 "kind": "type",
 "en": "Makra's Modified Small Energy Neutralizer",
-"zh": "马卡拉改良小型能量中和器"
+"zh": "马卡拉氏改良小型能量中和器"
 },
 {
 "kind": "type",
 "en": "Makra's Modified Small Energy Nosferatu",
-"zh": "马卡拉改良小型掠能器"
+"zh": "马卡拉氏改良小型掠能器"
 },
 {
 "kind": "type",
 "en": "Makra's Modified Small Focused Pulse Laser",
-"zh": "马卡拉改良小型聚焦脉冲激光器"
+"zh": "马卡拉氏改良小型聚焦脉冲激光器"
 },
 {
 "kind": "type",
 "en": "Makra's Modified Small Remote Armor Repairer",
-"zh": "马卡拉改良小型远程装甲维修器"
+"zh": "马卡拉氏改良小型远程装甲维修器"
 },
 {
 "kind": "type",
@@ -32992,7 +32987,7 @@
 {
 "kind": "type",
 "en": "Megaera's Modified Medium Energy Nosferatu",
-"zh": "墨盖拉改良中型掠能器"
+"zh": "墨盖拉氏改良中型掠能器"
 },
 {
 "kind": "type",
@@ -35133,27 +35128,27 @@
 {
 "kind": "type",
 "en": "Nija's Modified 10MN Afterburner",
-"zh": "尼佳改良型10MN加力燃烧器"
+"zh": "尼佳氏改良型10MN加力燃烧器"
 },
 {
 "kind": "type",
 "en": "Nija's Modified Heavy Pulse Laser",
-"zh": "尼佳改良重型脉冲激光器"
+"zh": "尼佳氏改良重型脉冲激光器"
 },
 {
 "kind": "type",
 "en": "Nija's Modified Medium Capacitor Booster",
-"zh": "尼佳改良中型电容注电器"
+"zh": "尼佳氏改良中型电容注电器"
 },
 {
 "kind": "type",
 "en": "Nija's Modified Medium Remote Capacitor Transmitter",
-"zh": "尼佳改良中型远程电容传输装置"
+"zh": "尼佳氏改良中型远程电容传输装置"
 },
 {
 "kind": "type",
 "en": "Nija's Modified Warp Disruption Field Generator",
-"zh": "尼佳改良型跃迁扰断力场发生器"
+"zh": "尼佳氏改良型跃迁扰断力场发生器"
 },
 {
 "kind": "type",
@@ -35807,7 +35802,7 @@
 {
 "kind": "type",
 "en": "Pacifier",
-"zh": "安抚者",
+"zh": "安抚者级",
 "cat": "ship"
 },
 {
@@ -35824,37 +35819,37 @@
 {
 "kind": "type",
 "en": "Panola's Modified Gravimetric ECM",
-"zh": "帕诺拉改良型引力ECM"
+"zh": "帕诺拉氏改良型引力ECM"
 },
 {
 "kind": "type",
 "en": "Panola's Modified Ladar ECM",
-"zh": "帕诺拉改良型光雷达ECM"
+"zh": "帕诺拉氏改良型光雷达ECM"
 },
 {
 "kind": "type",
 "en": "Panola's Modified Magnetometric ECM",
-"zh": "帕诺拉改良型磁力ECM"
+"zh": "帕诺拉氏改良型磁力ECM"
 },
 {
 "kind": "type",
 "en": "Panola's Modified Radar ECM",
-"zh": "帕诺拉改良型雷达ECM"
+"zh": "帕诺拉氏改良型雷达ECM"
 },
 {
 "kind": "type",
 "en": "Panola's Modified Rocket Launcher",
-"zh": "帕诺拉改良型火箭发射器"
+"zh": "帕诺拉氏改良型火箭发射器"
 },
 {
 "kind": "type",
 "en": "Panola's Modified Small Remote Shield Booster",
-"zh": "帕诺拉改良小型远程护盾回充增量器"
+"zh": "帕诺拉氏改良小型远程护盾回充增量器"
 },
 {
 "kind": "type",
 "en": "Panola's Modified Small Shield Booster",
-"zh": "帕诺拉改良小型护盾回充增量器"
+"zh": "帕诺拉氏改良小型护盾回充增量器"
 },
 {
 "kind": "type",
@@ -37615,27 +37610,27 @@
 {
 "kind": "type",
 "en": "Ramaku's Modified 1MN Afterburner",
-"zh": "拉玛库改良型1MN加力燃烧器"
+"zh": "拉玛库氏改良型1MN加力燃烧器"
 },
 {
 "kind": "type",
 "en": "Ramaku's Modified 200mm AutoCannon",
-"zh": "拉玛库改良型200mm自动加农炮"
+"zh": "拉玛库氏改良型200mm自动加农炮"
 },
 {
 "kind": "type",
 "en": "Ramaku's Modified 5MN Microwarpdrive",
-"zh": "拉玛库改良型5MN微型跃迁推进器"
+"zh": "拉玛库氏改良型5MN微型跃迁推进器"
 },
 {
 "kind": "type",
 "en": "Ramaku's Modified Small Remote Shield Booster",
-"zh": "拉玛库改良小型远程护盾回充增量器"
+"zh": "拉玛库氏改良小型远程护盾回充增量器"
 },
 {
 "kind": "type",
 "en": "Ramaku's Modified Small Shield Booster",
-"zh": "拉玛库改良小型护盾回充增量器"
+"zh": "拉玛库氏改良小型护盾回充增量器"
 },
 {
 "kind": "type",
@@ -38388,7 +38383,7 @@
 {
 "kind": "type",
 "en": "Republic Fleet Einherji",
-"zh": "共和舰队因赫吉舰载机"
+"zh": "共和舰队因赫吉"
 },
 {
 "kind": "type",
@@ -38968,7 +38963,7 @@
 {
 "kind": "type",
 "en": "Revelli’s Modified Integrated Analyzer",
-"zh": "雷维利的改良型集成式分析仪"
+"zh": "雷维利氏改良型集成式分析仪"
 },
 {
 "kind": "type",
@@ -39012,7 +39007,7 @@
 {
 "kind": "type",
 "en": "Roden’s Modified Nanofiber Internal Structure",
-"zh": "莱登的改良型纳米纤维内部构架"
+"zh": "莱登氏改良型纳米纤维内部构架"
 },
 {
 "kind": "type",
@@ -39077,17 +39072,27 @@
 {
 "kind": "type",
 "en": "Ryhad's Modified Heavy Pulse Laser",
-"zh": "莉哈德改良重型脉冲激光器"
+"zh": "莉哈德氏改良重型脉冲激光器"
 },
 {
 "kind": "type",
 "en": "Ryhad's Modified Medium Armor Repairer",
-"zh": "莉哈德改良中型装甲维修器"
+"zh": "莉哈德氏改良中型装甲维修器"
+},
+{
+"kind": "type",
+"en": "Ryhad's Modified Medium Energy Neutralizer",
+"zh": "莉哈德氏改良中型能量中和器"
+},
+{
+"kind": "type",
+"en": "Ryhad's Modified Medium Energy Nosferatu",
+"zh": "莉哈德氏改良中型掠能器"
 },
 {
 "kind": "type",
 "en": "Ryhad's Modified Medium Remote Armor Repairer",
-"zh": "莉哈德改良中型远程装甲维修器"
+"zh": "莉哈德氏改良中型远程装甲维修器"
 },
 {
 "kind": "type",
@@ -39436,7 +39441,7 @@
 {
 "kind": "type",
 "en": "Sarikusa's Capital Energy Nosferatu",
-"zh": "萨利库萨旗舰级掠能器"
+"zh": "萨利库萨氏旗舰级掠能器"
 },
 {
 "kind": "type",
@@ -41286,27 +41291,27 @@
 {
 "kind": "type",
 "en": "Sila's Modified 10MN Afterburner",
-"zh": "斯拉改良型10MN加力燃烧器"
+"zh": "斯拉氏改良型10MN加力燃烧器"
 },
 {
 "kind": "type",
 "en": "Sila's Modified 425mm Autocannon",
-"zh": "斯拉改良型425mm自动加农炮"
+"zh": "斯拉氏改良型425mm自动加农炮"
 },
 {
 "kind": "type",
 "en": "Sila's Modified 50MN Microwarpdrive",
-"zh": "斯拉改良型50MN微型跃迁推进器"
+"zh": "斯拉氏改良型50MN微型跃迁推进器"
 },
 {
 "kind": "type",
 "en": "Sila's Modified Medium Remote Shield Booster",
-"zh": "斯拉改良中型远程护盾回充增量器"
+"zh": "斯拉氏改良中型远程护盾回充增量器"
 },
 {
 "kind": "type",
 "en": "Sila's Modified Medium Shield Booster",
-"zh": "斯拉改良中型护盾回充增量器"
+"zh": "斯拉氏改良中型护盾回充增量器"
 },
 {
 "kind": "type",
@@ -44823,7 +44828,7 @@
 {
 "kind": "type",
 "en": "Stellate TD-300-I",
-"zh": "洁净 TD-300-I"
+"zh": "星芒 TD-300-I"
 },
 {
 "kind": "type",
@@ -44916,27 +44921,27 @@
 {
 "kind": "type",
 "en": "Strategos' Modified Fighter Support Unit",
-"zh": "将军级改良型战舰辅助单元"
+"zh": "“将军”改良型铁骑舰载机辅助单元"
 },
 {
 "kind": "type",
 "en": "Strategos' Modified Heat Sink",
-"zh": "将军级改良型散热槽"
+"zh": "“将军”改良型散热槽"
 },
 {
 "kind": "type",
 "en": "Strategos' Modified Heavy Stasis Grappler",
-"zh": "将军改良重型停滞捕捉光束"
+"zh": "“将军”改良型重型停滞捕捉光束"
 },
 {
 "kind": "type",
 "en": "Strategos' Modified Multispectrum Shield Hardener",
-"zh": "将军级改良型多谱式护盾增强器"
+"zh": "“将军”改良型多谱式护盾增强器"
 },
 {
 "kind": "type",
 "en": "Strategos' Modified Siege Module",
-"zh": "将军级改良型会战装备"
+"zh": "“将军”改良型会战装备"
 },
 {
 "kind": "type",
@@ -45210,6 +45215,11 @@
 "kind": "type",
 "en": "Sustained Shield Emitter",
 "zh": "恒定护盾发射器"
+},
+{
+"kind": "type",
+"en": "Sver's Modified Salvager",
+"zh": "征服打捞器"
 },
 {
 "kind": "type",
@@ -45954,7 +45964,7 @@
 {
 "kind": "type",
 "en": "Tenzin’s Modified Guidance Disruptor",
-"zh": "丹增的改良型制导干扰器"
+"zh": "丹增氏改良型制导干扰器"
 },
 {
 "kind": "type",
@@ -46337,7 +46347,7 @@
 {
 "kind": "type",
 "en": "Tisiphone's Modified Target Painter",
-"zh": "提西福涅改良型目标标记装置"
+"zh": "提西福涅氏改良型目标标记装置"
 },
 {
 "kind": "type",
@@ -46487,7 +46497,7 @@
 {
 "kind": "type",
 "en": "Tobias' Modified Torpedo Launcher",
-"zh": "托比雅斯改良型鱼雷发射器"
+"zh": "托比雅斯氏改良型鱼雷发射器"
 },
 {
 "kind": "type",
@@ -46512,7 +46522,7 @@
 {
 "kind": "type",
 "en": "Torigo’s Modified Capacitor Flux Coil",
-"zh": "托里格的改良型电容通量线圈"
+"zh": "托里格氏改良型电容通量线圈"
 },
 {
 "kind": "type",
@@ -48745,22 +48755,22 @@
 {
 "kind": "type",
 "en": "Usaras' Modified 1MN Afterburner",
-"zh": "尤萨哈改良型1MN加力燃烧器"
+"zh": "尤萨哈氏改良型1MN加力燃烧器"
 },
 {
 "kind": "type",
 "en": "Usaras' Modified Small Capacitor Booster",
-"zh": "尤萨哈改良小型电容注电器"
+"zh": "尤萨哈氏改良小型电容注电器"
 },
 {
 "kind": "type",
 "en": "Usaras' Modified Small Focused Pulse Laser",
-"zh": "尤萨哈改良小型聚焦脉冲激光器"
+"zh": "尤萨哈氏改良小型聚焦脉冲激光器"
 },
 {
 "kind": "type",
 "en": "Usaras' Modified Small Remote Capacitor Transmitter",
-"zh": "尤萨哈改良小型远程电容传输装置"
+"zh": "尤萨哈氏改良小型远程电容传输装置"
 },
 {
 "kind": "type",
@@ -48968,87 +48978,87 @@
 {
 "kind": "type",
 "en": "Vepas' Modified 350mm Railgun",
-"zh": "威帕斯改良型350mm磁轨炮"
+"zh": "威帕斯氏改良型350mm磁轨炮"
 },
 {
 "kind": "type",
 "en": "Vepas' Modified 425mm Railgun",
-"zh": "威帕斯改良型425mm磁轨炮"
+"zh": "威帕斯氏改良型425mm磁轨炮"
 },
 {
 "kind": "type",
 "en": "Vepas' Modified Ballistic Control System",
-"zh": "威帕斯改良型弹道控制系统"
+"zh": "威帕斯氏改良型弹道控制系统"
 },
 {
 "kind": "type",
 "en": "Vepas' Modified Cloaking Device",
-"zh": "威帕斯改良型隐形装置"
+"zh": "威帕斯氏改良型隐形装置"
 },
 {
 "kind": "type",
 "en": "Vepas' Modified Co-Processor",
-"zh": "威帕斯改良型协处理器"
+"zh": "威帕斯氏改良型协处理器"
 },
 {
 "kind": "type",
 "en": "Vepas' Modified Cruise Missile Launcher",
-"zh": "威帕斯改良型巡航导弹发射器"
+"zh": "威帕斯氏改良型巡航导弹发射器"
 },
 {
 "kind": "type",
 "en": "Vepas' Modified Dual 250mm Railgun",
-"zh": "威帕斯改良型双联250mm磁轨炮"
+"zh": "威帕斯氏改良型双联250mm磁轨炮"
 },
 {
 "kind": "type",
 "en": "Vepas' Modified EM Shield Amplifier",
-"zh": "威帕斯改良型电磁护盾增效器"
+"zh": "威帕斯氏改良型电磁护盾增效器"
 },
 {
 "kind": "type",
 "en": "Vepas' Modified EM Shield Hardener",
-"zh": "威帕斯改良型电磁护盾增强器"
+"zh": "威帕斯氏改良型电磁护盾增强器"
 },
 {
 "kind": "type",
 "en": "Vepas' Modified Explosive Shield Amplifier",
-"zh": "威帕斯改良型爆炸护盾增效器"
+"zh": "威帕斯氏改良型爆炸护盾增效器"
 },
 {
 "kind": "type",
 "en": "Vepas' Modified Explosive Shield Hardener",
-"zh": "威帕斯改良型爆炸护盾增强器"
+"zh": "威帕斯氏改良型爆炸护盾增强器"
 },
 {
 "kind": "type",
 "en": "Vepas' Modified Kinetic Shield Amplifier",
-"zh": "威帕斯改良型动能护盾增效器"
+"zh": "威帕斯氏改良型动能护盾增效器"
 },
 {
 "kind": "type",
 "en": "Vepas' Modified Kinetic Shield Hardener",
-"zh": "威帕斯改良型动能护盾增强器"
+"zh": "威帕斯氏改良型动能护盾增强器"
 },
 {
 "kind": "type",
 "en": "Vepas' Modified Large Graviton Smartbomb",
-"zh": "威帕斯改良大型引力子立体炸弹"
+"zh": "威帕斯氏改良大型引力子立体炸弹"
 },
 {
 "kind": "type",
 "en": "Vepas' Modified Large Shield Booster",
-"zh": "威帕斯改良大型护盾回充增量器"
+"zh": "威帕斯氏改良大型护盾回充增量器"
 },
 {
 "kind": "type",
 "en": "Vepas' Modified Multispectral ECM",
-"zh": "威帕斯式改良型多谱式ECM"
+"zh": "威帕斯氏改良型多谱式ECM"
 },
 {
 "kind": "type",
 "en": "Vepas' Modified Multispectrum Shield Hardener",
-"zh": "威帕斯改良型多谱式护盾增强器"
+"zh": "威帕斯氏改良型多谱式护盾增强器"
 },
 {
 "kind": "type",
@@ -49058,27 +49068,27 @@
 {
 "kind": "type",
 "en": "Vepas' Modified Shield Boost Amplifier",
-"zh": "威帕斯改良型护盾回充增量增效器"
+"zh": "威帕斯氏改良型护盾回充增量增效器"
 },
 {
 "kind": "type",
 "en": "Vepas' Modified Thermal Shield Amplifier",
-"zh": "威帕斯改良型热能护盾增效器"
+"zh": "威帕斯氏改良型热能护盾增效器"
 },
 {
 "kind": "type",
 "en": "Vepas' Modified Thermal Shield Hardener",
-"zh": "威帕斯改良型热能护盾增强器"
+"zh": "威帕斯氏改良型热能护盾增强器"
 },
 {
 "kind": "type",
 "en": "Vepas' Modified Torpedo Launcher",
-"zh": "威帕斯改良型鱼雷发射器"
+"zh": "威帕斯氏改良型鱼雷发射器"
 },
 {
 "kind": "type",
 "en": "Vepas' Modified X-Large Shield Booster",
-"zh": "威帕斯改良超大型护盾回充增量器"
+"zh": "威帕斯氏改良超大型护盾回充增量器"
 },
 {
 "kind": "type",
@@ -49170,7 +49180,7 @@
 {
 "kind": "type",
 "en": "Vigilance Resonance Key",
-"zh": "警惕级共振密钥"
+"zh": "警戒共振密钥"
 },
 {
 "kind": "type",
@@ -49181,52 +49191,52 @@
 {
 "kind": "type",
 "en": "Vigilant Tyrannos 'Xyston' Armor Rigging AR-1020",
-"zh": "暴君专制统治集团“绪斯同级”装甲系统改装技术AR-1020"
+"zh": "暴君专制统治集团“绪斯同”装甲系统改装技术AR-1020"
 },
 {
 "kind": "type",
 "en": "Vigilant Tyrannos 'Xyston' Astronautics Rigging AS-1020",
-"zh": "暴君专制统治集团“绪斯同级”空间航行系统改装技术AS-1020"
+"zh": "暴君专制统治集团“绪斯同”空间航行系统改装技术AS-1020"
 },
 {
 "kind": "type",
 "en": "Vigilant Tyrannos 'Xyston' Drones Rigging DR-1020",
-"zh": "暴君专制统治集团“绪斯同级”无人机改造技术DR-1020"
+"zh": "暴君专制统治集团“绪斯同”无人机改造技术DR-1020"
 },
 {
 "kind": "type",
 "en": "Vigilant Tyrannos 'Xyston' Electronic Superiority Rigging ES-1020",
-"zh": "暴君专制统治集团“绪斯同级”电子优势改装技术ES-1020"
+"zh": "暴君专制统治集团“绪斯同”电子优势改装技术ES-1020"
 },
 {
 "kind": "type",
 "en": "Vigilant Tyrannos 'Xyston' Energy Weapon Rigging EW-1020",
-"zh": "暴君专制统治集团“绪斯同级”能量武器改装技术EW-1020"
+"zh": "暴君专制统治集团“绪斯同”能量武器改装技术EW-1020"
 },
 {
 "kind": "type",
 "en": "Vigilant Tyrannos 'Xyston' Hybrid Weapon Rigging HW-1020",
-"zh": "暴君专制统治集团“绪斯同级”混合武器改装技术HW-1020"
+"zh": "暴君专制统治集团“绪斯同”混合武器改装技术HW-1020"
 },
 {
 "kind": "type",
 "en": "Vigilant Tyrannos 'Xyston' Launcher Rigging LR-1020",
-"zh": "暴君专制统治集团“绪斯同级”发射器改装技术LR-1020"
+"zh": "暴君专制统治集团“绪斯同”发射器改装技术LR-1020"
 },
 {
 "kind": "type",
 "en": "Vigilant Tyrannos 'Xyston' Projectile Weapon Rigging PW-1020",
-"zh": "暴君专制统治集团“绪斯同级”射弹武器改装技术PW-1020"
+"zh": "暴君专制统治集团“绪斯同”射弹武器改装技术PW-1020"
 },
 {
 "kind": "type",
 "en": "Vigilant Tyrannos 'Xyston' Shield Rigging SH-1020",
-"zh": "暴君专制统治集团“绪斯同级”护盾改装技术SH-1020"
+"zh": "暴君专制统治集团“绪斯同”护盾改装技术SH-1020"
 },
 {
 "kind": "type",
 "en": "Vigilant Tyrannos 'Xyston' Synchronization Rigging SY-1020",
-"zh": "暴君专制统治集团“绪斯同级”同步改装技术SY-1020"
+"zh": "暴君专制统治集团“绪斯同”同步改装技术SY-1020"
 },
 {
 "kind": "type",
@@ -51276,7 +51286,7 @@
 {
 "kind": "type",
 "en": "Zohar's Modified Signature Radius Suppressor",
-"zh": "佐哈尔改良型信号半径抑制装置"
+"zh": "佐哈尔氏改良型信号半径抑制装置"
 },
 {
 "kind": "type",
